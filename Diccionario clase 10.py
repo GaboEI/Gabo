@@ -27,7 +27,7 @@ def agregar_estudiante(lista):
 
 # Función para mostrar los estudiantes en formato de tabla
 def mostrar_estudiantes(lista):
-    print("\n📋 Lista de Estudiantes Registrados:\n")
+    print("\nLista de Estudiantes Registrados:\n")
     print("{:<4} | {:<12} | {:<5} | {:<6}".format("N°", "Nombre", "Edad", "Nota"))
     print("-" * 40)
     
