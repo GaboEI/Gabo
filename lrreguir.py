@@ -19,16 +19,14 @@ def read_event():
 
 def save_events(events):
     with open(event_file, "w", encoding="utf-8") as f:
-        header = f"{'No.':<4} {'Name':<20} {'Description':<30} {'Date':<20} {'Status':<10}\n"
-        f.write(header)
-        f.write("=" * 90 + "\n")
+        f.write("| No. | Name                | Description                   | Date                | Status    |\n")
+        f.write("|-----|---------------------|-------------------------------|---------------------|-----------|\n")
         for i, event in enumerate(events, 1):
             status = event[0]
             name = event[1]
             desc = event[2]
             date = event[3]
-            line = f"{i:<4} {name:<20} {desc:<30} {date:<20} {status:<10}\n"
-            f.write(line)
+            f.write(f"| {i:<3} | {name:<19} | {desc:<29} | {date:<19} | {status:<9} |\n")
 
 def add_event():
     name = input("📝 Enter the name of event: ")
