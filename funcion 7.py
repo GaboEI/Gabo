@@ -32,3 +32,13 @@ def filter_events_by_date_range(event_list):
             print(f"{i:<4} {event[1]:<20} {event[2]:<30} {event[3]:<20} {event[0]:<10}")
     else:
         print("🚫 No events found in the selected range.")
+        
+        
+        7️⃣ ➤ Filter events by date range
+        
+        
+        
+        
+        elif opcion == "7":
+    eventos = read_event()
+    filter_events_by_date_range(eventos)
