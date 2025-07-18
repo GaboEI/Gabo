@@ -24,3 +24,7 @@ def export_agenda(event_list):
         print("✅ Agenda exported successfully to 'agenda_report.txt'.")
     except Exception as e:
         print(f"❌ Error writing report: {e}")
+        
+elif opcion == "8":
+    events = read_event()
+    export_agenda(events)
