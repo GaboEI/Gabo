@@ -18,7 +18,16 @@ def calcular_suma(numero):
 
 
 if __name__ == "__main__":
-    n = int(input("Ingresa un número para generar el reporte: "))
+    try:
+        n = int(input("Ingresa un número para generar el reporte: "))
+    except ValueError:
+        print("Entrada inválida. Debes ingresar un número entero.")
+        raise SystemExit(1)
+
+    if n < 1:
+        print("Por favor ingresa un número entero positivo.")
+        raise SystemExit(1)
+
     print(f"\nTabla de multiplicar del {n}:")
     tabla_multiplicar(n)
 
@@ -26,6 +35,6 @@ if __name__ == "__main__":
     print(f"\nEl factorial de {n} es: {factorial}")
 
     suma = calcular_suma(n)
-    print(f"\nLa suma de los números del 1 a {n} es: {suma}")
+    print(f"\nLa suma de los números del 1 al {n} es: {suma}")
 
     print("\n✅ Gracias por usar el Generador de Reportes con Funciones.")
