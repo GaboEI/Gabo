@@ -10,6 +10,7 @@ Crear una función que reciba una nota numérica (de 0 a 100)
 y devuelva un mensaje de texto que clasifique esa nota** según un sistema de evaluación.
 """
 #===================================================================================================================
+from input_con_correccion import input_corregido
 def clasificar_nota(nota: float) -> str:
 
     if not (0 <= nota <= 100):
@@ -26,7 +27,7 @@ def clasificar_nota(nota: float) -> str:
         return "❌ Reprobado"
 #todo#===================================================================================================================
 while True:
-    nombre_completo = input("Por favor, introduce tu nombre (solo letras y espacios): ")                                 
+    nombre_completo = input_corregido("Por favor, introduce tu nombre (solo letras y espacios): ")                                 
     nombre_limpio = nombre_completo.strip() 
 
     if not nombre_limpio:

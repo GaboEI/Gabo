@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "/home/gabodev/Gabo/env/bin/python",
+  "python.analysis.extraPaths": [
+    "./env/lib/python3.10/site-packages"
+  ],
+  "python.venvPath": "/home/gabodev/Gabo",
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useLibraryCodeForTypes": true
+}
