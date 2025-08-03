@@ -26,7 +26,9 @@ fi
 
 # Añadir, hacer commit y subir
 git add .
-git commit -m "$mensaje"
+git commit -m "Backup automático - $(date +'%d-%m-%Y %H:%M')"
 git push
 
 echo "🚀 Cambios guardados y subidos correctamente a GitHub."
+#./guardar_mis_clases_PRO.sh
+#cd ~/Gabo && git pull
