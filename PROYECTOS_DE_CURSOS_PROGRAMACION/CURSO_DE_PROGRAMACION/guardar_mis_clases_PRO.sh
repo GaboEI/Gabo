@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ruta base del proyecto
-PROYECTO=~/Gabo/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION
+PROYECTO=~/Gabo/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION #cambiar rura si esto se modifica para otra carpeta 
 
 # Cambiar a la carpeta del proyecto
 cd "$PROYECTO" || {
@@ -30,5 +30,21 @@ git commit -m "$mensaje"
 git push
 
 echo "🚀 Cambios guardados y subidos correctamente a GitHub."
-#./guardar_mis_clases_PRO.sh
-#cd ~/Gabo && git pull
+
+#chmod +x guardar_mis_clases_PRO.sh -> conseder permiso
+
+
+#! CREAR ALIAS:
+#-> nano ~/.bashrc #!abrre el archivo
+#-> alias web='cd ~/Gabo/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_DESARROLLO_WEB && source env/bin/activate && code .' #!ESCRIBES EN LA ULTIMA LINEA
+
+#!ACTIVACION DEL ALIAS
+#->cd ~/Gabo/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_DESARROLLO_WEB #!ABRES LA CARPETA EN LINUX
+#->python3 -m venv env #!CRREA ENTORNO VIRTUAL PARA LA CARPETA
+#->source env/bin/activate #!ACTIVA ENTORNO VIRTUAL PARA LA CARPETA
+#->code . #! ABRE VS CODE
+#->source ~/.bashrc #! DA PERMISO AL ALIAS DE FUNCIONAR
+
+
+#chmod +x guardar_mis_clases_PRO.sh #![LE DA PERMISO A ESTE SCRIPT]
+#./guardar_mis_clases_PRO.sh #![EJECUTA ESTE ARCHIVO]
