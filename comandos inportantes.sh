@@ -59,3 +59,6 @@ comandos_linux = """
 git add .
 git commit -m "comandos importantes actualizados"
 git push origin mai
+
+git pull origin main --rebase   # 🔄 Baja cambios nuevos y aplica los tuyos encima
+git push                        # 🚀 Sube todo con seguridad
