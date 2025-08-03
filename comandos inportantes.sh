@@ -47,13 +47,13 @@ comandos_linux = """
 """
 
 # Ruta donde guardar el archivo
-ruta_archivo = Path("/mnt/data/00_comandos_basicos_linux.py")
+#ruta_archivo = Path("/mnt/data/00_comandos_basicos_linux.py")
 
 # Escribir el contenido en el archivo
-ruta_archivo.write_text(comandos_linux)
+#ruta_archivo.write_text(comandos_linux)
 
 # Devolver la ruta para que Gabo lo descargue
-ruta_archivo.name
+#ruta_archivo.name
 
 
 git add .
