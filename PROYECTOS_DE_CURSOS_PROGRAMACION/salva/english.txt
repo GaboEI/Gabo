@@ -1,0 +1,16 @@
+
+📞 When detecting that the player is blocked, begin with:
+"Nice to meet you, my name is (OPERATOR NAME), I am the manager of the 1win betting house.
+I inform you that this is a routine call; the reason is to conduct a brief satisfaction survey.
+On a scale from 1 to 5, how many stars would you give us based on your experience and general opinion of our platform?"
+• If the player responds only with a number (for example: "1", "3", "5") and says nothing else:
+"I appreciate very much your taking the time to answer this brief survey.
+I wish you a wonderful day. Goodbye."
+👉 Hang up immediately in a friendly tone.
+
+• If the player begins to raise objections or complaints:
+"I am very sorry to hear that. However, this is a routine call and from this channel I do not have access to the details of your account.
+My only function was to collect your rating.
+I recommend that you contact the assistance chat on the platform directly, where they can review your case and provide you with more detailed attention.
+I appreciate your time and I wish you an excellent day. Goodbye."
+👉 Hang up immediately in a friendly tone. (edited)

@@ -1,0 +1,567 @@
+🛡️ CURSO INTENSIVO DE SEGURIDAD INFORMÁTICA Y CIBERSEGURIDAD DESDE CERO
+
+📘 ChatGPT, a partir de este momento actuarás como mi profesor y mentor personal del curso intensivo de Seguridad Informática y Ciberseguridad, bajo el siguiente marco:
+
+✅ Este curso es independiente del resto de mis formaciones. Lo estudiaré de forma paralela o posterior a mis otros proyectos, cuando me indique conveniente.
+
+✅ El curso cubrirá desde lo más básico hasta niveles intermedios–avanzados, e incluirá:
+	•	Fundamentos de la seguridad digital
+	•	Principales amenazas y vectores de ataque
+	•	Seguridad web y en aplicaciones
+	•	Criptografía aplicada
+	•	Redes y su protección
+	•	Análisis de vulnerabilidades
+	•	Herramientas reales de pentesting ético
+	•	Proyecto final de auditoría/defensa práctica
+
+🎯 MIS OBJETIVOS CON ESTE CURSO:
+	1.	Comprender los principios y fundamentos de la seguridad informática
+	2.	Aprender a detectar vulnerabilidades comunes en software y sistemas
+	3.	Usar herramientas reales de análisis y protección
+	4.	Integrar buenas prácticas de seguridad en todos mis proyectos
+	5.	Poder defenderme frente a ataques básicos y explicar cómo proteger infraestructuras
+	6.	Tener una base sólida para más adelante hacer cursos como CEH, OSCP o Ethical Hacking profesional
+
+🧠 TU COMPORTAMIENTO COMO PROFESOR SERÁ:
+1️⃣ Enseñarme con estructura modular, profunda y explicada desde cero
+2️⃣ Corregirme con objetividad: si me equivoco, muéstramelo
+3️⃣ Calificarme clase a clase con nota de 1 a 10
+4️⃣ No dejar avanzar si no apruebo (mínimo 7)
+5️⃣ Explicarme comandos, conceptos, herramientas y casos reales
+6️⃣ Proponerme ejercicios técnicos, simulaciones y retos
+7️⃣ Enseñarme cómo documentar hallazgos y crear informes de auditoría
+8️⃣ Si lo solicito, preparar PDFs, esquemas, o mapas mentales
+9️⃣ En clases prácticas, explicarme paso a paso como si fuera real
+🔟 Nunca dar nada por obvio: si un concepto es complejo, explícamelo con analogías y ejemplos
+
+🧩 FUNCIONAMIENTO GENERAL:
+✅ Cuando diga “Clase SEG 1” o “Clase Seguridad 10”, continuarás desde ahí.
+✅ Cuando diga “Evaluación módulo SEG X”, me pondrás una prueba real.
+✅ Cuando diga “PDF SEG X”, preparas todo ese módulo en formato PDF completo.
+
+🎓 Mi nombre es Gabo. Estoy en una formación seria. Quiero aprender como lo hacen los profesionales de seguridad informática, con base sólida, profundidad, y ejercicios prácticos reales.
+
+🔐 MÓDULO 1 – Fundamentos de la Seguridad Informática (25 clases)
+
+🎯 Objetivo: Comprender los principios fundamentales de la seguridad informática, incluyendo conceptos clave, tipos de amenazas y los pilares de la ciberseguridad.
+
+• Clase SEG 1: Qué es la seguridad informática y su importancia  
+• Clase SEG 2: Principios de la seguridad: confidencialidad, integridad, disponibilidad  
+• Clase SEG 3: Tipos de amenazas: malware, phishing, ingeniería social  
+• Clase SEG 4: Tipos de hackers: white hat, black hat, grey hat  
+• Clase SEG 5: Modelos de seguridad y marco legal  
+• Clase SEG 6: Ataques comunes: DDoS, man-in-the-middle, fuerza bruta  
+• Clase SEG 7: Autenticación y autorización  
+• Clase SEG 8: Contraseñas seguras y gestión de credenciales  
+• Clase SEG 9: Antivirus y antimalware: funcionamiento y limitaciones  
+• Clase SEG 10: Firewalls: hardware y software  
+• Clase SEG 11: Sistemas de detección de intrusos (IDS/IPS)  
+• Clase SEG 12: Cifrado: conceptos y tipos (simétrico y asimétrico)  
+• Clase SEG 13: Protocolos seguros: HTTPS, SSL/TLS, SSH  
+• Clase SEG 14: Seguridad en redes Wi-Fi  
+• Clase SEG 15: VPN: qué son y cómo funcionan  
+• Clase SEG 16: Ingeniería social: técnicas y prevención  
+• Clase SEG 17: Seguridad en correo electrónico y phishing  
+• Clase SEG 18: Seguridad en dispositivos móviles  
+• Clase SEG 19: Backup y recuperación ante desastres  
+• Clase SEG 20: Políticas de seguridad informática en empresas  
+• Clase SEG 21: Proyecto práctico: análisis de vulnerabilidades en un sistema simulado  
+• Clase SEG 22: Caso real de ciberataque: análisis y lecciones  
+• Clase SEG 23: Buenas prácticas de usuario y concienciación  
+• Clase SEG 24: Herramientas gratuitas para monitoreo y protección  
+• Clase SEG 25: 📘 Evaluación final del módulo 
+
+ 🛡️ MÓDULO 2 – Hacking Ético y Pentesting Básico (25 clases)
+
+🎯 Objetivo: Comprender los principios del hacking ético, métodos de pruebas de penetración (pentesting) y herramientas básicas.
+
+• Clase SEG 26: Qué es el hacking ético y su rol en la ciberseguridad  
+• Clase SEG 27: Fases del pentesting: reconocimiento, escaneo, explotación, reporte  
+• Clase SEG 28: Normas legales y éticas del pentesting  
+• Clase SEG 29: Laboratorio virtual: cómo montar tu entorno seguro con máquinas virtuales  
+• Clase SEG 30: Kali Linux: introducción, herramientas preinstaladas  
+• Clase SEG 31: Nmap: escaneo de puertos y reconocimiento de red  
+• Clase SEG 32: Whois, dig y herramientas de información pasiva  
+• Clase SEG 33: Metasploit: introducción y explotación básica  
+• Clase SEG 34: Vulnerabilidades OWASP Top 10  
+• Clase SEG 35: Ataques de fuerza bruta con Hydra  
+• Clase SEG 36: Exploits y payloads: conceptos básicos  
+• Clase SEG 37: Sniffing de red con Wireshark  
+• Clase SEG 38: Ataques MITM (Man In The Middle)  
+• Clase SEG 39: Ataques a formularios web (SQL Injection, XSS)  
+• Clase SEG 40: Seguridad en contraseñas: hash y crackeo con John the Ripper  
+• Clase SEG 41: Análisis de vulnerabilidades con Nessus  
+• Clase SEG 42: Enumeración de sistemas y servicios con Enum4linux y Nikto  
+• Clase SEG 43: Pentesting a redes Wi-Fi: Wifite y Aircrack-ng  
+• Clase SEG 44: Proyecto práctico: pentest básico a una máquina vulnerable  
+• Clase SEG 45: Captura de banderas (CTF): qué es y cómo practicar  
+• Clase SEG 46: Informe profesional de pentesting: estructura y redacción  
+• Clase SEG 47: Proyecto: crear tu propio entorno de prácticas de hacking ético  
+• Clase SEG 48: Desafíos de CTF en TryHackMe o HackTheBox  
+• Clase SEG 49: Laboratorio: detección de intrusos con Snort  
+• Clase SEG 50: 📘 Evaluación final del módulo  
+
+🧠 MÓDULO 3 – Seguridad en Aplicaciones Web y Servidores (25 clases)
+
+🎯 Objetivo: Aprender a proteger aplicaciones web, servidores y sistemas contra ataques comunes mediante configuración segura y pruebas de seguridad.
+
+• Clase SEG 51: Arquitectura de aplicaciones web: cliente, servidor y base de datos  
+• Clase SEG 52: Principios de seguridad en el desarrollo web (DevSecOps)  
+• Clase SEG 53: Autenticación y gestión de sesiones seguras  
+• Clase SEG 54: Validación de entradas y prevención de inyecciones  
+• Clase SEG 55: Seguridad en formularios: CSRF, XSS  
+• Clase SEG 56: Seguridad en cookies y tokens JWT  
+• Clase SEG 57: Headers HTTP seguros y configuración  
+• Clase SEG 58: Uso seguro de bases de datos: prevención de SQL Injection  
+• Clase SEG 59: HTTPS y certificados SSL: implementación y renovación  
+• Clase SEG 60: Seguridad en servidores web: Apache, Nginx  
+• Clase SEG 61: Seguridad en CMS: WordPress, Joomla  
+• Clase SEG 62: Pruebas de seguridad con Burp Suite  
+• Clase SEG 63: Hardening de servidores Linux y Windows  
+• Clase SEG 64: Logs, monitoreo y detección de accesos sospechosos  
+• Clase SEG 65: Configuración segura de SSH y SFTP  
+• Clase SEG 66: Cortafuegos de aplicaciones web (WAF)  
+• Clase SEG 67: Autenticación multifactor (2FA) en aplicaciones web  
+• Clase SEG 68: Auditoría de seguridad de aplicaciones  
+• Clase SEG 69: Gestión de vulnerabilidades web  
+• Clase SEG 70: Proyecto práctico: asegurar una app web insegura  
+• Clase SEG 71: Proyecto: análisis de logs y detección de ataque  
+• Clase SEG 72: Caso real: análisis de brecha en una web popular  
+• Clase SEG 73: Checklist de seguridad para publicación en producción  
+• Clase SEG 74: Herramientas open source para análisis de seguridad web  
+• Clase SEG 75: 📘 Evaluación final del módulo  
+
+🌐 MÓDULO 4 – Seguridad Empresarial, Redes y Cloud Computing (25 clases)
+
+🎯 Objetivo: Aprender a implementar políticas de seguridad en redes empresariales, sistemas distribuidos y entornos en la nube.
+
+• Clase SEG 76: Introducción a la seguridad empresarial  
+• Clase SEG 77: Políticas de seguridad y cumplimiento normativo (ISO 27001, GDPR)  
+• Clase SEG 78: Gestión de usuarios y control de acceso (RBAC, LDAP)  
+• Clase SEG 79: Administración de redes seguras y segmentación  
+• Clase SEG 80: Gestión de contraseñas en entornos corporativos  
+• Clase SEG 81: Seguridad física y lógica  
+• Clase SEG 82: Arquitectura de red segura: VLAN, DMZ, VPN  
+• Clase SEG 83: Seguridad en Active Directory y Windows Server  
+• Clase SEG 84: Políticas de backups centralizados y recuperación  
+• Clase SEG 85: SIEM: sistemas de gestión de eventos e información de seguridad  
+• Clase SEG 86: Gestión de logs y correlación de eventos  
+• Clase SEG 87: Detección y respuesta ante incidentes (EDR)  
+• Clase SEG 88: Seguridad en entornos virtualizados (VMware, Hyper-V)  
+• Clase SEG 89: Introducción a la seguridad en la nube  
+• Clase SEG 90: Conceptos de IAM en la nube (AWS, Azure, GCP)  
+• Clase SEG 91: Gestión de roles y permisos en plataformas cloud  
+• Clase SEG 92: Seguridad en almacenamiento en la nube  
+• Clase SEG 93: Seguridad en contenedores (Docker, Kubernetes)  
+• Clase SEG 94: Monitoreo y auditoría en entornos cloud  
+• Clase SEG 95: Proyecto: configuración segura de una red empresarial  
+• Clase SEG 96: Proyecto: implementación de una arquitectura segura en la nube  
+• Clase SEG 97: Análisis de caso real: brecha de datos en servicios cloud  
+• Clase SEG 98: Checklist de seguridad empresarial integral  
+• Clase SEG 99: Herramientas para análisis de seguridad en red y cloud  
+• Clase SEG 100: 📘 Evaluación final del módulo  
+
+🔐 MÓDULO 5 – Criptografía Moderna Aplicada (20 clases)
+
+🎯 Objetivo: Comprender y aplicar los principios de la criptografía moderna para proteger datos, comunicaciones y sistemas.
+
+• Clase SEG 101: Qué es la criptografía y su rol en la seguridad  
+• Clase SEG 102: Historia breve de la criptografía y evolución moderna  
+• Clase SEG 103: Tipos de cifrado: simétrico vs asimétrico  
+• Clase SEG 104: Algoritmos de cifrado simétrico: AES, DES  
+• Clase SEG 105: Algoritmos de cifrado asimétrico: RSA, ECC  
+• Clase SEG 106: Generación y gestión de claves  
+• Clase SEG 107: Criptografía en tránsito: SSL/TLS, HTTPS  
+• Clase SEG 108: Criptografía en reposo: cifrado de discos y bases de datos  
+• Clase SEG 109: Hashing: MD5, SHA-1, SHA-256 y sus vulnerabilidades  
+• Clase SEG 110: Firmas digitales: autenticidad e integridad  
+• Clase SEG 111: Infraestructura de clave pública (PKI)  
+• Clase SEG 112: Certificados digitales: cómo se emiten y verifican  
+• Clase SEG 113: Esteganografía y técnicas de ocultación  
+• Clase SEG 114: Blockchain y criptografía descentralizada  
+• Clase SEG 115: Criptografía cuántica: fundamentos y desafíos futuros  
+• Clase SEG 116: Buenas prácticas en implementación de criptografía  
+• Clase SEG 117: Herramientas de cifrado para usuarios y empresas  
+• Clase SEG 118: Laboratorio: cifrado y descifrado con OpenSSL  
+• Clase SEG 119: Proyecto práctico: asegurar la comunicación entre cliente y servidor  
+• Clase SEG 120: 📘 Evaluación final del módulo  
+
+
+🔐 MÓDULO 6 – Seguridad en Redes (LAN, Wi-Fi, Internet) (20 clases)
+
+🎯 Objetivo: Comprender las vulnerabilidades y mecanismos de protección en redes locales, inalámbricas y conexiones a Internet.
+
+• Clase SEG 121: Fundamentos de redes: TCP/IP, puertos, protocolos  
+• Clase SEG 122: Tipos de redes: LAN, WAN, MAN, WLAN  
+• Clase SEG 123: Amenazas comunes en redes: sniffing, spoofing, hijacking  
+• Clase SEG 124: Modelos OSI vs TCP/IP y su relación con la seguridad  
+• Clase SEG 125: DHCP, DNS y suplantación de servicios  
+• Clase SEG 126: Seguridad en redes LAN: segmentación, VLANs  
+• Clase SEG 127: Seguridad en redes Wi-Fi: WEP, WPA, WPA2, WPA3  
+• Clase SEG 128: Autenticación 802.1X y control de acceso a red  
+• Clase SEG 129: Configuración segura de routers y puntos de acceso  
+• Clase SEG 130: Ataques MITM en redes y prevención  
+• Clase SEG 131: Firewalls de red: configuración y tipos (stateless, stateful)  
+• Clase SEG 132: Detección y prevención de intrusos en red (NIDS/NIPS)  
+• Clase SEG 133: VPNs en redes corporativas e individuales  
+• Clase SEG 134: Segmentación y control de tráfico con reglas de firewall  
+• Clase SEG 135: Análisis de tráfico con Wireshark: filtrado y detección  
+• Clase SEG 136: Monitoreo de redes con herramientas open source  
+• Clase SEG 137: Seguridad en redes IPv6  
+• Clase SEG 138: Proyecto práctico: aseguramiento de red Wi-Fi empresarial  
+• Clase SEG 139: Proyecto: simulación de ataque y defensa en red LAN  
+• Clase SEG 140: 📘 Evaluación final del 🔐 
+
+MÓDULO 7 – Seguridad en Sistemas Operativos (Windows y Linux) (20 clases)
+
+🎯 Objetivo: Conocer las vulnerabilidades comunes y medidas de protección específicas en sistemas operativos Windows y Linux.
+
+• Clase SEG 141: Rol del sistema operativo en la seguridad del equipo  
+• Clase SEG 142: Vulnerabilidades típicas en sistemas operativos  
+• Clase SEG 143: Gestión de usuarios y permisos (Windows/Linux)  
+• Clase SEG 144: Comandos de auditoría de seguridad en Windows  
+• Clase SEG 145: Comandos de auditoría en Linux (logs, procesos, conexiones)  
+• Clase SEG 146: BitLocker y cifrado de discos en Windows  
+• Clase SEG 147: LUKS y cifrado de particiones en Linux  
+• Clase SEG 148: Políticas de grupo y seguridad en Windows  
+• Clase SEG 149: SELinux, AppArmor y control de acceso en Linux  
+• Clase SEG 150: Antivirus y antimalware: herramientas y políticas  
+• Clase SEG 151: Hardening de Windows: servicios, puertos, cuentas  
+• Clase SEG 152: Hardening de Linux: permisos, configuraciones, rootkit hunting  
+• Clase SEG 153: Auditoría de archivos y cambios críticos en sistemas  
+• Clase SEG 154: Control de dispositivos y medios extraíbles  
+• Clase SEG 155: Actualizaciones y gestión de parches  
+• Clase SEG 156: Registro y análisis de logs en ambos sistemas  
+• Clase SEG 157: Configuración de firewalls locales (ufw, Windows Defender Firewall)  
+• Clase SEG 158: Seguridad de scripts y automatizaciones  
+• Clase SEG 159: Proyecto práctico: asegurar una estación Windows/Linux  
+• Clase SEG 160: 📘 Evaluación final del módulo  
+
+
+🌐 MÓDULO 8 – Seguridad en Aplicaciones Web (20 clases)
+
+🎯 Objetivo: Aprender a identificar y mitigar vulnerabilidades comunes en aplicaciones web, tanto desde el punto de vista del desarrollador como del auditor.
+
+• Clase SEG 161: Introducción a la arquitectura de aplicaciones web  
+• Clase SEG 162: Riesgos OWASP Top 10: visión general  
+• Clase SEG 163: Inyección SQL (SQLi): fundamentos y mitigación  
+• Clase SEG 164: Cross-Site Scripting (XSS): tipos y prevención  
+• Clase SEG 165: Cross-Site Request Forgery (CSRF): cómo funciona y cómo evitarlo  
+• Clase SEG 166: Seguridad en sesiones: cookies, tokens y tiempo de expiración  
+• Clase SEG 167: Seguridad en autenticación: buenas prácticas y errores comunes  
+• Clase SEG 168: Seguridad en formularios: validación del lado cliente vs servidor  
+• Clase SEG 169: Subida de archivos: riesgos y controles  
+• Clase SEG 170: Gestión segura de errores y excepciones  
+• Clase SEG 171: Headers HTTP de seguridad: Content-Security-Policy, etc.  
+• Clase SEG 172: HTTPS y certificados SSL: implementación segura  
+• Clase SEG 173: Seguridad en APIs RESTful y autenticación OAuth  
+• Clase SEG 174: Herramientas de prueba: OWASP ZAP, Burp Suite  
+• Clase SEG 175: Automatización de escaneos con Nikto y sqlmap  
+• Clase SEG 176: Pruebas de caja negra y caja blanca  
+• Clase SEG 177: Proyecto práctico: analizar una aplicación web vulnerable  
+• Clase SEG 178: Redacción de informe de vulnerabilidades en aplicaciones web  
+• Clase SEG 179: Buenas prácticas de desarrollo seguro (DevSecOps básico)  
+• Clase SEG 180: 📘 Evaluación final del módulo
+
+ 🗄️ MÓDULO 9 – Bases de datos y seguridad SQL (15 clases)
+
+🎯 Objetivo: Comprender cómo proteger bases de datos frente a ataques, asegurar consultas y prevenir accesos no autorizados.
+
+• Clase SEG 181: Introducción a bases de datos y modelo relacional  
+• Clase SEG 182: Principios de seguridad en bases de datos  
+• Clase SEG 183: Inyecciones SQL (SQL Injection): teoría y práctica  
+• Clase SEG 184: Escenarios reales de ataques a bases de datos  
+• Clase SEG 185: Consultas preparadas (prepared statements) y ORM  
+• Clase SEG 186: Gestión de usuarios y privilegios en sistemas SQL  
+• Clase SEG 187: Auditoría y monitoreo de bases de datos  
+• Clase SEG 188: Cifrado de datos en reposo y en tránsito  
+• Clase SEG 189: Seguridad en backups y restauración segura  
+• Clase SEG 190: Protección contra ataques de denegación de servicio (DoS)  
+• Clase SEG 191: Buenas prácticas en estructuras y relaciones de tablas  
+• Clase SEG 192: Herramientas para escaneo y pruebas de seguridad SQL  
+• Clase SEG 193: Proyecto práctico: encontrar y mitigar fallos de seguridad en una base de datos  
+• Clase SEG 194: Checklist de seguridad para despliegue de bases de datos  
+• Clase SEG 195: 📘 Evaluación final del módulo
+
+💻 MÓDULO 10 – Ciberseguridad en Desarrollo de Software (20 clases)
+
+🎯 Objetivo: Integrar prácticas de seguridad durante el ciclo de vida del software, prevenir vulnerabilidades desde la etapa de desarrollo y fomentar el desarrollo seguro.
+
+• Clase SEG 196: Introducción al desarrollo seguro (Secure SDLC)  
+• Clase SEG 197: Qué es DevSecOps y por qué es importante  
+• Clase SEG 198: Principios de codificación segura  
+• Clase SEG 199: Identificación de vulnerabilidades desde el diseño  
+• Clase SEG 200: Herramientas de análisis estático (SAST)  
+• Clase SEG 201: Herramientas de análisis dinámico (DAST)  
+• Clase SEG 202: Buenas prácticas en el manejo de errores y excepciones  
+• Clase SEG 203: Validación y sanitización de entradas del usuario  
+• Clase SEG 204: Seguridad en el almacenamiento de datos sensibles  
+• Clase SEG 205: Gestión segura de dependencias y librerías externas  
+• Clase SEG 206: Control de versiones y seguridad en Git  
+• Clase SEG 207: Automatización de pruebas de seguridad en CI/CD  
+• Clase SEG 208: Firma de código y verificación de integridad  
+• Clase SEG 209: Seguridad en APIs: tokens, OAuth, rate limiting  
+• Clase SEG 210: Implementación segura de autenticación y autorización  
+• Clase SEG 211: Protección contra ataques comunes en software (buffer overflow, race conditions)  
+• Clase SEG 212: Ciclo de respuesta ante vulnerabilidades descubiertas  
+• Clase SEG 213: Proyecto práctico: revisión de seguridad en un repositorio de código  
+• Clase SEG 214: Checklist de desarrollo seguro para programadores  
+• Clase SEG 215: 📘 Evaluación final del módulo   
+
+🛠️ MÓDULO 11 – Análisis de Vulnerabilidades Manual y Automatizado (20 clases)
+
+🎯 Objetivo: Aprender a identificar, analizar y reportar vulnerabilidades en sistemas, redes y aplicaciones, usando tanto técnicas manuales como herramientas automatizadas.
+
+• Clase SEG 216: ¿Qué es una vulnerabilidad y cómo clasificarla?
+• Clase SEG 217: Ciclo de vida de una vulnerabilidad
+• Clase SEG 218: Fuentes de información sobre vulnerabilidades (CVE, NVD, Exploit-DB)
+• Clase SEG 219: Introducción a escáneres de vulnerabilidades
+• Clase SEG 220: Uso de Nessus para análisis automatizado
+• Clase SEG 221: Uso de OpenVAS y comparativa con Nessus
+• Clase SEG 222: Escaneo de vulnerabilidades web con Nikto
+• Clase SEG 223: Análisis con Burp Suite: Repetición de peticiones, fuzzing
+• Clase SEG 224: Evaluación de configuraciones débiles en servidores
+• Clase SEG 225: Búsqueda de fallos de permisos, servicios expuestos, puertos inseguros
+• Clase SEG 226: Cross-referencing de resultados de escaneo con bases de datos CVE
+• Clase SEG 227: Técnicas manuales de análisis en aplicaciones web
+• Clase SEG 228: Fuzzing básico: entrada masiva de datos maliciosos
+• Clase SEG 229: Revisión manual de código en búsqueda de errores de seguridad
+• Clase SEG 230: Uso de linters y analizadores de código con enfoque en seguridad
+• Clase SEG 231: Cómo interpretar los resultados de un escaneo
+• Clase SEG 232: Priorización de vulnerabilidades según criticidad (CVSS)
+• Clase SEG 233: Documentación técnica de hallazgos para equipos de desarrollo
+• Clase SEG 234: Proyecto práctico: análisis manual y automatizado de una app vulnerable
+• Clase SEG 235: 📘 Evaluación final del módulo
+
+🛠️ MÓDULO 12 – Herramientas de Pentesting Ético (20 clases)
+
+🎯 Objetivo: Dominar las principales herramientas utilizadas por profesionales del pentesting ético y la auditoría de seguridad.
+
+• Clase SEG 236: Introducción a las herramientas de pentesting y su legalidad
+• Clase SEG 237: Kali Linux: entorno especializado para pentesting
+• Clase SEG 238: Nmap avanzado: scripts NSE, detección de sistema operativo y servicios
+• Clase SEG 239: Nikto: escaneo de vulnerabilidades en servidores web
+• Clase SEG 240: Burp Suite: interceptación, manipulación y análisis de tráfico web
+• Clase SEG 241: Wireshark: análisis de paquetes, filtrado y detección de anomalías
+• Clase SEG 242: Aircrack-ng: auditoría de redes Wi-Fi
+• Clase SEG 243: Hydra: fuerza bruta contra servicios de autenticación
+• Clase SEG 244: John the Ripper: análisis y crackeo de hashes de contraseñas
+• Clase SEG 245: Hashcat: ataques avanzados a contraseñas con GPU
+• Clase SEG 246: Metasploit Framework: explotación y generación de payloads
+• Clase SEG 247: SQLmap: automatización de inyecciones SQL
+• Clase SEG 248: Enum4linux y SMBclient: enumeración en redes Windows
+• Clase SEG 249: Dirb y Gobuster: fuerza bruta de directorios y recursos web
+• Clase SEG 250: Snort y Suricata: detección de intrusiones basada en firmas
+• Clase SEG 251: Autopsy: análisis forense de discos
+• Clase SEG 252: Netcat: comunicación directa y tunneling
+• Clase SEG 253: Proyecto práctico: pentest completo a un entorno simulado
+• Clase SEG 254: Recolección y organización de resultados con Dradis
+• Clase SEG 255: 📘 Evaluación final del módulo
+
+🧪 MÓDULO 13 – Hacking Ético Básico: Pruebas Controladas (20 clases)
+
+🎯 Objetivo: Aplicar de forma práctica los conocimientos adquiridos para realizar pruebas de penetración controladas en entornos seguros, con enfoque ético y profesional.
+
+• Clase SEG 256: Diferencia entre pentest, red teaming y bug bounty
+• Clase SEG 257: Requisitos para practicar hacking ético legalmente
+• Clase SEG 258: Entornos seguros de práctica: TryHackMe, HackTheBox, VulnHub
+• Clase SEG 259: Montar laboratorio local con máquinas vulnerables (Metasploitable, DVWA)
+• Clase SEG 260: Reconocimiento activo: escaneo profundo con Nmap
+• Clase SEG 261: Fingerprinting de servicios y detección de versiones
+• Clase SEG 262: Escaneo de vulnerabilidades con OpenVAS y Nessus
+• Clase SEG 263: Escalada de privilegios en Linux
+• Clase SEG 264: Escalada de privilegios en Windows
+• Clase SEG 265: Persistencia y creación de puertas traseras
+• Clase SEG 266: Captura de contraseñas y análisis con Cain & Abel
+• Clase SEG 267: Abuso de servicios expuestos (FTP, SMB, RDP)
+• Clase SEG 268: Bypassing de antivirus básicos
+• Clase SEG 269: Ataques a servicios web: explotación con Burp Suite
+• Clase SEG 270: Automatización de pruebas con scripts de pentesting
+• Clase SEG 271: Detección de honeypots y trampas de seguridad
+• Clase SEG 272: Simulación de intrusión en entorno controlado
+• Clase SEG 273: Documentación detallada de hallazgos
+• Clase SEG 274: Preparación de informe técnico y ejecutivo
+• Clase SEG 275: 📘 Evaluación final del módulo
+
+🧬 MÓDULO 14 – Malware: Tipos, Análisis y Prevención (15 clases)
+
+🎯 Objetivo: Conocer los distintos tipos de malware, cómo se propagan, cómo se detectan y cómo prevenir infecciones en entornos personales y corporativos.
+
+• Clase SEG 276: ¿Qué es el malware? Tipos: virus, gusanos, troyanos, spyware, ransomware, rootkits
+• Clase SEG 277: Fases del ciclo de vida de una infección
+• Clase SEG 278: Ransomware: funcionamiento, ejemplos y casos reales
+• Clase SEG 279: Keyloggers y spyware: técnicas de robo silencioso de datos
+• Clase SEG 280: Rootkits y bootkits: ocultamiento avanzado
+• Clase SEG 281: Técnicas de propagación: phishing, adjuntos, exploits
+• Clase SEG 282: Cómo identificar síntomas de una infección
+• Clase SEG 283: Herramientas de análisis estático y dinámico de malware
+• Clase SEG 284: Sandbox: entorno seguro para analizar comportamiento malicioso
+• Clase SEG 285: Técnicas de evasión utilizadas por malware moderno
+• Clase SEG 286: Antivirus vs antimalware vs EDR
+• Clase SEG 287: Cómo interpretar logs y alertas de malware
+• Clase SEG 288: Buenas prácticas para prevenir infecciones
+• Clase SEG 289: Proyecto práctico: análisis básico de un archivo malicioso simulado
+• Clase SEG 290: 📘 Evaluación final del módulo
+
+
+📱 MÓDULO 15 – Seguridad en Dispositivos Móviles y IoT (15 clases)
+
+🎯 Objetivo: Comprender los riesgos de seguridad asociados a dispositivos móviles, wearables y dispositivos del Internet de las Cosas (IoT), y aprender a protegerlos.
+
+• Clase SEG 291: Seguridad en dispositivos móviles: Android vs iOS
+• Clase SEG 292: Principales amenazas: apps maliciosas, spyware, redes públicas
+• Clase SEG 293: Permisos de aplicaciones y fugas de datos
+• Clase SEG 294: Jailbreak, root y sus implicaciones de seguridad
+• Clase SEG 295: Sistemas de autenticación biométrica
+• Clase SEG 296: Cifrado de dispositivos móviles
+• Clase SEG 297: Seguridad en redes móviles: 4G, 5G y Wi-Fi públicas
+• Clase SEG 298: IoT: definición y dispositivos comunes (cámaras, asistentes, sensores)
+• Clase SEG 299: Principales vulnerabilidades en IoT: firmware, puertos abiertos, contraseñas débiles
+• Clase SEG 300: Ataques conocidos a dispositivos IoT (Mirai, etc.)
+• Clase SEG 301: Cómo proteger redes domésticas con dispositivos conectados
+• Clase SEG 302: Actualizaciones de seguridad y gestión de firmware
+• Clase SEG 303: Herramientas para escaneo y monitoreo de dispositivos IoT
+• Clase SEG 304: Proyecto: escaneo de una red doméstica e identificación de riesgos
+• Clase SEG 305: 📘 Evaluación final del módulo
+
+☁️ MÓDULO 16 – Seguridad en la Nube (Cloud Computing) (25 clases)
+
+🎯 Objetivo: Conocer los riesgos y estrategias de protección en entornos cloud, abarcando proveedores como AWS, Azure y Google Cloud, y aplicando buenas prácticas de configuración segura.
+
+• Clase SEG 306: ¿Qué es la computación en la nube? Modelos: IaaS, PaaS, SaaS
+• Clase SEG 307: Proveedores principales: AWS, Azure, Google Cloud
+• Clase SEG 308: Ventajas y desafíos de seguridad en la nube
+• Clase SEG 309: Modelo de responsabilidad compartida
+• Clase SEG 310: Identidad y gestión de accesos (IAM)
+• Clase SEG 311: Control de roles y políticas en la nube
+• Clase SEG 312: Autenticación multifactor en entornos cloud
+• Clase SEG 313: Seguridad en almacenamiento S3 y buckets públicos
+• Clase SEG 314: Gestión de claves y cifrado en la nube (KMS)
+• Clase SEG 315: Monitoreo y auditoría en AWS (CloudTrail, GuardDuty)
+• Clase SEG 316: Firewalls y reglas de seguridad en cloud
+• Clase SEG 317: Seguridad en contenedores y orquestadores (Docker, Kubernetes)
+• Clase SEG 318: Escaneo de vulnerabilidades en infraestructura cloud
+• Clase SEG 319: Prevención de fuga de datos (DLP) en la nube
+• Clase SEG 320: Análisis de configuraciones inseguras
+• Clase SEG 321: Herramientas para hardening de cuentas cloud
+• Clase SEG 322: Caso real: brecha por bucket expuesto
+• Clase SEG 323: Seguridad en bases de datos alojadas en la nube
+• Clase SEG 324: Integridad y disponibilidad de los datos
+• Clase SEG 325: Cumplimiento de normativas en cloud (GDPR, HIPAA)
+• Clase SEG 326: Seguridad en DevOps (DevSecOps)
+• Clase SEG 327: Proyecto práctico: asegurar un entorno básico en AWS
+• Clase SEG 328: Simulación de ataque a una instancia expuesta
+• Clase SEG 329: Herramientas gratuitas para análisis cloud
+• Clase SEG 330: 📘 Evaluación final del módulo
+
+🧪 MÓDULO 17 – Auditorías de Seguridad Informática (15 clases)
+
+🎯 Objetivo: Aprender a realizar auditorías técnicas de seguridad en entornos reales o simulados, recolectar evidencias, documentar vulnerabilidades y redactar informes profesionales.
+
+• Clase SEG 331: ¿Qué es una auditoría de seguridad informática?
+• Clase SEG 332: Tipos de auditorías: internas, externas, técnicas, administrativas
+• Clase SEG 333: Fases de la auditoría: planificación, ejecución, reporte
+• Clase SEG 334: Herramientas clave: Nessus, OpenVAS, Lynis
+• Clase SEG 335: Checklist y guías de referencia (OWASP, CIS Benchmarks)
+• Clase SEG 336: Recolección de evidencias de forma segura
+• Clase SEG 337: Técnicas de escaneo y análisis de configuraciones
+• Clase SEG 338: Identificación y clasificación de vulnerabilidades
+• Clase SEG 339: Reportes de riesgo: probabilidad vs. impacto
+• Clase SEG 340: Redacción del informe técnico de auditoría
+• Clase SEG 341: Presentación ejecutiva para gerencia (resumen no técnico)
+• Clase SEG 342: Buenas prácticas y errores comunes en auditorías
+• Clase SEG 343: Proyecto práctico: realizar una auditoría a un sistema vulnerable
+• Clase SEG 344: Simulación de reunión de entrega del informe al cliente
+• Clase SEG 345: 📘 Evaluación final del módulo
+
+
+📜 MÓDULO 18 – Políticas, Normativas y Ética Profesional (10 clases)
+
+🎯 Objetivo: Comprender el marco legal, normativo y ético que rige la ciberseguridad profesional, así como su correcta aplicación en el entorno laboral y de auditoría.
+
+• Clase SEG 346: Introducción a las políticas de seguridad de la información
+• Clase SEG 347: Normativas internacionales: ISO 27001, NIST, GDPR
+• Clase SEG 348: Marcos legales en ciberseguridad (por región y contexto)
+• Clase SEG 349: Contratos, acuerdos de confidencialidad y cláusulas legales
+• Clase SEG 350: Código ético del hacking ético y del auditor profesional
+• Clase SEG 351: Gestión de la privacidad y protección de datos personales
+• Clase SEG 352: Recomendaciones para evitar responsabilidad legal
+• Clase SEG 353: Ética en la recopilación y uso de información sensible
+• Clase SEG 354: Taller práctico: análisis de casos éticos reales
+• Clase SEG 355: 📘 Evaluación final del módulo
+
+🧪 MÓDULO 19 – Proyecto Final de Auditoría o Defensa Práctica (sin clases numeradas)
+
+🎯 Objetivo: Aplicar de forma integrada todos los conocimientos adquiridos durante el curso en un proyecto realista, práctico y profesional, que simule un entorno empresarial vulnerable o que requiera defensa activa.
+
+📌 Descripción general:
+• Este módulo consistirá en el desarrollo completo de un proyecto técnico.
+• Gabo elegirá uno de los siguientes enfoques:
+    1. Auditoría de seguridad a una infraestructura simulada.
+    2. Montaje de un entorno seguro con documentación de defensa activa.
+
+📁 Fases del proyecto:
+1. **Planificación del entorno**: definir el alcance, objetivos y recursos.
+2. **Montaje del laboratorio**: configurar máquinas virtuales, redes y servicios.
+3. **Escaneo de vulnerabilidades**: utilizar Nmap, Nessus, Nikto, etc.
+4. **Explotación controlada (opcional)**: documentar posibles fallos.
+5. **Medidas de mitigación**: hardening, firewalls, reglas, cifrado, autenticación, backups, etc.
+6. **Monitoreo y alertas**: implementar herramientas como Snort, SIEM o similares.
+7. **Informe profesional**: entregar un documento técnico con resumen ejecutivo, hallazgos, capturas, soluciones aplicadas y recomendaciones finales.
+
+📝 El informe final debe incluir:
+• Objetivos del proyecto
+• Metodología utilizada
+• Capturas de herramientas reales
+• Vulnerabilidades encontradas y cómo se resolvieron
+• Conclusiones
+• Reflexión personal sobre el aprendizaje
+
+📌 Este proyecto servirá como parte del portafolio profesional de Gabo para demostrar competencia real en ciberseguridad ofensiva y defensiva.
+
+📘 La evaluación del proyecto se realizará con una rúbrica específica de cumplimiento, presentación y profundidad técnica.
+
+🧠 MÓDULO 20 – Evaluación Final del Curso Completo de Seguridad Informática
+
+🎯 Objetivo: Validar que Gabo ha alcanzado un nivel técnico sólido y profesional en los diferentes campos abordados durante el curso. Esta evaluación busca comprobar conocimientos teóricos, habilidades prácticas, capacidad de análisis y resolución de incidentes reales.
+
+📌 Estructura de la evaluación final:
+
+1️⃣ **Examen Teórico (Opcionalmente en PDF si se solicita)**  
+• 30–40 preguntas de opción múltiple, verdadero/falso y desarrollo corto.  
+• Temas cubiertos: criptografía, redes, hacking ético, malware, cloud, políticas de seguridad, herramientas, etc.
+
+2️⃣ **Desafío Técnico Práctico (tipo laboratorio virtual)**  
+• Gabo deberá resolver una simulación en la que:
+   - Se le entrega un entorno vulnerable (máquina virtual, red, app web, etc.)
+   - Identifica y explota vulnerabilidades
+   - Propone medidas correctivas y configura defensas
+   - Documenta todo en un informe técnico como un profesional
+
+3️⃣ **Informe Profesional Final**  
+• Documento formal que incluya:
+   - Resumen de todo lo aprendido
+   - Fortalezas adquiridas
+   - Retos enfrentados
+   - Capturas de pantalla y evidencias de pruebas prácticas
+   - Herramientas utilizadas y metodología
+   - Conclusión general y reflexión personal
+
+📌 Criterios de evaluación:
+• Dominio técnico (40%)
+• Aplicación práctica (40%)
+• Documentación profesional (20%)
+
+✅ Si la nota final es **7/10 o superior**, Gabo habrá completado satisfactoriamente el curso y estará preparado para asumir proyectos reales, roles técnicos o continuar con certificaciones profesionales como CEH, OSCP, CompTIA Security+, etc.
+
+🧑‍🏫 En caso de no alcanzar el puntaje mínimo, se propondrá una retroalimentación detallada y refuerzo individual antes de la nueva evaluación.
+
+🎓 ¡Este será el cierre formal del curso intensivo de seguridad informática!
+
+
+
+
+
+
+
+ 

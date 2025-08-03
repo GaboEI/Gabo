@@ -1,0 +1,60 @@
+# Clase 9 – Proyecto Integrador Módulo 1
+archivo_tareas = "tareas_gabo.txt"
+# === AGREGAR TAREA ===
+def agregar_tareas():
+    tarea = input("Ingrece las tareras, ")                                     
+    with open(archivo_tareas, "a", encoding="utf-8") as archivo:  
+        archivo.write(f"P|{tarea}\n")                                         
+    print("Tarea Agregada")
+# === VER TAREAS ===
+def ver_tarea():
+    try:
+        with open(archivo_tareas, "r", encoding="utf-8") as archivo:           
+            tareas = archivo.readlines()
+            if tareas:
+                for idx, linea in enumerate(tareas, 1):
+                    estado, tarea = linea.strip().splitlines("|")
+                    estado_legible = "Pendiente" if estado == "P" else "Completada"
+                    print(f"{idx}. {estado_legible} {tarea}")
+            else:
+                print("No hay tareas registradas")               
+    except FileNotFoundError:
+        print("No existe el archivo aun. Agregue una tarea primero")
+# === ELIMINAR TAREA ===
+def eliminar_tarea():
+    try:
+        with open(archivo_tareas, "r", encoding="utf-8") as archivo:
+            tareas = archivo.readlines()    
+        if tareas:
+            print("\nTareas actuales")
+            for idx, linea in enumerate(tareas, 1):
+                 estado, tarea = linea.strip().split("|")
+                 estado_legible = "Pendiente" if estado == "P" else "Completada"
+                 print(f"{idx}. [{estado_legible}] {tarea}")
+            numero = int(input("Ingrese el numero de la tarea a eliminar "))
+            if 1 <= numero <= len(tareas):
+                tarea_eliminada = tareas.pop(numero - 1)
+                with open(archivo_tareas, "w", encoding="utf-8") as archivo:
+                    archivo.writelines(tareas)  
+                print(f"Tarea eliminada correctamente: {tarea_eliminada.strip()}")
+            else:
+                print("Numero de tarea invalido")
+        else:
+            print("No hay tareas a eliminar")
+    except FileNotFoundError:
+        print("No existe el archivo aun. Agrege una tarea primero")
+# === MARCAR COMPLETADA ===              
+
+
+    
+
+
+
+
+
+
+
+            
+
+
+   
