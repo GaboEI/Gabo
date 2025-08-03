@@ -57,5 +57,5 @@ ruta_archivo.name
 
 
 git add .
-git commit -m "Tu mensaje explicativo aquí"
+git commit -m "comandos importantes actualizados"
 git push origin mai
