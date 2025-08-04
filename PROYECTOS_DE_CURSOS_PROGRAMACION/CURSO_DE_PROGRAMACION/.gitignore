@@ -1,1 +1,36 @@
-env/
+# Ignorar imágenes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Ignorar imágenes en mayúscula (por si acaso)
+*.JPG
+*.PNG
+
+# Ignorar capturas de pantalla comunes
+*.Screenshot*
+
+# Ignorar carpetas y archivos específicos
+__pycache__/
+.env/
+*.zip
+*.rar
+*.7z
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de sistema innecesarios
+*.swp
+*.swo
+
+# Ignorar carpetas y archivos que suelen contener basura o compilados
+node_modules/
+dist/
+build/
+.idea/
+.vscode/
+*.log
+# Ignorar cualquier carpeta llamada env/ en cualquier parte del repo
+**/env/
