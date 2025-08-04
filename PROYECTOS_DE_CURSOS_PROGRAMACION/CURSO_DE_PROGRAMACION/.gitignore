@@ -1,40 +1,36 @@
-# Ignorar imágenes
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.webp
-
-# Ignorar imágenes en mayúscula (por si acaso)
-*.JPG
-*.PNG
-
-# Ignorar capturas de pantalla comunes
-*.Screenshot*
-
-# Ignorar carpetas y archivos específicos
+# ===== Python =====
 __pycache__/
-.env/
-*.zip
-*.rar
-*.7z
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.ipynb_checkpoints/
+*.egg-info/
+*.sqlite3
+*.db
+
+# ===== Entornos =====
+.env
+.env.*
+env/
+env_local/
+
+# ===== VSCode =====
+.vscode/
+
+# ===== Archivos del sistema =====
 .DS_Store
 Thumbs.db
+ehthumbs.db
+*~
 
-# Ignorar archivos de sistema innecesarios
+# ===== Archivos de respaldo personales =====
+RESPALDOS/
+BACKUPS/
+*.bak
+*.tmp
 *.swp
 *.swo
 
-# Ignorar carpetas y archivos que suelen contener basura o compilados
-node_modules/
-dist/
-build/
-.idea/
-.vscode/
+# ===== Otros =====
 *.log
-# Ignorar cualquier carpeta llamada env/ en cualquier parte del repo
-**/env/
-# Ignorar cualquier entorno virtual llamado env o env_local
-**/env/
-**/env_local/
-RESPALDOS/
