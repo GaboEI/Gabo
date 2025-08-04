@@ -29,7 +29,7 @@ ventana.title("Ventana Gabo")  # 3️⃣ Le damos un título
 
 ventana.geometry("600x400")          # 4️⃣ Definimos el tamaño: ancho x alto en píxeles
 
-ventana.configure(bg="#690638")    # 5️⃣ Establecemos el color de fondo #?👉 https://htmlcolorcodes.com/es/
+ventana.configure(bg="#B14040")    # 5️⃣ Establecemos el color de fondo #?👉 https://htmlcolorcodes.com/es/
 
 ventana.mainloop()                   # 6️⃣ Iniciamos el bucle principal
 """

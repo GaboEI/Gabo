@@ -34,3 +34,7 @@ build/
 *.log
 # Ignorar cualquier carpeta llamada env/ en cualquier parte del repo
 **/env/
+# Ignorar cualquier entorno virtual llamado env o env_local
+**/env/
+**/env_local/
+RESPALDOS/
