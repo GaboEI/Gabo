@@ -1,0 +1,53 @@
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+📋 REGISTRO DE NOMBRE
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+👤 Ingrese su nombre aquí 👉  gabo123***%$%$
+
+⚠️ Error: Solo se aceptan letras (A-Z).
+
+👤 Ingrese su nombre aquí 👉                 GABRIEL ESPINOSA izada
+
+🔓 Nombre válido: Gabriel Espinosa Izada
+
+🔢 Gabriel Espinosa Izada, ingrese su nota del [0-10] a continuación 👉 dies
+⚠️ Error: could not convert string to float: 'dies', Ingrese una nota válida
+
+🔢 Gabriel Espinosa Izada, ingrese su nota del [0-10] a continuación 👉 90
+⚠️ Error: 
+❌ Gabriel Espinosa Izada, la nota debe estar entre [0-10], Ingrese una nota válida
+
+🔢 Gabriel Espinosa Izada, ingrese su nota del [0-10] a continuación 👉 9.64376845489456467534
+
+✅ Nota: 9.64, válida
+
+📜 Registro completado: Gabriel Espinosa Izada | 🔢 Nota: 9.64
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+💾 Datos guardados en notas.txt: Nombre: Gabriel Espinosa Izada | Nota: 9.64
+
+¿Deseas ingresar otro estudiante? (s/n): s
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+📋 REGISTRO DE NOMBRE
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+👤 Ingrese su nombre aquí 👉 Cristina Espinosa Izada
+
+🔓 Nombre válido: Cristina Espinosa Izada
+
+🔢 Cristina Espinosa Izada, ingrese su nota del [0-10] a continuación 👉 8.88   
+
+✅ Nota: 8.88, válida
+
+📜 Registro completado: Cristina Espinosa Izada | 🔢 Nota: 8.88
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+💾 Datos guardados en notas.txt: Nombre: Cristina Espinosa Izada | Nota: 8.88
+
+¿Deseas ingresar otro estudiante? (s/n): n
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+🏁 REGISTRO FINALIZADO
+📜 Los datos han sido guardados en 'notas.txt'
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★

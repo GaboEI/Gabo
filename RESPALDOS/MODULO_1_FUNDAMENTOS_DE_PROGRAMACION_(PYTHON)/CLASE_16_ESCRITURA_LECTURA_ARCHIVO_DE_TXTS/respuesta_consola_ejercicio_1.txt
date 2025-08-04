@@ -1,0 +1,9 @@
+PS C:\Users\gespi\OneDrive\Documentos\PROYECTOS_DE_CURSOS_PROGRAMACION\CURSO_DE_PROGRAMACION\MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)\CLASE_16_ESCRITURA_LECTURA_ARCHIVO_DE_TXTS> & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_16_ESCRITURA_LECTURA_ARCHIVO_DE_TXTS/ejercicio_1_guardar_datos_de_usuario_y_mostrarlos.py"
+👤 Ingresa tu nombre:      gAbo
+🎂 Ingresa tu edad: 27
+🌍 Ingresa tu país:          ruSia
+
+📄 Datos guardados:
+Nombre: Gabo
+Edad: 27
+País: Rusi

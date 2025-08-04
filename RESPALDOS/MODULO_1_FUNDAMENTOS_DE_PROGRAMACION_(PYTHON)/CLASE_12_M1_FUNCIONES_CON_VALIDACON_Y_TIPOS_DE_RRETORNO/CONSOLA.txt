@@ -1,0 +1,29 @@
+FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Ingrese el nombre del usuario: 343243253
+Hmm... Recuerda que el nombre debe tener solo letras. Nada de números o signos. 😊
+Ingrese el nombre del usuario:                     gAbO
+ Estimado, Gabo ingrese la clasificacion  de [0/10] errewr
+🔴 Gabo, calificación inválida. Debe estar entre 0 y 10.
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> 222
+222
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/Python_Proyectos/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Ingrese el nombre del usuario: & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/Python_Proyectos/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Hmm... Recuerda que el nombre debe tener solo letras. Nada de números o signos. 😊
+Ingrese el nombre del usuario: 23344534
+Hmm... Recuerda que el nombre debe tener solo letras. Nada de números o signos. 😊
+Ingrese el nombre del usuario:                  gAbO
+ Estimado, Gabo ingrese la clasificacion  de [0/10] 323232
+🔴 Gabo, calificación inválida. Debe estar entre 0 y 10.
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/Python_Proyectos/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Ingrese el nombre del usuario: Gabo
+ Estimado, Gabo ingrese la clasificacion  de [0/10] dsds
+🔴 Gabo, calificación inválida. Debe estar entre 0 y 10.
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/Python_Proyectos/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Ingrese el nombre del usuario: Gabo
+ Estimado, Gabo ingrese la clasificacion  de [0/10] -7
+🔴 Gabo, calificación inválida. Debe estar entre 0 y 10.
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> & C:/Users/gespi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/gespi/OneDrive/Documentos/Python_Proyectos/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_12_M1_FUNCIONES_CON_VALIDACON_Y_TIPOS_DE_RRETORNO/ejercicio_3_función_ para_ ingresar_ calificación_ válida_ (0_10).py"
+Ingrese el nombre del usuario: Gabo
+ Estimado, Gabo ingrese la clasificacion  de [0/10] 9.9
+🟢 Gabo su clasificacion fue registrada con exito
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> 
