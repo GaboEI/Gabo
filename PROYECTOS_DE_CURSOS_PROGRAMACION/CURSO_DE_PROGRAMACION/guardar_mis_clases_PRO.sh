@@ -43,8 +43,13 @@ echo "🚀 Cambios guardados y subidos correctamente a GitHub."
 #->python3 -m venv env #!CRREA ENTORNO VIRTUAL PARA LA CARPETA
 #->source env/bin/activate #!ACTIVA ENTORNO VIRTUAL PARA LA CARPETA
 #->code . #! ABRE VS CODE
-#->source ~/.bashrc #! DA PERMISO AL ALIAS DE FUNCIONAR
+#->source ~/.bashrc
+#->source ~/.zshrc
+ #! DA PERMISO AL ALIAS DE FUNCIONAR
 
 
 #chmod +x guardar_mis_clases_PRO.sh #![LE DA PERMISO A ESTE SCRIPT]
 #./guardar_mis_clases_PRO.sh #![EJECUTA ESTE ARCHIVO]
+
+
+nano ~/.mis_aliases.sh
