@@ -1,7 +1,0 @@
-📋 Lista de estudiantes registrados:
-
-==================================================
-Nº 1 ➜
-Nº 2 ➜ 📜 Registro completado: Gabriel Espinosa Izada | 🔢 Nota: 9.64
-Nº 3 ➜
-Nº 4 ➜ 📜 Registro completado: Cristina Espinosa Izada | 🔢 Nota: 8.88

@@ -1,3 +1,0 @@
-Ingresa tu nombre: Gabriel
-Hola, Gabriel!
-Hola, invitado!

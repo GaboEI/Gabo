@@ -1,6 +1,0 @@
-Ingrese el monto para el cliente premium: $150.88
-Cliente premium, Monto inicial: $150.88, Monto final: $120.7
-Ingrese el monto para el cliente regular: $250.77
-Cliente regular, Monto inicial: $250.77, Monto final: $225.69
-Ingrese el monto para el cliente regular: $3.9999999999999999
-Cliente regular, Monto inicial: $4.0, Monto final: $4.0

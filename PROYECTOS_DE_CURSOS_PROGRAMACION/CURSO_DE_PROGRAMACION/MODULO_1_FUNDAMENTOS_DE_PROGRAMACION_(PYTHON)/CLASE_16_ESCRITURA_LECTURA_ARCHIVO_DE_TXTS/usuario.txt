@@ -1,3 +1,0 @@
-Nombre: Gabo
-Edad: 27
-País: Rusia
