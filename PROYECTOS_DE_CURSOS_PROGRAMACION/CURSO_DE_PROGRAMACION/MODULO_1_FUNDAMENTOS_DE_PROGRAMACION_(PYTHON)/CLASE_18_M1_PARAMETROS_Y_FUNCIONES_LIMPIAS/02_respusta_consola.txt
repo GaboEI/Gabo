@@ -1,0 +1,2 @@
+Precio con descuento (100, 20%): 80.0
+Precio sin descuento 100: 100.0

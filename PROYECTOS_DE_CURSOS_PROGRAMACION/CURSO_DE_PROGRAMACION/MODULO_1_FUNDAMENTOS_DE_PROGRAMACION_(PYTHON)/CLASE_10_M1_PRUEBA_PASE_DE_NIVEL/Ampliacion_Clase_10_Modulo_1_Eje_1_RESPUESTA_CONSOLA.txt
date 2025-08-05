@@ -1,0 +1,134 @@
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: Grabiel
+Edad: 27
+Nota: 100
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: Cris
+ Opción inválida.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: Cris
+Edad: 45
+Nota: 99
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: Ciro
+Edad: 32
+Nota: 35
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: Laura
+ Opción inválida.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: Laura
+Edad: 22
+Nota: 78
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: ernesto
+ Opción inválida.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: ernesto
+Edad: 43
+Nota: 88
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: ivan
+Edad: 27
+Nota: 88
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: juan
+Edad: 43
+Nota: 45 
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 1
+Nombre del estudiante: ramon
+Edad: 23
+Nota: 77
+
+Archivo 'estudiantes.txt' guardado correctamente.
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 2
+
+Lista de estudiantes
+N° | Nombre      | Edad | Nota
+--------------------------------
+1  | Grabiel     | 27   | 100.00
+2  | Cris        | 45   | 99.00
+3  | Ciro        | 32   | 35.00
+4  | Laura       | 22   | 78.00
+5  | Ernesto     | 43   | 88.00
+6  | Ivan        | 27   | 88.00
+7  | Juan        | 43   | 45.00
+8  | Ramon       | 23   | 77.00
+
+=== Menú ===
+[1] Agregar estudiante
+[2] Ver lista
+[3] Salir
+Elige una opción: 3
+ Programa finalizado.
+PS C:\Users\gespi\OneDrive\Documentos\Python_Proyectos> 
