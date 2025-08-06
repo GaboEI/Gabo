@@ -109,12 +109,10 @@ while True:
         except ValueError:
             print("❌ Error: La nota debe ser un número real positivo.")
             continue
-        else:
-            print("🔚 Validacion de notas Finalizada. gracias👋")
 
         with open("notas.txt", "a", encoding="utf-8") as archivo:
             archivo.write(f"Nombre: {nombre}  Nota: {nota:.2f}  {evaluacion}\n")
-    
+
         print(f"✔️  Nota:{nota:.2f} registrada con éxito para {nombre} ({evaluacion})")
 
         print("\n===💥 Notas Registradas 💥===")
@@ -124,6 +122,8 @@ while True:
             break
         except FileNotFoundError:
             print("🚫 No hay notas registradas aún.")
+        print("🔚 Validacion de notas Finalizada. gracias👋")
+        break
 
 #=================================================================================================================
 ###! RESPUESTA DE LA TERMINAL
