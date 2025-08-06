@@ -3,3 +3,5 @@ Nombre: Cristina Espinosa Izada  Nota: 86.00  🟩 Muy bien
 Nombre: Limiana Betancour Espinosa  Nota: 70.50  🟨 Bien
 Nombre: Diego Betancour Espinosa  Nota: 55.89  🟧 Aprobado justo
 Nombre: Roberto Mastrapa Aguilar  Nota: 25.00  🟥 Reprobado
+Nombre: Gabrreil espinosa izada Nota: 100.00 ✅ Excelente
+Nombre: Gabriel Espinosa Izada Nota: 100.00 ✅ Excelente
