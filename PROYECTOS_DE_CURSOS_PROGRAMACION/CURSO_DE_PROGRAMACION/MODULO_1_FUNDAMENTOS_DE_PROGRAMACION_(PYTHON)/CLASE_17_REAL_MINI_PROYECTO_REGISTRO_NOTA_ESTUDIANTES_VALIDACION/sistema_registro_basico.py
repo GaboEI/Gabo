@@ -14,6 +14,83 @@ estructuras que aún no has visto oficialmente.
 * Reutilización de lo aprendido, sin adelantar temas
 * Base sólida para cuando llegues a funciones
 
+DIAGRAMA DE FLUJO 
+INICIO
+↓
+Mostrar mensaje de bienvenida
+↓
+BUCLE: while True
+↓
+    Mostrar menú de opciones
+    ↓
+    Leer opción del usuario
+    ↓
+    DECISIÓN: ¿opción ingresada?
+    ├── "1" → REGISTRAR ESTUDIANTE
+    │   ↓
+    │   Pedir nombre
+    │   ↓
+    │   BUCLE: Validar nota ingresada
+    │       ↓
+    │       ¿Es número válido entre 0 y 100?
+    │       ├── Sí → continuar
+    │       └── No → volver a pedir nota
+    │   ↓
+    │   Clasificar nota según rango:
+    │       ├── 90-100 → Excelente
+    │       ├── 80-89 → Muy bien
+    │       ├── 70-79 → Bien
+    │       ├── 60-69 → Aprobado justo
+    │       └── <60 → Reprobado
+    │   ↓
+    │   Guardar en archivo (append)
+    │   ↓
+    │   Mostrar mensaje de éxito
+    │   ↓
+    │   VOLVER AL MENÚ
+    │
+    ├── "2" → VER TODAS LAS NOTAS
+    │   ↓
+    │   ¿Existe el archivo?
+    │       ├── Sí → Leer y mostrar contenido
+    │       └── No → Mostrar error
+    │   ↓
+    │   VOLVER AL MENÚ
+    │
+    ├── "3" → VER ESTADÍSTICAS
+    │   ↓
+    │   ¿Existe el archivo?
+    │       ├── No → Mostrar error
+    │       └── Sí →
+    │           Leer línea por línea
+    │           ↓
+    │           Extraer nota
+    │           Clasificar según evaluación
+    │           Sumar estadísticas:
+    │               - Total estudiantes
+    │               - Suma de notas
+    │               - Contadores por categoría
+    │           ↓
+    │           Calcular:
+    │               - Promedio
+    │               - % aprobados y reprobados
+    │           ↓
+    │           Mostrar estadísticas
+    │   ↓
+    │   VOLVER AL MENÚ
+    │
+    ├── "4" → SALIR
+    │   ↓
+    │   Mostrar mensaje de despedida
+    │   ↓
+    │   FIN DEL PROGRAMA
+    │
+    └── Cualquier otra opción
+        ↓
+        Mostrar error de opción inválida
+        ↓
+        VOLVER AL MENÚ
+
 """
 #!==============================================================================================================
 # --- 1️⃣ MENSAJE DE BIENVENIDA ---
