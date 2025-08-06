@@ -1,32 +1,34 @@
-# Comandos Git para crear y trabajar con ramas
+try:
+    # 1️⃣ Pedir al usuario el nombre del archivo a sobrescribir
+    nombre_archivo = input("Introduce el nombre del archivo a sobrescribir (¡Advertencia: el contenido anterior se eliminará!): ")
 
-## Crear una nueva rama y cambiarte a ella
-```bash
-git checkout -b nombre-de-la-rama
-```
+    # 2️⃣ Pedir varias líneas nuevas de texto
+    print("\nIntroduce el nuevo contenido para el archivo (pulsa Enter dos veces para finalizar):")
+    lineas_nuevas = []
+    while True:
+        linea = input()
+        if not linea:
+            break
+        lineas_nuevas.append(linea + "\n") # Añadir salto de línea para cada entrada
 
-## Cambiar entre ramas existentes
-```bash
-git checkout nombre-de-la-rama
-```
+    # 3️⃣ Abrir el archivo en modo "w" (escritura)
+    with open(nombre_archivo, "w", encoding="utf-8") as archivo:
+        # 4️⃣ Escribir el nuevo contenido en el archivo
+        archivo.writelines(lineas_nuevas)
 
-## Fusionar una rama con la rama principal (main o master)
-```bash
-git checkout main
-git merge nombre-de-la-rama
-```
+    # 5️⃣ Confirmar la sobrescritura
+    print(f"\n✅ Archivo '{nombre_archivo}' sobrescrito con éxito.")
 
-## Eliminar una rama después de fusionarla
-```bash
-git branch -d nombre-de-la-rama
-```
+    # 6️⃣ Reabrir el archivo en modo lectura ("r")
+    print("\n--- Contenido actual del archivo ---")
+    with open(nombre_archivo, "r", encoding="utf-8") as archivo:
+        # 7️⃣ Mostrar el nuevo contenido al usuario
+        contenido_actualizado = archivo.read()
+        print(contenido_actualizado)
+    print("------------------------------------\n")
 
-## Actualizar la rama principal con cambios remotos
-```bash
-git pull origin main
-```
+    # 8️⃣ Aclarar que todo lo anterior fue eliminado
+    print("Recuerda: Todo el contenido anterior del archivo fue reemplazado por el texto que acabas de introducir.")
 
-## Buenas prácticas
-- Usa nombres descriptivos para las ramas.
-- Trabaja en ramas pequeñas y específicas.
-- Evita trabajar directamente en la rama principal (`main`).
+except Exception as e:
+    print(f"\n❌ Ocurrió un error: {e}")
