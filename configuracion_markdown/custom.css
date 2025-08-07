@@ -1,0 +1,8 @@
+body {
+    font-family: "Noto Sans", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+code, pre {
+    font-family: "Fira Code", monospace;
+}
