@@ -38,6 +38,22 @@ if git diff --quiet && git diff --cached --quiet; then
     exit 0
 fi
 
+
+# 🔍 Verificar si hay archivos eliminados
+deleted=$(git ls-files --deleted)
+if [[ -n "$deleted" ]]; then
+    echo -e "\n🟥 Archivos eliminados detectados:"
+    echo "$deleted"
+    echo -n "¿Deseas confirmar su eliminación y agregarlos al commit? (s/n): "
+    read -r respuesta_elim
+    if [[ "$respuesta_elim" == "s" || "$respuesta_elim" == "S" ]]; then
+        git add -A
+    else
+        echo "🚫 Archivos eliminados no agregados. No se hará commit."
+        exit 0
+    fi
+fi
+
 # 📝 Preguntar por mensaje de commit
 echo -e "\n✏️ Escribe un mensaje para el commit (o pulsa Enter para usar uno automático):"
 read -r mensaje
