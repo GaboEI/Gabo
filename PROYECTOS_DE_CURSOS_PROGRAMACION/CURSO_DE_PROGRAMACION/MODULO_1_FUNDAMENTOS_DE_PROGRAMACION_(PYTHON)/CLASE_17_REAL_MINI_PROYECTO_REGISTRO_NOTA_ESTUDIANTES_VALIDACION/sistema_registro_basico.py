@@ -1,4 +1,5 @@
-
+from colorama import init, Fore, Style, Back
+init(autoreset=True)
 #!=========================================================================
 """
 🟩 Etapa 4 (Versión simplificada)  Menú sin funciones**
@@ -100,18 +101,18 @@ print("👋 ¡Bienvenido al Sistema de Gestión de Notas! 👋")
 
 # --- 2️⃣ BUCLE PRINCIPAL DEL MENÚ ---
 while True:
-    print("\n--- MENÚ DE OPCIONES ---")
-    print("1. Registrar estudiante")
-    print("2. Ver todas las notas")
-    print("3. Ver estadísticas")
-    print("4. Salir")
-    print("------------------------")
+    print(Fore.CYAN +"\n--- MENÚ DE OPCIONES ---")
+    print(Fore.CYAN +"1. Registrar estudiante")
+    print(Fore.CYAN +"2. Ver todas las notas")
+    print(Fore.YELLOW +"3. Ver estadísticas")
+    print(Fore.CYAN +"4. Salir")
+    print(Fore.CYAN +"------------------------")
     
     opcion = input("👉 Seleccione una opción (1-4): ")
 
     # --- 3️⃣ OPCIÓN 1: REGISTRAR ESTUDIANTE ---
     if opcion == "1":
-        nombre = input("✍️ Ingrese el nombre del estudiante: ").title().strip()
+        nombre = input(Fore.CYAN + Back.BLACK + Style.BRIGHT +"✍️ Ingrese el nombre del estudiante: ").title().strip()
         
         while True:
             try:
