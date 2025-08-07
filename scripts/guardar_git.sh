@@ -16,6 +16,22 @@ git pull origin main || {
     exit 1
 }
 
+# 🔍 Verificar si hay archivos no rastreados (untracked)
+untracked=$(git ls-files --others --exclude-standard)
+
+if [[ -n "$untracked" ]]; then
+    echo -e "\n🟡 Archivos nuevos no rastreados detectados:"
+    echo "$untracked"
+    echo -n "¿Deseas agregarlos automáticamente? (s/n): "
+    read -r respuesta
+    if [[ "$respuesta" == "s" || "$respuesta" == "S" ]]; then
+        git add -A
+    else
+        echo "❌ Archivos no rastreados ignorados. No se hará commit."
+        exit 0
+    fi
+fi
+
 # 📋 Verifica si hay cambios locales
 if git diff --quiet && git diff --cached --quiet; then
     echo "✅ No hay cambios locales para guardar. El repositorio está actualizado."
@@ -32,8 +48,7 @@ if [ -z "$mensaje" ]; then
     mensaje="🤖 Guardado automático el $fecha_actual"
 fi
 
-# ✅ Agregar, hacer commit y subir
-git add .
+# ✅ Hacer commit y push
 git commit -m "$mensaje"
 git push origin main
 
