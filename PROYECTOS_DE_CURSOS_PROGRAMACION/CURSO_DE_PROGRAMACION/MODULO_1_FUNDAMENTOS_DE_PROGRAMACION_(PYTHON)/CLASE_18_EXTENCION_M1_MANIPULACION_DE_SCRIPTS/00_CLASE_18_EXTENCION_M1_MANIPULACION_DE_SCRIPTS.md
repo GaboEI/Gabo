@@ -250,3 +250,51 @@ print(palabras)  # ['hola', 'mundo']
 | 5️⃣ | `05_validar_codigo_identificador.py` | Validar estructura de un código alfanumérico        | `.startswith()`, `.isalnum()`, `.isdigit()` |
 
 ---
+
+## 🆎 **Ejercicio 1 – Verificar si un archivo es `.pdf`**
+
+📄 Archivo sugerido: `01_validar_archivo_pdf.py`
+🎯 **Objetivo:** Validar si el nombre de archivo ingresado por el usuario termina en `.pdf`, con limpieza y robustez.
+
+---
+
+## 🔽 DIAGRAMA DE FLUJO (estilo textual profesional)
+
+```/
+Inicio
+↓
+Solicitar al usuario que escriba el nombre de un archivo
+↓
+Limpiar espacios con .strip()
+↓
+Convertir a minúsculas con .lower()
+↓
+Verificar si el texto termina en ".pdf"
+├── Sí → Mostrar mensaje: "✅ Archivo válido (PDF)"
+└── No → Mostrar mensaje: "❌ Archivo no es PDF"
+↓
+Finalizar
+```
+
+---
+
+## 💻 ESQUELETO GUÍA CON PISTAS
+
+```python
+#1️⃣ Solicitar al usuario que escriba un nombre de archivo
+#   💡 Usa input() para capturar, y guarda en una variable llamada archivo
+
+#2️⃣ Aplicar .strip() y .lower() para limpiar y normalizar
+#   💡 Guarda el resultado en una variable nueva como archivo_limpio
+
+#3️⃣ Usar .endswith(".pdf") para verificar si termina con esa extensión
+#   💡 Usa una estructura if...else
+
+#4️⃣ Mostrar resultado al usuario
+#   💡 Mensaje profesional y claro según corresponda
+
+#5️⃣ (Opcional) Mostrar el nombre limpio del archivo para confirmar
+#   💡 Útil para visualizar errores de escritura o espacios accidentales
+```
+
+---
