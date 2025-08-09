@@ -32,3 +32,5 @@ git push
 echo "🚀 Cambios guardados y subidos correctamente a GitHub."
 #./guardar_mis_clases_PRO.sh
 #cd ~/Gabo && git pull
+
+# nano ~/.mis_aliases.sh
