@@ -30,18 +30,3 @@ while True:
         break
 
 print(Fore.YELLOW + "🏁 Programa finalizado")
-
-#! === RESPUESTA DE CONSOLA === #!
-"""
-🆎 Por favor ingrese el texto: No podemos resolver nuestros problemas con el mismo razonamiento que usamos cuando los creamos
-📜 Por favor ingrese la palabra clave: resolver
-✅ La palabra 'resolver' fue encontrada:
-   - Primera aparición en posición: 11
-   - Número de repeticiones: 1
-¿Desea analizar otro texto? (s/n): s
-🆎 Por favor ingrese el texto: Vive como si fueras a morir mañana; aprende como si fueras a vivir siempre
-📜 Por favor ingrese la palabra clave: feliz
-❌ No se encontró la palabra 'feliz'
-¿Desea analizar otro texto? (s/n): n
-🏁 Programa finalizado
-"""
