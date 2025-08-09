@@ -32,13 +32,6 @@ if [[ -n "$untracked" ]]; then
     fi
 fi
 
-# 📋 Verifica si hay cambios locales
-if git diff --quiet && git diff --cached --quiet; then
-    echo "✅ No hay cambios locales para guardar. El repositorio está actualizado."
-    exit 0
-fi
-
-
 # 🔍 Verificar si hay archivos eliminados
 deleted=$(git ls-files --deleted)
 if [[ -n "$deleted" ]]; then
@@ -52,6 +45,28 @@ if [[ -n "$deleted" ]]; then
         echo "🚫 Archivos eliminados no agregados. No se hará commit."
         exit 0
     fi
+fi
+
+# 🔧 Verificar archivos modificados (tracked)
+modificados=$(git ls-files -m)
+
+if [[ -n "$modificados" ]]; then
+    echo -e "\n🟠 Archivos modificados detectados:"
+    echo "$modificados"
+    echo -n "¿Deseas agregarlos al commit? (s/n): "
+    read -r respuesta_mod
+    if [[ "$respuesta_mod" == "s" || "$respuesta_mod" == "S" ]]; then
+        git add -A
+    else
+        echo "🚫 Archivos modificados no agregados. No se hará commit."
+        exit 0
+    fi
+fi
+
+# 📋 Verifica si hay cambios locales
+if git diff --quiet && git diff --cached --quiet; then
+    echo "✅ No hay cambios locales para guardar. El repositorio está actualizado."
+    exit 0
 fi
 
 # 📝 Preguntar por mensaje de commit
