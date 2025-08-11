@@ -72,26 +72,6 @@ Solo avanzar al siguiente dúo cuando el actual esté **100% dominado** y con un
 
 ---
 
-# 🗺️ Plan Maestro de Formación – Gabo 🚀
-
-Este plan integra tus cursos en **dúos estratégicos** para mantener la motivación, evitar la frustración y asegurar un progreso sólido hacia el perfil de **Arquitecto de Software** 🏗️💻.  
-Cada dúo combina **dos cursos principales** y, en algunos casos, **extras estratégicos** que refuerzan el aprendizaje en el momento ideal.
-
----
-
-## 📊 Tabla de Ruta de Aprendizaje
-
-| **Dúo** | **Cursos principales** | **Extras estratégicos** | **Objetivo profesional** |
-|---------|------------------------|--------------------------|---------------------------|
-| **1 – Base total** | 🐍 **Python Base**<br>💻 **JavaScript Puro** | 📌 **Git y GitHub** *(inicio del dúo)* | Pensamiento lógico, estructuras, programación universal, asincronía, control de versiones profesional |
-| **2 – Visualidad y datos** | 🎨 **HTML + CSS**<br>🗄️ **SQL + Tkinter (Python Visual)** | 📌 **Estructuras de Datos y Algoritmos** | Formularios, apps visuales, bases de datos, optimización de datos y algoritmos |
-| **3 – Backend seguro** | ⚙️ **Flask Full Stack (D_WEB)**<br>🔐 **Ciberseguridad (SEG)** | — | Desarrollo backend seguro, APIs, sesiones, roles de usuario, protección ante ataques reales |
-| **4 – Full Stack Pro** | ⚡ **TypeScript Full Stack**<br>📱 **Java/Kotlin** | 📌 **Arquitectura de Software y Patrones de Diseño** | Frontend y backend avanzado, aplicaciones móviles, patrones de diseño, visión arquitectónica |
-| **5 – Bajo nivel + robustez** | ⚙️ **C++**<br>🖥️ **C#** | 📌 **Go** *(opcional)* | Control de memoria, estructuras complejas, desarrollo robusto, backend concurrente |
-| **6 – Productividad y monetización** | 🤖 **Automatización con Python**<br>💼 **Portafolio y Freelance** | — | Creación de herramientas propias, generación de ingresos, marca personal |
-
----
-
 ## 📌 Reglas de este plan
 1. **Dos cursos a la vez** → No avanzar al siguiente dúo sin terminar el actual.  
 2. **Refuerzo constante** → Nunca abandonar lo aprendido, integrarlo en proyectos nuevos.  
