@@ -16,7 +16,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 ## 📍 Roadmap
 
 **Dúo 1 – Base total** ⏳  
-🐍 Python Base  
+[🐍 Python Base](./Actualizar README.md)  
 💻 JavaScript Puro  
 💡 Git y GitHub *(desde el inicio)*  
 ⬇  
