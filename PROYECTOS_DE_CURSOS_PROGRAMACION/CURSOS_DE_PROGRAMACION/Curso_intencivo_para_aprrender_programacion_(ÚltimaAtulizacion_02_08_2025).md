@@ -74,7 +74,7 @@ Convertirme en programador profesional capaz de:
 16. **Clase 15 — Introducción al manejo de archivos:** open, read, write, with  
 17. **Clase 16 — Escritura y lectura de archivos de texto**  
 18. **Clase 17 — PROYECTO MINI:** Registro de notas de estudiantes con validaciones  
-19. **Clase 18 — Manipulación de strings:** .split(), .strip(), .join(), slicing  
+19. [**Clase 18 — Manipulación de strings:** .split(), .strip(), .join(), slicing](https://github.com/GaboEI/Gabo/blob/main/00_clase_18_COMPLETA_manipulaci%C3%B3n%20de%20Strings_teoria_ejercicios.md)  
 20. **Clase 19 — Pensamiento algorítmico:** análisis y resolución paso a paso  
 21. **Clase 20 — Modularización:** separar código en funciones prácticas  
 22. **Clase 21 — Uso de estructuras anidadas:** listas de diccionarios, etc.  
