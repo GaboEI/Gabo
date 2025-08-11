@@ -8,7 +8,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 ## 📍 Roadmap
 
 **Dúo 1 – Base total** ⏳  
-[🐍 Python Base](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/Curso_intencivo_para_aprrender_programacion_(U%CC%81ltimaAtulizacion_02_08_2025).txt)
+[🐍 Python Base](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/Curso_intencivo_para_aprrender_programacion_(U%CC%81ltimaAtulizacion_02_08_2025).md)
 
 [💻 JavaScript Puro ](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20JAVASCRIPT.txt)
 
