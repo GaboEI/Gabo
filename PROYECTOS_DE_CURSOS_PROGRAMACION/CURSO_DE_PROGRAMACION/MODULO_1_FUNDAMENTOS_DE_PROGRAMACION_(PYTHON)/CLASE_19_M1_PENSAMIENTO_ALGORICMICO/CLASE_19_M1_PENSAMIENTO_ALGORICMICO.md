@@ -799,7 +799,7 @@ Fin
 
 ---
 
-### 🏁 Esqueleto guía comentado
+### 🏁 RESPUESTA EJECICIO 5 (último)
 
 ```python
 #=== 🏁 Ejercicio 05 – Revisar crédito simplificado ===#
