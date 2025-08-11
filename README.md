@@ -62,11 +62,13 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 ---
 
 ## 🎯 Regla clave
+
 Solo avanzar al siguiente dúo cuando el actual esté **100% dominado** y con un **proyecto real documentado en GitHub**.
 
 ---
 
 ## 📌 Reglas de este plan
+
 1. **Dos cursos a la vez** → No avanzar al siguiente dúo sin terminar el actual.  
 2. **Refuerzo constante** → Nunca abandonar lo aprendido, integrarlo en proyectos nuevos.  
 3. **Proyectos reales** → Cada dúo debe cerrar con un proyecto funcional documentado.  
@@ -76,7 +78,9 @@ Solo avanzar al siguiente dúo cuando el actual esté **100% dominado** y con un
 ---
 
 ## 🎯 Objetivo final
+
 Llegar a un perfil de **Arquitecto de Software** capaz de:
+
 - Diseñar y supervisar arquitecturas completas.
 - Desarrollar en múltiples lenguajes y entornos.
 - Aplicar seguridad y escalabilidad desde el diseño.
