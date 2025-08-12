@@ -121,7 +121,7 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 
 **Clases:**
 
-1. **Clase JS 01 —** Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.  
+1. [**Clase JS 01 —** Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.]()  
 2. **Clase JS 02 —** `var`, `let`, `const`: diferencias, scopes y buenas prácticas.  
 3. **Clase JS 03 —** Tipos de datos primitivos y dinámicos: `string`, `number`, `boolean`, `undefined`, `null`.  
 4. **Clase JS 04 —** Operadores aritméticos, lógicos y de comparación (`===`, `!=`, `&&`, `||`).  
