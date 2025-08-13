@@ -131,7 +131,6 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 
 **🎯OBJETIVO:** Dominar los conceptos básicos, tipos de datos, operadores, coerción y estructuras simples.
 
-<<<<<<< HEAD
 **Clases:**
 
 1. [**Clase JS 01 —** Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE%20JS_01_M1_INTRODUCCION_HISTORIA_USO/CLASE_JS_1_intro_historia_usos.md)  
@@ -144,7 +143,6 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 8. **Clase JS 08 —** Funciones flecha (*arrow functions*): diferencias y ventajas.  
 9. **Clase JS 09 —** PRÁCTICA GUIADA: Conversor de divisas en JS puro.  
 10. **Clase JS 10 — 📘 EVALUACIÓN:** Evaluación del módulo 1 (mínimo 7/10).  
-=======
 
 ---
 
