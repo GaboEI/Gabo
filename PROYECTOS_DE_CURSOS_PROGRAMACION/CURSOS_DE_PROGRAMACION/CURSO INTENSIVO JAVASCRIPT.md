@@ -4,7 +4,8 @@
 📚 Clases totales previstas: 200+
 📦 Organización en módulos progresivos con teoría profunda, ejercicios, evaluaciones y proyectos reales.
 
-## 📋 Metodología aplicada (para TODAS las clases):
+## 📋 Metodología aplicada (para TODAS las clases)
+
 - Teoría universitaria profunda
 - Ejemplos comentados línea por línea
 - Diagramas de flujo antes de cada ejercicio
@@ -134,7 +135,7 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 **Clases:**
 
 1. [**Clase JS 01 —** Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE%20JS_01_M1_INTRODUCCION_HISTORIA_USO/CLASE_JS_1_intro_historia_usos.md)  
-2. **Clase JS 02 —** `var`, `let`, `const`: diferencias, scopes y buenas prácticas.  
+2. [**Clase JS 02 —** `var`, `let`, `const`: diferencias, scopes y buenas prácticas.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_02_M1_VAR_ET_CONST_DIFERENCIAS%2C%20_SCOPES_BUENAS_PR%C3%81CTICAS/CLASE_JS_2_COMENTARIOS%20_BUENAS_PR%C3%81CTICAS_Y_CONSOLE_EN_JAVASCRIPT.md)  
 3. **Clase JS 03 —** Tipos de datos primitivos y dinámicos: `string`, `number`, `boolean`, `undefined`, `null`.  
 4. **Clase JS 04 —** Operadores aritméticos, lógicos y de comparación (`===`, `!=`, `&&`, `||`).  
 5. **Clase JS 05 —** Condicionales (`if`, `else`, `else if`, `switch`).  
@@ -148,6 +149,7 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 ---
 
 ## 📘 MÓDULO 2 – Control de flujo y estructuras lógicas (JS 12–20)
+
 🎯 Aplicar estructuras condicionales y bucles de forma controlada y profesional.
 
 JS 12: if, else, else if  
@@ -163,6 +165,7 @@ JS 20: 🧪 Evaluación módulo 2
 ---
 
 ## 📘 MÓDULO 3 – Funciones y control modular (JS 21–30)
+
 🎯 Crear funciones reutilizables, comprender hoisting, this, closures y modularización.
 
 JS 21: Declaración vs expresión  
@@ -179,6 +182,7 @@ JS 30: 🧪 Evaluación módulo 3
 ---
 
 ## 📘 MÓDULO 4 – Estructuras de datos modernas (JS 31–40)
+
 🎯 Dominar arrays, objetos, Set, Map y estructuras personalizadas.
 
 JS 31: Arrays: creación, acceso, mutación  
@@ -195,6 +199,7 @@ JS 40: 🧪 Evaluación módulo 4
 ---
 
 ## 📘 MÓDULO 5 – Profundización en objetos y prototipos (JS 41–49)
+
 🎯 Comprender el modelo de objetos, herencia, clases y encapsulamiento.
 
 JS 41: Object.create()  
@@ -210,6 +215,7 @@ JS 49: 🧪 Evaluación módulo 5
 ---
 
 ## 📘 MÓDULO 6 – DOM y manipulación visual (JS 50–56)
+
 🎯 Controlar el DOM, eventos, clases, estilos y estructuras dinámicas.
 
 JS 50: Qué es el DOM. Selectores básicos  
@@ -223,6 +229,7 @@ JS 56: 🧪 Evaluación módulo 6
 ---
 
 ## 📘 MÓDULO 7 – Asincronía, promesas y APIs (JS 57–66)
+
 🎯 Comprender el Event Loop, Promesas, async/await y fetch().  
 ✅ Incluye **JSON práctico integrado** (`res.json()`, `JSON.stringify()`, `JSON.parse()`)
 
@@ -240,6 +247,7 @@ JS 66: 🧪 Evaluación módulo 7
 ---
 
 ## 📘 MÓDULO 8 – Persistencia local (JS 67–71)
+
 🎯 Guardar datos en navegador con almacenamiento nativo.  
 ✅ Incluye uso de `JSON.stringify()` / `JSON.parse()` con localStorage
 
@@ -252,6 +260,7 @@ JS 71: 🧪 Evaluación módulo 8
 ---
 
 ## 📘 MÓDULO 9 – Expresiones regulares y validación (JS 72–77)
+
 🎯 Validar y transformar datos usando RegEx como en el mundo real.
 
 JS 72: Introducción a RegEx  
@@ -264,6 +273,7 @@ JS 77: 🧪 Evaluación módulo 9
 ---
 
 ## 📘 MÓDULO 10 – Modularización y arquitectura (JS 78–82)
+
 🎯 Organizar código profesionalmente usando import/export y arquitectura de módulos.
 
 JS 78: Qué es un módulo – beneficios reales  
@@ -275,6 +285,7 @@ JS 82: 🧪 Evaluación módulo 10
 ---
 
 ## 📘 MÓDULO 11 – Testing y depuración profesional (JS 83–88)
+
 🎯 Probar y depurar código como en entornos reales.
 
 JS 83: console.log, debugger, DevTools  
@@ -287,6 +298,7 @@ JS 88: 🧪 Evaluación módulo 11
 ---
 
 ## 📘 MÓDULO 12 – Proyectos reales de integración (JS 89–94)
+
 🎯 Crear miniaplicaciones completas sin frameworks.
 
 JS 89: Proyecto: Conversor de divisas (API)  
@@ -299,6 +311,7 @@ JS 94: 🧪 Evaluación de proyectos
 ---
 
 ## 📘 MÓDULO 13 – Dominando JSON como un profesional (JS 95–101)
+
 🎯 Aprender a leer, crear y transformar estructuras JSON, y simular archivos.
 
 JS 95: ¿Qué es JSON? Sintaxis, estructura clave-valor  
@@ -314,6 +327,7 @@ JS 101: 🧪 Evaluación módulo 13
 ---
 
 ## 📘 MÓDULO 14 – SPAs y control de estado en el frontend (JS 102–110)
+
 🎯 Construir aplicaciones de una sola página (SPA) usando rutas y estado con JavaScript puro.
 
 JS 102: ¿Qué es una SPA? Comparativa con páginas tradicionales  
@@ -329,6 +343,7 @@ JS 110: 🧪 Evaluación módulo 14
 ---
 
 ## 📘 MÓDULO 15 – Simulación de frameworks y componentes (JS 111–118)
+
 🎯 Reproducir conceptos de frameworks como React o Vue usando JS puro.
 
 JS 111: Pensar en componentes: función + plantilla + estado  
@@ -343,6 +358,7 @@ JS 118: 🧪 Evaluación módulo 15
 ---
 
 ## 📘 MÓDULO 16 – Algoritmos, estructuras y entrevistas (JS 119–130)
+
 🎯 Entrenar para entrevistas técnicas y resolver desafíos algorítmicos clásicos.
 
 JS 119: Pensamiento algorítmico paso a paso  
@@ -361,6 +377,7 @@ JS 130: 🧪 Evaluación módulo 16
 ---
 
 ## 📘 MÓDULO 17 – Render dinámico y manipulación avanzada (JS 131–138)
+
 🎯 Crear interfaces complejas y reactivas sin frameworks.
 
 JS 131: Renderizado condicional y bucles en el DOM  
@@ -375,6 +392,7 @@ JS 138: 🧪 Evaluación módulo 17
 ---
 
 ## 📘 MÓDULO 18 – Conexión con backend y servidores (JS 139–145)
+
 🎯 Prepararte para el uso de JavaScript full stack (frontend + backend).
 
 JS 139: ¿Qué es una API REST? Verbos y rutas  
@@ -388,6 +406,7 @@ JS 145: 🧪 Evaluación módulo 18
 ---
 
 ## 📘 MÓDULO 19 – Proyecto final completo (JS 146–150)
+
 🎯 Aplicar todo lo aprendido en una aplicación profesional real sin frameworks.
 
 JS 146: Planificación de una SPA profesional (estructura + estado)  
@@ -399,6 +418,7 @@ JS 150: Documentación, presentación y despliegue
 ---
 
 ## 📘 MÓDULO 20 – Evaluación integral (JS 151–155)
+
 🎯 Medir tu dominio total de JavaScript para desarrollo profesional.
 
 JS 151: Examen escrito de conceptos clave  
