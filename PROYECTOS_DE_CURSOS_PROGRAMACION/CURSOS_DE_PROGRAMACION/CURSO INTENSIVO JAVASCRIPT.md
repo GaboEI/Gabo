@@ -132,7 +132,9 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 **🎯OBJETIVO:** Dominar los conceptos básicos, tipos de datos, operadores, coerción y estructuras simples.
 
 [JS 1: Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE%20JS_01_M1_INTRODUCCION_HISTORIA_USO/CLASE_JS_1_intro_historia_usos.md)  
+
 [JS 2: Comentarios, buenas prácticas, console](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_02_M1_VAR_ET_CONST_DIFERENCIAS%2C%20_SCOPES_BUENAS_PR%C3%81CTICAS/CLASE_JS_2_COMENTARIOS%20_BUENAS_PR%C3%81CTICAS_Y_CONSOLE_EN_JAVASCRIPT.md)
+
 [Js 2.1 Consola Avanzada: `table()`, `group()`, `trace()` en estructuras y flujos](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_2_EXTRA_M1_CONSOLA_AVANZADA/claseExtraJs2M1ConsolaAvanzada.md)
 JS 3: var, let, const y el scope  
 JS 4: Tipos de datos primitivos  
