@@ -1,7 +1,9 @@
 # 🚀 CURSO INTENSIVO DE JAVASCRIPT CON GABO — De Cero a Experto  
 
 🧠 Duración estimada: 4 a 8 meses (según ritmo intensivo)
+
 📚 Clases totales previstas: 200+
+
 📦 Organización en módulos progresivos con teoría profunda, ejercicios, evaluaciones y proyectos reales.
 
 ## 📋 Metodología aplicada (para TODAS las clases)
