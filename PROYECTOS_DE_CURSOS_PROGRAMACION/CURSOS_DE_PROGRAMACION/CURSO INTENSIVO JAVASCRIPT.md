@@ -134,7 +134,8 @@ Hazlos tan **profundos, largos y técnicos como sea necesario**.
 **Clases:**
 
 1. [**Clase JS 01 —** Introducción a JavaScript, historia y usos. Uso en navegador y VS Code.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE%20JS_01_M1_INTRODUCCION_HISTORIA_USO/CLASE_JS_1_intro_historia_usos.md)  
-2. [**Clase JS 02 —** `var`, `let`, `const`: diferencias, scopes y buenas prácticas.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_02_M1_VAR_ET_CONST_DIFERENCIAS%2C%20_SCOPES_BUENAS_PR%C3%81CTICAS/CLASE_JS_2_COMENTARIOS%20_BUENAS_PR%C3%81CTICAS_Y_CONSOLE_EN_JAVASCRIPT.md)  
+2. [**Clase JS 02 —** `var`, `let`, `const`: diferencias, scopes y buenas prácticas.](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_02_M1_VAR_ET_CONST_DIFERENCIAS%2C%20_SCOPES_BUENAS_PR%C3%81CTICAS/CLASE_JS_2_COMENTARIOS%20_BUENAS_PR%C3%81CTICAS_Y_CONSOLE_EN_JAVASCRIPT.md)
+. [**Clase Extra JS 02.1 –** Consola Avanzada: `table()`, `group()`, `trace()` en estructuras y flujos](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_INTENSIVO_JAVA_SCRIPT/M%C3%93DULO_01_FUNDAMENTO_DEL_LENGUAJE_Js_PURO/CLASE_JS_2_EXTRA_M1_CONSOLA_AVANZADA/claseExtraJs2M1ConsolaAvanzada.md)
 3. **Clase JS 03 —** Tipos de datos primitivos y dinámicos: `string`, `number`, `boolean`, `undefined`, `null`.  
 4. **Clase JS 04 —** Operadores aritméticos, lógicos y de comparación (`===`, `!=`, `&&`, `||`).  
 5. **Clase JS 05 —** Condicionales (`if`, `else`, `else if`, `switch`).  
