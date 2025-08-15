@@ -58,12 +58,12 @@ Convertirme en programador profesional capaz de:
 
 1. [**Clase 00 — Tipos de datos:** int, float, str, bool](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_00_M1_TIPOS_DE_DATOS/Clase_00_Tipos_de_datos_int_float_str_bool.md)  
 2. [**Clase 01 — Variables y constantes**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_01_M1_VARIABLES_Y_CONSTANTES/variables_y_constantes.md)  
-3. **Clase 02 — Operadores aritméticos y lógicos**  
-4. **Clase 03 — Estructuras de control:** if, elif, else  
-5. [**Clase 04 — Bucles:** for, while](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_04_M1_ESTRUCTURAS_CONDICIONALES_EN_PYTHON/clase_programacion_4.md)  
-6. **Clase 05 — Funciones**  
-7. **Clase 06 — Manejo de errores:** try, except  
-8. **Clase 07 — Manejo de archivos:** lectura, escritura  
+3. [**Clase 02 — Operadores aritméticos y lógicos**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_02_OPERADORES_ARITMETICOS_Y_LOGICOS/CLASE_02_OPERADORES_ARITMETICOS_Y_LOGICOS.md)
+4. [**Clase 03 — Estructuras de control:** if, elif, else](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_03_M1_ESTRUCTURAS_DE_CONTROL_if_elif_else/CLASE_03_M1_ESTRUCTURAS_DE_CONTROL_if_elif_else.md)
+5. [**Clase 04 — Estructuras condicionales en Python:**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_04_M1_ESTRUCTURAS_CONDICIONALES_EN_PYTHON/clase_programacion_4.md)  
+6. [**Clase 05 — Bucles:** for, while](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_05_M1_BUCLES_FOR_Y_WHILE/clase_programacion_5.md)  
+7. [**Clase 06 — Funciones en Python:** try, except](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_06_M1_FUNCIONES_EN_PYTHON/clase_programacion_6.md)
+8. [**Clase 07 — Manejo de archivos:** lectura, escritura](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_07_M1_MANEJO_DE_ARCHIVOS_LECTURA_Y_ESCRITURA/CLASE_07_M1_MANEJO_DE_ARCHIVOS_LECTURA_Y_ESCRITURA.md)  
 9. **Clase 08 — Estructuras de datos:** listas, diccionarios, tuplas, sets  
 10. **Clase 09 — PROYECTO MINI:** calculadoras, organizadores de texto, etc.  
 11. **Clase 10 — Proyecto integrador intermedio:** Gestor de tareas con archivos  
