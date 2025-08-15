@@ -60,7 +60,7 @@ Convertirme en programador profesional capaz de:
 2. **Clase 01 — Variables y constantes**  
 3. **Clase 02 — Operadores aritméticos y lógicos**  
 4. **Clase 03 — Estructuras de control:** if, elif, else  
-5. **Clase 04 — Bucles:** for, while  
+5. [**Clase 04 — Bucles:** for, while](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_04_M1_ESTRUCTURAS_CONDICIONALES_EN_PYTHON/clase_programacion_4.md)  
 6. **Clase 05 — Funciones**  
 7. **Clase 06 — Manejo de errores:** try, except  
 8. **Clase 07 — Manejo de archivos:** lectura, escritura  
