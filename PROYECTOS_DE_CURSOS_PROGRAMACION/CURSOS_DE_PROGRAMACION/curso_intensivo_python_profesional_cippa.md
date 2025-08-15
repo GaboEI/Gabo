@@ -49,21 +49,10 @@ Convertirme en un programador profesional especializado en Python, capaz de:
 
 ---
 
-⚠️ Este PROM está activo **solo para el curso CIPPA**. Si trabajamos en otro curso, me lo deberás indicar.  
-Cuando diga:  
-➡️ “Clase CIPPA X”  
-➡️ “Empecemos el Módulo 3”  
-➡️ “Día 7 del curso CIPPA”
-
-… debes aplicar este sistema pedagógico automáticamente.  
-
-
-
-
 ## 🐍 Curso Intensivo de Python Profesional y Avanzado (CIPPA) 🧠
 
-> **📌 Prerrequisito:** Haber completado los módulos 1 y 2 del Curso Intensivo para Aprender Programación.  
-> Este curso **asume conocimientos sólidos** de Python básico e intermedio.
+> **📌 Prerrequisito:** Haber completado los módulos 1: Fundamentos de Programación y modulo 2:  Programación Orientada a Objetos con Python y Arquitectura Profesional, del Curso Intensivo para Aprender Programación.  
+> Este curso **asume estos conocimientos sólidos** de Python básico e intermedio.
 
 ---
 
@@ -83,6 +72,7 @@ El **CIPPA** está diseñado para llevar al estudiante de un nivel intermedio de
 - ✅ Introducción práctica a la inteligencia artificial con Python
 
 📚 **Cada módulo contiene:**
+
 - Clases teóricas y prácticas
 - Proyectos integradores
 - Ejercicios de refuerzo
@@ -382,7 +372,6 @@ Al finalizar, el estudiante podrá crear herramientas de automatización y flujo
 **29.** Laboratorio integrador de automatización y datos  
 **30.** 🧪 Evaluación teórica y práctica del módulo
 
-
 ---
 
 ## 🧩 Módulo 08 – Arquitectura profesional y buenas prácticas
@@ -552,7 +541,7 @@ Se busca que el estudiante sea capaz de crear herramientas **prácticas** y dist
 
 ---
 
-## 🧩 Módulo 11 – Bonus: IA con Python
+## 💥 Módulo 11 – Bonus: IA con Python
 
 🎯 **Objetivo:**  
 Introducir al estudiante en los conceptos básicos de ciencia de datos e inteligencia artificial utilizando herramientas de Python.  
@@ -609,5 +598,3 @@ software Python **de nivel profesional**.
 💡 Se recomienda realizar **prácticas adicionales y proyectos personales** tras finalizar cada módulo, para **consolidar los conocimientos** y ganar experiencia real.
 
 🧭 Este itinerario es **flexible** y puede adaptarse a necesidades específicas, pero mantiene la **esencia de una formación universitaria rigurosa**, enfocada en la excelencia y la **resolución de problemas del mundo real**.
-
-
