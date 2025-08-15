@@ -124,8 +124,6 @@ Al finalizar, el estudiante será capaz de escribir código **modular, reutiliza
 **29.** Repaso integrador y sesiones de preguntas  
 **30.** 🧪 Evaluación teórico-práctica (mínimo 7/10) y cierre de módulo
 
-¡Perfecto, Gabo! Aquí tienes el **Módulo 02 – Estructuras de datos pro** listo para pegar, con todos los emojis, estructura ordenada y **plequitas numeradas**, como te gusta 😎📚
-
 ## 🧩 Módulo 02 – Estructuras de datos pro
 
 🎯 **Objetivo:**  
