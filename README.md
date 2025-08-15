@@ -10,6 +10,8 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 **Dúo 1 – Base total** ⏳  
 [🐍 Python Base](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/Curso_intencivo_para_aprrender_programacion_(U%CC%81ltimaAtulizacion_02_08_2025).md)
 
+[🐍 CIPPA – Curso Intensivo de Python Profesional y Avanzado](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/curso_intensivo_python_profesional_cippa.md)
+
 [💻 JavaScript Puro ](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20JAVASCRIPT.md)
 
 [💡 Git y GitHub *(desde el inicio)*](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20DE%20GIT%20Y%20GITHUB.txt)  
