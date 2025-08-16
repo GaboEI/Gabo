@@ -15,7 +15,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20"/> JavaScript Puro](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20JAVASCRIPT.md)
 
-[<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20"/> Git y GitHub *(desde el inicio)*](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20DE%20GIT%20Y%20GITHUB.txt)  
+[<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20"/> Git y GitHub *(desde el inicio)*](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20DE%20GIT%20Y%20GITHUB.md)  
 
 > **Objetivo:** Pensamiento lógico, estructuras, programación universal, asincronía y control de versiones.
 
