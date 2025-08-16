@@ -1,15 +1,15 @@
-# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> CURSO INTENSIVO BASE PYTHON <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/>
+# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" alt="Python"/> CURSO INTENSIVO BASE PYTHON <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" alt="Python"/>
 
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align:middle;"/> Introducción
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align:middle;" alt="ChatGPT"/> Introducción
 
-#### A partir de este momento, **ChatGPT** asumirá el rol de mi profesor personal de programación intensiva, bajo un sistema riguroso y estructurado. Estoy tomando un curso completo contigo, desde cero, con enfoque en <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" style="vertical-align:middle;"/> **Python** como base, pero con proyección a una formación integral en desarrollo general. Nuestro plan sigue un **cronograma diario y semanal**, con clases claras, explicaciones profundas, ejemplos reales, ejercicios prácticos y evaluaciones constantes. Cada clase debe ser calificada del 1 al 10, y no se podrá avanzar de nivel si no alcanzo al menos un **7/10**, aplicando refuerzos personalizados si es necesario. Este espacio se dedica **exclusivamente a la programación**, dejando fuera temas personales como tiendas, OCR o impresoras.
+#### A partir de este momento, **ChatGPT** asumirá el rol de mi profesor personal de programación intensiva, bajo un sistema riguroso y estructurado. Estoy tomando un curso completo contigo, desde cero, con enfoque en <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" style="vertical-align:middle;" alt="Python"/> **Python** como base, pero con proyección a una formación integral en desarrollo general. Nuestro plan sigue un **cronograma diario y semanal**, con clases claras, explicaciones profundas, ejemplos reales, ejercicios prácticos y evaluaciones constantes. Cada clase debe ser calificada del 1 al 10, y no se podrá avanzar de nivel si no alcanzo al menos un **7/10**, aplicando refuerzos personalizados si es necesario. Este espacio se dedica **exclusivamente a la programación**, dejando fuera temas personales como tiendas, OCR o impresoras.
 
-#### Mi meta es convertirme en un **programador profesional** capaz de generar ingresos con proyectos propios o freelance, comprendiendo a fondo cada concepto. Cuando diga "clase de programación 1, 2, 3..." deberás continuar desde esa clase, manteniendo el hilo de los contenidos. Ya hemos guardado el cronograma de la primera semana, y si indico “día 1 en programación”, sabrás exactamente por dónde comenzar. Aunque hablamos en español, también puedo practicar ejemplos en ruso o <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="20"/> inglés si así lo indico.
+#### Mi meta es convertirme en un **programador profesional** capaz de generar ingresos con proyectos propios o freelance, comprendiendo a fondo cada concepto. Cuando diga "clase de programación 1, 2, 3..." deberás continuar desde esa clase, manteniendo el hilo de los contenidos. Ya hemos guardado el cronograma de la primera semana, y si indico “día 1 en programación”, sabrás exactamente por dónde comenzar. Aunque hablamos en español, también puedo practicar ejemplos en ruso o <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="20" alt="USA"/> inglés si así lo indico.
 
 #### Avanzaremos sin dejar conocimientos atrás, integrando todo lo aprendido con mis objetivos reales: **automatización**, **creación de aplicaciones multiplataforma**, y **soluciones empresariales útiles**. Si te envío una imagen de código, debes analizarla, corregirla y explicarla paso a paso de forma clara y pedagógica. Mi nombre es **Gabo**, y prefiero un trato cercano, serio pero motivador. Estoy usando **ChatGPT Plus con GPT-4o**, lo que me permite enviarte múltiples imágenes al día y avanzar a toda velocidad en mi formación.
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align: middle;"/> Funciones específicas de ChatGPT como profesor
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align: middle;" alt="ChatGPT"/> Funciones específicas de ChatGPT como profesor
 
 #### Como mi profesor y mentor personal de programación, ChatGPT tiene la misión de guiarme con exigencia, empatía y precisión. Su labor consiste en preparar clases escalonadas con cronograma diario, enseñándome de forma práctica, clara y aplicada, siempre con ejemplos, tareas y explicaciones profundas. Es responsable de corregir mis códigos, señalar errores y explicarlos paso a paso sin omitir detalles, así como de calificar cada clase con feedback y evaluaciones autónomas cuando sea necesario. Además, debe llevar un seguimiento riguroso de mis avances, reforzar mis puntos débiles antes de pasar de nivel, y asegurarse de que no se avance sin dominio total del tema anterior. Me acompaña sin enjuiciar, motivándome constantemente, respondiendo cada duda, explicando la función de cada símbolo nuevo en el código, y mostrándome cómo aplicar lo aprendido profesionalmente en el futuro. Si se lo solicito, también debe generar PDFs de clases para mi cuaderno digital. Cada ejercicio que prepare debe incluir comentarios clave (#1️⃣, #2️⃣, etc.) que orienten la lógica del código sin resolverlo por completo. Bajo ninguna circunstancia debe entregar clases comprimidas ni resúmenes: la enseñanza debe ser profunda, profesional, exigente y orientada a crear en mí las habilidades necesarias para convertirme en un programador completo, capaz de monetizar sus proyectos y dominar su camino autodidacta con seguridad.
 
@@ -17,11 +17,11 @@
 
 #### Convertirme en un **programador profesional integral**, con la capacidad de desarrollar software real que impacte en el mundo, automatizar procesos empresariales para optimizar recursos y eficiencia, y crear aplicaciones funcionales para entornos web, móviles y de escritorio. Aspiro a integrar la **inteligencia artificial** como motor de innovación en mis proyectos, y a generar ingresos sostenibles mediante **programación freelance** y la construcción de **proyectos propios**, sólidos y escalables.
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> MÓDULO 01 — Fundamentos de Programación (Python)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" alt="Python"/> MÓDULO 01 — Fundamentos de Programación (Python)
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar los conceptos básicos de la programación en Python, comprendiendo desde los tipos de datos hasta la creación de proyectos simples y organizados.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar los conceptos básicos de la programación en Python, comprendiendo desde los tipos de datos hasta la creación de proyectos simples y organizados.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clasess
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clasess
 
 1. [**Clase 00 — Tipos de datos:** int, float, str, bool](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_00_M1_TIPOS_DE_DATOS/Clase_00_Tipos_de_datos_int_float_str_bool.md)  
 2. [**Clase 01 — Variables y constantes**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_01_M1_VARIABLES_Y_CONSTANTES/variables_y_constantes.md)  
@@ -58,10 +58,10 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> MÓDULO 02 — Programación Orientada a Objetos con Python y Arquitectura Profesional
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar la programación orientada a objetos con Python, aplicar arquitectura profesional, diseñar sistemas robustos y testear con pytest. Este módulo prepara para estructuras complejas, automatización avanzada y entrevistas técnicas.
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" alt="Python"/> MÓDULO 02 — Programación Orientada a Objetos con Python y Arquitectura Profesional
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar la programación orientada a objetos con Python, aplicar arquitectura profesional, diseñar sistemas robustos y testear con pytest. Este módulo prepara para estructuras complejas, automatización avanzada y entrevistas técnicas.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 1. **Clase 01 —** Introducción a la programación orientada a objetos (POO): clases, objetos, atributos y métodos en Python. Sintaxis y creación de estructuras básicas.  
 2. **Clase 02 —** Métodos especiales en Python: uso de `__init__`, `__str__`, `__repr__` para personalizar clases.  
@@ -96,10 +96,10 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="22" style="vertical-align: middle;"/> MÓDULO 03 — Automatización de tareas y scripting
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear scripts robustos que automaticen tareas reales en el entorno empresarial y personal, aplicando lógica, librerías y herramientas clave.
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="22" style="vertical-align: middle;" alt="Python"/> MÓDULO 03 — Automatización de tareas y scripting
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Crear scripts robustos que automaticen tareas reales en el entorno empresarial y personal, aplicando lógica, librerías y herramientas clave.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Introducción al scripting y automatización:** qué es un script, diferencia con una app. Casos de uso.  
 02. **Clase 02 — Librerías estándar en Python:** importación, uso de documentación oficial, `os`, `sys`.  
@@ -134,11 +134,11 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="25" style="vertical-align: middle;"/> MÓDULO 04 — Control de versiones y trabajo en equipo
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="25" style="vertical-align: middle;" alt="Git"/> MÓDULO 04 — Control de versiones y trabajo en equipo
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="20" style="vertical-align: middle;"/> Git y <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" style="vertical-align: middle;"/> GitHub, flujos colaborativos, ramas, pull requests y gestión profesional de código compartido
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="20" style="vertical-align: middle;" alt="Git"/> Git y <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" style="vertical-align: middle;" alt="Github"/> GitHub, flujos colaborativos, ramas, pull requests y gestión profesional de código compartido
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Introducción al control de versiones:** qué es Git, por qué es esencial en cualquier proyecto real.  
 02. **Clase 02 — Instalación y configuración de Git:** nombre, email, editores, claves SSH.  
@@ -173,10 +173,10 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="20" style="vertical-align: middle;"/> MÓDULO 05 — Desarrollo Web (Frontend)
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar el desarrollo web moderno desde cero: HTML, CSS, JavaScript, DOM, responsive design y React.
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" style="vertical-align: middle;" alt="Html5"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="20" style="vertical-align: middle;" alt="Css3"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" style="vertical-align: middle;" alt="Javascript"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" style="vertical-align: middle;" alt="React"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="20" style="vertical-align: middle;" alt="Bootstrap"/> MÓDULO 05 — Desarrollo Web (Frontend)
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar el desarrollo web moderno desde cero: HTML, CSS, JavaScript, DOM, responsive design y React.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Introducción al desarrollo web y el ecosistema Frontend:** estructura cliente-servidor, qué es el frontend.  
 02. **Clase 02 — HTML5:** estructura básica de una página. Etiquetas `<html>`, `<head>`, `<body>`.  
@@ -213,11 +213,11 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 06 — Desarrollo Web (Backend)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="25" style="vertical-align:middle;" alt="Fastapi"/> MÓDULO 06 — Desarrollo Web (Backend)
 
-🧭 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" style="vertical-align:middle;"/> **OBJETIVO:** Crear APIs robustas con **FastAPI** o **Node.js**, trabajar con bases de datos y montar un backend funcional para cualquier app real.
+🧭 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" style="vertical-align:middle;" alt="Postgresql"/> **OBJETIVO:** Crear APIs robustas con **FastAPI** o **Node.js**, trabajar con bases de datos y montar un backend funcional para cualquier app real.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Introducción al backend y APIs:** diferencias con frontend. ¿Qué es una API?  
 02. **Clase 02 — Protocolo HTTP:** métodos, rutas, códigos de estado.  
@@ -245,17 +245,17 @@
 24. **Clase 24 — Documentación avanzada con OpenAPI.**  
 25. **Clase 25 — Preparación para despliegue:** archivos `.env`, seguridad.  
 26. **Clase 26 — Backend modularizado:** separación por carpetas.  
-27. **Clase 27 — <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="20" style="vertical-align:middle;"/> Introducción a Docker para backend local.**  
+27. **Clase 27 — <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="20" style="vertical-align:middle;" alt="Docker"/> Introducción a Docker para backend local.**  
 28. **Clase 28 — Preparar backend para integración con frontend.**  
 29. **Clase 29 — Publicación en Render/Vercel/Heroku.**  
 30. **Clase 30 — 🧪 EVALUACIÓN FINAL:** API completa, probada, con documentación. Nota mínima 7/10.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 07 — Bases de Datos Avanzadas y Arquitectura
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar SQL avanzado, trabajar con bases de datos relacionales y NoSQL, y aprender arquitectura sólida de datos..
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="25" style="vertical-align:middle;" alt="Postgresql"/> MÓDULO 07 — Bases de Datos Avanzadas y Arquitectura
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar SQL avanzado, trabajar con bases de datos relacionales y NoSQL, y aprender arquitectura sólida de datos..
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Repaso general de SQL básico:** SELECT, INSERT, UPDATE, DELETE.  
 02. **Clase 02 — Claves primarias y foráneas:** relaciones reales entre tablas.  
@@ -290,10 +290,10 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 08 — DevOps básico y despliegue
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Automatizar el ciclo de vida de tu software desde desarrollo hasta producción usando herramientas modernas.
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" style="vertical-align:middle;" alt="Docker"/> MÓDULO 08 — DevOps básico y despliegue
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Automatizar el ciclo de vida de tu software desde desarrollo hasta producción usando herramientas modernas.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es DevOps?:** introducción y objetivos.  
 02. **Clase 02 — Infraestructura como código:** qué significa y por qué importa.  
@@ -328,10 +328,10 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 09 — Inteligencia Artificial y Machine Learning
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender los fundamentos de ML, entrenar modelos reales y aplicarlos en tus propios proyectos con Python.
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="25" style="vertical-align:middle;" alt="Tensorflow"/> MÓDULO 09 — Inteligencia Artificial y Machine Learning
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Comprender los fundamentos de ML, entrenar modelos reales y aplicarlos en tus propios proyectos con Python.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es Machine Learning y cómo funciona?:** aprendizaje supervisado vs no supervisado.  
 02. **Clase 02 — Tipos de problemas:** clasificación, regresión, clustering.  
@@ -366,11 +366,11 @@
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="20" style="vertical-align:middle;"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png" width="20" style="vertical-align:middle;"><img src="https://raw.githubusercontent.com/github/explore/main/topics/react-native/react-native.png" width="20" style="vertical-align:middle;"> MÓDULO 10 — Desarrollo de Aplicaciones Móviles y de Escritorio 
+## <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="20" style="vertical-align:middle;" alt="Icon"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png" width="20" style="vertical-align:middle;" alt="File"><img src="https://raw.githubusercontent.com/github/explore/main/topics/react-native/react-native.png" width="20" style="vertical-align:middle;" alt="React"> MÓDULO 10 — Desarrollo de Aplicaciones Móviles y de Escritorio 
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear **apps funcionales, modernas y multiplataforma**, dominando frameworks actuales como Electron y Tauri 🖥️ para escritorio, y Flutter / React Native 📱 para desarrollo móvil profesional.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Crear **apps funcionales, modernas y multiplataforma**, dominando frameworks actuales como Electron y Tauri 🖥️ para escritorio, y Flutter / React Native 📱 para desarrollo móvil profesional.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es una app nativa, híbrida y PWA?**  
 02. **Clase 02 — Elección de framework:** desktop vs móvil.  
@@ -405,10 +405,10 @@
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" width="18"> <img src="https://cdn-icons-png.flaticon.com/512/726/726448.png" width="18"> MÓDULO 11 — Proyecto Final de Integración
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Construir una aplicación completa, profesional, con frontend, backend, base de datos, despliegue y documentación. Será tu carta de presentación al mundo real.
+## <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" width="18" alt="Icon"> <img src="https://cdn-icons-png.flaticon.com/512/726/726448.png" width="18" alt="Icon"> MÓDULO 11 — Proyecto Final de Integración
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Construir una aplicación completa, profesional, con frontend, backend, base de datos, despliegue y documentación. Será tu carta de presentación al mundo real.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Definición del proyecto:** elección del problema real a resolver (Ejemplos: sistema de reservas, gestión escolar, facturación).  
 02. **Clase 02 — Análisis de requerimientos funcionales y técnicos.**  
@@ -443,11 +443,11 @@
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/2875/2875270.png" width="22" style="vertical-align:middle" title="Estructuras de datos"> MÓDULO 12 — Estructuras de datos y algoritmos clásicos
+## <img src="https://cdn-icons-png.flaticon.com/512/2875/2875270.png" width="22" style="vertical-align:middle" title="Estructuras de datos" alt="Icon"> MÓDULO 12 — Estructuras de datos y algoritmos clásicos
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar estructuras clave (listas, árboles, grafos) y algoritmos típicos para mejorar tu pensamiento lógico y preparación para entrevistas técnicas.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Dominar estructuras clave (listas, árboles, grafos) y algoritmos típicos para mejorar tu pensamiento lógico y preparación para entrevistas técnicas.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — Qué es un algoritmo y cómo medir su eficiencia (Big O).**  
 02. **Clase 02 — Listas, pilas y colas:** implementación manual y con colecciones.  
@@ -482,10 +482,10 @@
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="20" title="Seguridad"> <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="20" title="Buenas prácticas"> MÓDULO 13 — Seguridad y buenas prácticas avanzadas
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a escribir código seguro, prevenir ataques comunes y aplicar buenas prácticas a nivel profesional.
+## <img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="20" title="Seguridad" alt="Icon"> <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="20" title="Buenas prácticas" alt="Icon"> MÓDULO 13 — Seguridad y buenas prácticas avanzadas
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender a escribir código seguro, prevenir ataques comunes y aplicar buenas prácticas a nivel profesional.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es la seguridad en el desarrollo de software?**  
 02. **Clase 02 — Seguridad en APIs:** autenticación, tokens, scopes.  
@@ -518,11 +518,11 @@
 29. **Clase 29 — Proyecto final:** app segura con backend y frontend blindado.  
 30. **Clase 30 — 📘 EVALUACIÓN FINAL:** checklist de seguridad + revisión de código.
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" width="20" title="Testing"> <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="20" title="Calidad"> MÓDULO 14 — Testing y calidad de software
+## <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" width="20" title="Testing" alt="Icon"> <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="20" title="Calidad" alt="Icon"> MÓDULO 14 — Testing y calidad de software
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a testear tu código con pruebas unitarias, funcionales, de integración y automatizadas. Garantizar calidad y robustez.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender a testear tu código con pruebas unitarias, funcionales, de integración y automatizadas. Garantizar calidad y robustez.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es testing y por qué es esencial?**  
 02. **Clase 02 — Tipos de pruebas:** unitarias, integración, extremo a extremo.  
@@ -555,10 +555,10 @@
 29. **Clase 29 — Proyecto final:** suite de tests completa (API + Frontend).  
 30. **Clase 30 — 📘 EVALUACIÓN FINAL:** 100% cobertura + flujo automatizado.
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1077/1077976.png" width="25"/> MÓDULO 15 — Monetización y carrera como programador freelance
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a generar ingresos como programador independiente, crear tu marca, trabajar con clientes y vender soluciones.
+## <img src="https://cdn-icons-png.flaticon.com/512/1077/1077976.png" width="25" alt="Icon"/> MÓDULO 15 — Monetización y carrera como programador freelance
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender a generar ingresos como programador independiente, crear tu marca, trabajar con clientes y vender soluciones.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Cómo ganar dinero como programador hoy?**  
 02. **Clase 02 — Freelancing vs trabajar en empresa.**  
@@ -597,11 +597,11 @@
 Luego del Módulo 15 haremos una **pequeña pausa** para integrar un **MÓDULO INTENSIVO – JSON**.  
 Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** siguiendo el plan oficial del curso.
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" width="25"/> MÓDULO INTENSIVO – JSON
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" width="25" alt="Json"/> MÓDULO INTENSIVO – JSON
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender a fondo el formato JSON y su uso práctico en proyectos reales con Python y JavaScript. Aprenderás a leer, escribir, validar y manipular datos en formato JSON para integrarlo en sistemas, APIs y almacenamiento de información persistente.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Comprender a fondo el formato JSON y su uso práctico en proyectos reales con Python y JavaScript. Aprenderás a leer, escribir, validar y manipular datos en formato JSON para integrarlo en sistemas, APIs y almacenamiento de información persistente.
 
-#### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+#### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. **Clase 01 — ¿Qué es JSON y para qué sirve?**  
 02. **Clase 02 — Estructura básica de un archivo JSON**  
@@ -624,11 +624,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 19. **Clase 19 — Guardar datos en `localStorage` como JSON (JS)**  
 20. **Clase 20 — Convertir entre JSON y otros formatos:** CSV, diccionario, objeto, etc.
 
-## <img src="https://static.thenounproject.com/png/4495691-200.png" width="25"/> <img src="https://static.thenounproject.com/png/2930207-200.png" width="25"/> MÓDULO 16: Blockchain y contratos inteligentes
+## <img src="https://static.thenounproject.com/png/4495691-200.png" width="25" alt="Icon"/> <img src="https://static.thenounproject.com/png/2930207-200.png" width="25" alt="Icon"/> MÓDULO 16 — Blockchain y contratos inteligentes
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender el funcionamiento de las cadenas de bloques, desarrollar y desplegar contratos inteligentes en Ethereum con Solidity.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Comprender el funcionamiento de las cadenas de bloques, desarrollar y desplegar contratos inteligentes en Ethereum con Solidity.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. ¿Qué es Blockchain y cómo funciona?  
 02. Historia y casos de uso reales (más allá de criptomonedas)  
@@ -663,11 +663,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://cdn.worldvectorlogo.com/logos/websocket.svg" width="25"/> MÓDULO 17: Aplicaciones en tiempo real y WebSockets — Versión extendida
+## <img src="https://cdn.worldvectorlogo.com/logos/websocket.svg" width="25" alt="Websocket"/> MÓDULO 17 — Aplicaciones en tiempo real y WebSockets — Versión extendida
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear apps que respondan en tiempo real como chats, notificaciones, dashboards, usando WebSockets y tecnología en vivo.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Crear apps que respondan en tiempo real como chats, notificaciones, dashboards, usando WebSockets y tecnología en vivo.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 01. ¿Qué es una app en tiempo real? Casos de uso  
 02. HTTP vs WebSocket: diferencias clave  
@@ -702,11 +702,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25"/> MÓDULO 18 — Microservicios y Arquitectura Escalable (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" alt="Docker"/> MÓDULO 18 — Microservicios y Arquitectura Escalable (Versión extendida)
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Entender y construir sistemas distribuidos con microservicios, comunicación entre servicios y escalabilidad.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Entender y construir sistemas distribuidos con microservicios, comunicación entre servicios y escalabilidad.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 1. **Clase 01 —** ¿Qué es una arquitectura de microservicios?  
 2. **Clase 02 —** Monolito vs microservicio: diferencias reales  
@@ -741,11 +741,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="25"/> MÓDULO 19 — Testing de Carga, Performance y Stress (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="25" alt="Icon"/> MÓDULO 19 — Testing de Carga, Performance y Stress (Versión extendida)
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a medir el rendimiento de tus apps, detectar cuellos de botella y garantizar que funcionen bajo alta demanda.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender a medir el rendimiento de tus apps, detectar cuellos de botella y garantizar que funcionen bajo alta demanda.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 1. **Clase 01 —** ¿Qué es un test de carga, stress y performance?  
 2. **Clase 02 —** Herramientas: Locust, Artillery, JMeter (intro)  
@@ -782,11 +782,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="25"/> MÓDULO 20 — Diseño UX/UI profesional (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="25" alt="Figma"/> MÓDULO 20 — Diseño UX/UI profesional (Versión extendida)
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Diseñar interfaces limpias, agradables y usables, usando Figma, principios de UX y prototipado profesional.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Diseñar interfaces limpias, agradables y usables, usando Figma, principios de UX y prototipado profesional.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 1. **Clase 01 —** ¿Qué es UX y UI? Diferencias y sinergias  
 2. **Clase 02 —** Principios de diseño centrado en el usuario  
@@ -821,11 +821,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://www.pygame.org/docs/_static/pygame_logo.svg" width="25"/> MÓDULO 21 — Desarrollo de videojuegos 2D con Python (Pygame) (Versión extendida)
+## <img src="https://www.pygame.org/docs/_static/pygame_logo.svg" width="25" alt="Pygame"/> MÓDULO 21 — Desarrollo de videojuegos 2D con Python (Pygame) (Versión extendida)
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender los fundamentos del desarrollo de juegos 2D usando Pygame, lógica de movimiento, colisiones, enemigos, sonido y más.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender los fundamentos del desarrollo de juegos 2D usando Pygame, lógica de movimiento, colisiones, enemigos, sonido y más.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 1. **Clase 01 —** Introducción al desarrollo de juegos  
 2. **Clase 02 —** Instalación y estructura base de Pygame  
@@ -860,11 +860,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" width="25"/> MÓDULO EXTRA A — Integración entre scripts y módulos
+## <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" width="25" alt="Icon"/> MÓDULO EXTRA A — Integración entre scripts y módulos
 
-<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a combinar proyectos anteriores en soluciones reales más grandes.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;" alt="Icon"> **OBJETIVO GENERAL:** Aprender a combinar proyectos anteriores en soluciones reales más grandes.
 
-### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20" alt="Icon"/> Clases
 
 
 1. **Clase 01 —** Reutilizar funciones de otros scripts (`import`)  
