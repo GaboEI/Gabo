@@ -1,60 +1,27 @@
-# 📘 CURSO INTENSIVO BASE PYTHON
+# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> CURSO INTENSIVO BASE PYTHON <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/>
 
-## 📄 Introducción
 
-**ChatGPT**, a partir de este momento actuarás como mi profesor personal de programación intensiva, con el siguiente marco:
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align:middle;"/> Introducción
 
-- ✅ Estoy tomando un curso intensivo de programación contigo, desde cero, con enfoque en **Python** como base, pero con intención de avanzar en programación general de forma escalonada sin abandonar lo aprendido.  
-- ✅ Mantendrás un **cronograma diario y semanal** de clases estructuradas, con explicaciones claras, ejemplos, ejercicios prácticos y evaluaciones.  
-- ✅ Debes **calificarme en cada clase** con una nota del 1 al 10 y realizar evaluaciones de pase de etapa (pase de módulo) al estilo de un programa universitario, evitando que avance de nivel si no obtengo al menos **7/10**, reforzando lo necesario antes de continuar.  
-- ✅ Este espacio solo se dedicará a mis **clases de programación**, evitando mezclarlo con temas de trabajo, OCR, impresoras, tiendas u otros temas personales.  
-- ✅ Mi objetivo es **convertirme en programador profesional**, generar ingresos con programación y comprender profundamente cada concepto.  
-- ✅ Cuando indique “clase de programación 1, 2, 3…” deseo continuar desde esa clase con ejercicios, explicaciones y práctica.  
-- ✅ Ya guardaste el cronograma de la primera semana, y acordamos que cuando diga “día 1 en programación” me enseñes desde allí.  
-- ✅ Hablo español, pero puedo practicar **inglés** y **ruso** en ejemplos de código cuando lo indique.  
-- ✅ Quiero avanzar sin dejar atrás lo aprendido y con enfoque en integrarlo con mis objetivos de **automatización, creación de aplicaciones y proyectos empresariales**.  
-- ✅ Si envío fotos de código, quiero que las analices, corrijas y me expliques paso a paso de forma clara y pedagógica.  
-- ✅ Mi nombre es **Gabo**, prefiero un trato cercano, claro y motivador.  
-- ✅ Estoy usando ChatGPT Plus con GPT-4o y ahora puedo enviarte varias fotos al día para avanzar rápidamente en mis estudios.
+#### A partir de este momento, **ChatGPT** asumirá el rol de mi profesor personal de programación intensiva, bajo un sistema riguroso y estructurado. Estoy tomando un curso completo contigo, desde cero, con enfoque en <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" style="vertical-align:middle;"/> **Python** como base, pero con proyección a una formación integral en desarrollo general. Nuestro plan sigue un **cronograma diario y semanal**, con clases claras, explicaciones profundas, ejemplos reales, ejercicios prácticos y evaluaciones constantes. Cada clase debe ser calificada del 1 al 10, y no se podrá avanzar de nivel si no alcanzo al menos un **7/10**, aplicando refuerzos personalizados si es necesario. Este espacio se dedica **exclusivamente a la programación**, dejando fuera temas personales como tiendas, OCR o impresoras.
 
----
+#### Mi meta es convertirme en un **programador profesional** capaz de generar ingresos con proyectos propios o freelance, comprendiendo a fondo cada concepto. Cuando diga "clase de programación 1, 2, 3..." deberás continuar desde esa clase, manteniendo el hilo de los contenidos. Ya hemos guardado el cronograma de la primera semana, y si indico “día 1 en programación”, sabrás exactamente por dónde comenzar. Aunque hablamos en español, también puedo practicar ejemplos en ruso o <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="20"/> inglés si así lo indico.
 
-## 💥 Funciones específicas de ChatGPT como profesor
+#### Avanzaremos sin dejar conocimientos atrás, integrando todo lo aprendido con mis objetivos reales: **automatización**, **creación de aplicaciones multiplataforma**, y **soluciones empresariales útiles**. Si te envío una imagen de código, debes analizarla, corregirla y explicarla paso a paso de forma clara y pedagógica. Mi nombre es **Gabo**, y prefiero un trato cercano, serio pero motivador. Estoy usando **ChatGPT Plus con GPT-4o**, lo que me permite enviarte múltiples imágenes al día y avanzar a toda velocidad en mi formación.
 
-1. Preparar **clases de programación escalonadas** con cronograma diario.  
-2. Enseñar de forma **práctica**, con explicaciones claras, ejemplos y tareas.  
-3. Corregir mis códigos, identificar errores y explicar soluciones paso a paso.  
-4. Ponerme **evaluaciones de repaso** y de pase de módulo de forma autónoma cuando sea necesario.  
-5. Calificar cada clase de 1 a 10 con **feedback**.  
-6. Llevar control de mis avances, reforzando puntos débiles antes de continuar.  
-7. Responder preguntas **sin enjuiciar**, motivándome a continuar.  
-8. Preparar **PDFs de clases** si lo solicito para mi cuaderno digital.  
-9. No saltar de tema ni avanzar de nivel si no se domina el anterior.  
-10. Recordar mis objetivos de convertirme en **programador completo**, capaz de monetizar proyectos reales.  
-11. Explicarme **cada signo nuevo** en código, su función y por qué va en ese orden.  
-12. Darme en cada clase una **breve explicación profesional** de cómo puedo aplicar lo aprendido en el futuro.  
-13. En los scripts o esqueletos de ejercicios, incluir **comentarios clave** (#1️⃣ …) para explicar su propósito.  
-14. NO dar clases comprimidas ni resúmenes: quiero que sean **profundas, aplicadas, exigentes y bien explicadas**.  
-15. Ser mi **profesor y mentor personal** de programación.
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="25" style="vertical-align: middle;"/> Funciones específicas de ChatGPT como profesor
 
----
+#### Como mi profesor y mentor personal de programación, ChatGPT tiene la misión de guiarme con exigencia, empatía y precisión. Su labor consiste en preparar clases escalonadas con cronograma diario, enseñándome de forma práctica, clara y aplicada, siempre con ejemplos, tareas y explicaciones profundas. Es responsable de corregir mis códigos, señalar errores y explicarlos paso a paso sin omitir detalles, así como de calificar cada clase con feedback y evaluaciones autónomas cuando sea necesario. Además, debe llevar un seguimiento riguroso de mis avances, reforzar mis puntos débiles antes de pasar de nivel, y asegurarse de que no se avance sin dominio total del tema anterior. Me acompaña sin enjuiciar, motivándome constantemente, respondiendo cada duda, explicando la función de cada símbolo nuevo en el código, y mostrándome cómo aplicar lo aprendido profesionalmente en el futuro. Si se lo solicito, también debe generar PDFs de clases para mi cuaderno digital. Cada ejercicio que prepare debe incluir comentarios clave (#1️⃣, #2️⃣, etc.) que orienten la lógica del código sin resolverlo por completo. Bajo ninguna circunstancia debe entregar clases comprimidas ni resúmenes: la enseñanza debe ser profunda, profesional, exigente y orientada a crear en mí las habilidades necesarias para convertirme en un programador completo, capaz de monetizar sus proyectos y dominar su camino autodidacta con seguridad.
 
 ## 🛡️ OBJETIVO GENERAL
 
-Convertirme en programador profesional capaz de:  
-✅ Desarrollar software real.  
-✅ Automatizar procesos empresariales.  
-✅ Crear aplicaciones web, móviles y de escritorio.  
-✅ Aplicar inteligencia artificial a proyectos.  
-✅ Generar ingresos con programación freelance y proyectos propios.
+#### Convertirme en un **programador profesional integral**, con la capacidad de desarrollar software real que impacte en el mundo, automatizar procesos empresariales para optimizar recursos y eficiencia, y crear aplicaciones funcionales para entornos web, móviles y de escritorio. Aspiro a integrar la **inteligencia artificial** como motor de innovación en mis proyectos, y a generar ingresos sostenibles mediante **programación freelance** y la construcción de **proyectos propios**, sólidos y escalables.
 
----
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> MÓDULO 01 — Fundamentos de Programación (Python)
 
-## 🟩 MÓDULO 01 — Fundamentos de Programación (Python)
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar los conceptos básicos de la programación en Python, comprendiendo desde los tipos de datos hasta la creación de proyectos simples y organizados.
 
-**OBJETIVO:** Dominar los conceptos básicos de la programación en Python, comprendiendo desde los tipos de datos hasta la creación de proyectos simples y organizados.
-
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clasess
 
 1. [**Clase 00 — Tipos de datos:** int, float, str, bool](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_00_M1_TIPOS_DE_DATOS/Clase_00_Tipos_de_datos_int_float_str_bool.md)  
 2. [**Clase 01 — Variables y constantes**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_01_M1_VARIABLES_Y_CONSTANTES/variables_y_constantes.md)  
@@ -91,11 +58,10 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟨 MÓDULO 02 — Programación Orientada a Objetos con Python y Arquitectura Profesional (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> MÓDULO 02 — Programación Orientada a Objetos con Python y Arquitectura Profesional
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar la programación orientada a objetos con Python, aplicar arquitectura profesional, diseñar sistemas robustos y testear con pytest. Este módulo prepara para estructuras complejas, automatización avanzada y entrevistas técnicas.
 
-**OBJETIVO:** Dominar la programación orientada a objetos con Python, aplicar arquitectura profesional, diseñar sistemas robustos y testear con pytest. Este módulo prepara para estructuras complejas, automatización avanzada y entrevistas técnicas.
-
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
 1. **Clase 01 —** Introducción a la programación orientada a objetos (POO): clases, objetos, atributos y métodos en Python. Sintaxis y creación de estructuras básicas.  
 2. **Clase 02 —** Métodos especiales en Python: uso de `__init__`, `__str__`, `__repr__` para personalizar clases.  
@@ -130,11 +96,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟦 MÓDULO 03 — Automatización de tareas y scripting (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="22" style="vertical-align: middle;"/> MÓDULO 03 — Automatización de tareas y scripting
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear scripts robustos que automaticen tareas reales en el entorno empresarial y personal, aplicando lógica, librerías y herramientas clave.
 
-**OBJETIVO:** Crear scripts robustos que automaticen tareas reales en el entorno empresarial y personal, aplicando lógica, librerías y herramientas clave.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — Introducción al scripting y automatización:** qué es un script, diferencia con una app. Casos de uso.  
 02. **Clase 02 — Librerías estándar en Python:** importación, uso de documentación oficial, `os`, `sys`.  
 03. **Clase 03 — Manejo de archivos y carpetas con os y shutil:** automatizar navegación, creación, movimiento y renombrado.  
@@ -168,11 +134,12 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟪 MÓDULO 04 — Control de versiones y trabajo en equipo (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="25" style="vertical-align: middle;"/> MÓDULO 04 — Control de versiones y trabajo en equipo
 
-**OBJETIVO:** Dominar Git y GitHub, flujos colaborativos, ramas, pull requests y gestión profesional de código compartido.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="20" style="vertical-align: middle;"/> Git y <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" style="vertical-align: middle;"/> GitHub, flujos colaborativos, ramas, pull requests y gestión profesional de código compartido
 
-*Clases:*  
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. **Clase 01 — Introducción al control de versiones:** qué es Git, por qué es esencial en cualquier proyecto real.  
 02. **Clase 02 — Instalación y configuración de Git:** nombre, email, editores, claves SSH.  
 03. **Clase 03 — Repositorios locales vs remotos:** crear un repositorio local y conectar con GitHub.  
@@ -206,11 +173,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟧 MÓDULO 05 — Desarrollo Web (Frontend) (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" style="vertical-align: middle;"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="20" style="vertical-align: middle;"/> MÓDULO 05 — Desarrollo Web (Frontend)
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar el desarrollo web moderno desde cero: HTML, CSS, JavaScript, DOM, responsive design y React.
 
-**OBJETIVO:** Dominar el desarrollo web moderno desde cero: HTML, CSS, JavaScript, DOM, responsive design y React.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — Introducción al desarrollo web y el ecosistema Frontend:** estructura cliente-servidor, qué es el frontend.  
 02. **Clase 02 — HTML5:** estructura básica de una página. Etiquetas `<html>`, `<head>`, `<body>`.  
 03. **Clase 03 — Etiquetas semánticas en HTML5:** `<header>`, `<section>`, `<footer>`, `<article>`, `<nav>`.  
@@ -243,14 +210,16 @@ Convertirme en programador profesional capaz de:
 30. **Clase 30 — PROYECTO FINAL:** panel de control interactivo con React (SPA). Diseño responsivo, consumo de datos, formularios.  
 31. **Clase 31 — 📘 EVALUACIÓN FINAL:** teórico-práctica del módulo (mínimo 7/10). Página completa y funcional publicada.
 
+
 ---
 
-## ⬜ MÓDULO 06 — Desarrollo Web (Backend) (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 06 — Desarrollo Web (Backend)
 
-**OBJETIVO:** Crear APIs robustas con FastAPI o Node.js, trabajar con bases de datos y montar un backend funcional para cualquier app.
+🧭 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" style="vertical-align:middle;"/> **OBJETIVO:** Crear APIs robustas con **FastAPI** o **Node.js**, trabajar con bases de datos y montar un backend funcional para cualquier app real.
 
-*Clases:*  
-01. **Clase 01. — Introducción al backend y APIs:** diferencias con frontend. ¿Qué es una API?  
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
+01. **Clase 01 — Introducción al backend y APIs:** diferencias con frontend. ¿Qué es una API?  
 02. **Clase 02 — Protocolo HTTP:** métodos, rutas, códigos de estado.  
 03. **Clase 03 — Introducción a FastAPI:** instalación, primer endpoint. Hola mundo, Uvicorn, rutas simples.  
 04. **Clase 04 — Rutas dinámicas, parámetros y validaciones con FastAPI.**  
@@ -258,36 +227,36 @@ Convertirme en programador profesional capaz de:
 06. **Clase 06 — Métodos GET, POST, PUT, DELETE en endpoints.**  
 07. **Clase 07 — Introducción a JSON y serialización.**  
 08. **Clase 08 — Manejo de errores y respuestas personalizadas.**  
-09. **Clase 09 — PROYECTO MINI:** API de tareas (To-Do) sin base de datos aún.  
+09. **Clase 09 — 🧪 PROYECTO MINI:** API de tareas (To-Do) sin base de datos aún.  
 10. **Clase 10 — Introducción a bases de datos relacionales:** SQL, PostgreSQL.  
 11. **Clase 11 — Instalación y conexión a PostgreSQL desde FastAPI.**  
 12. **Clase 12 — ORM con SQLAlchemy:** modelo de datos y migraciones.  
 13. **Clase 13 — CRUD completo:** crear, leer, actualizar y borrar.  
-14. **Clase 14 — PROYECTO MINI:** API de usuarios con base de datos.  
+14. **Clase 14 — 🧪 PROYECTO MINI:** API de usuarios con base de datos.  
 15. **Clase 15 — Relaciones entre tablas:** uno a muchos, muchos a muchos.  
 16. **Clase 16 — Autenticación básica con token (OAuth2 + JWT).**  
 17. **Clase 17 — Registro y login de usuarios con contraseña segura.**  
 18. **Clase 18 — Middleware y dependencias globales en FastAPI.**  
 19. **Clase 19 — Enviar correos desde el backend (SMTP).**  
 20. **Clase 20 — Subida y manejo de archivos con FastAPI.**  
-21. **Clase 21 — PROYECTO COMPLETO:** API de gestión de clientes y servicios.  
+21. **Clase 21 — 📦 PROYECTO COMPLETO:** API de gestión de clientes y servicios.  
 22. **Clase 22 — Control de acceso por roles (admin, usuario).**  
 23. **Clase 23 — Introducción a tests en backend (Pytest).**  
 24. **Clase 24 — Documentación avanzada con OpenAPI.**  
-25. **Clase 25 — Preparación para despliegue:** archivos .env, seguridad.  
+25. **Clase 25 — Preparación para despliegue:** archivos `.env`, seguridad.  
 26. **Clase 26 — Backend modularizado:** separación por carpetas.  
-27. **Clase 27 — Introducción a Docker para backend local.**  
+27. **Clase 27 — <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="20" style="vertical-align:middle;"/> Introducción a Docker para backend local.**  
 28. **Clase 28 — Preparar backend para integración con frontend.**  
 29. **Clase 29 — Publicación en Render/Vercel/Heroku.**  
-30. **Clase 30 — 📘 EVALUACIÓN FINAL:** API completa, probada, con documentación. Nota mínima 7/10.
+30. **Clase 30 — 🧪 EVALUACIÓN FINAL:** API completa, probada, con documentación. Nota mínima 7/10.
 
 ---
 
-## 🟥 MÓDULO 07 — Bases de Datos Avanzadas y Arquitectura (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 07 — Bases de Datos Avanzadas y Arquitectura
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar SQL avanzado, trabajar con bases de datos relacionales y NoSQL, y aprender arquitectura sólida de datos..
 
-**OBJETIVO:** Dominar SQL avanzado, trabajar con bases de datos relacionales y NoSQL, y aprender arquitectura sólida de datos.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — Repaso general de SQL básico:** SELECT, INSERT, UPDATE, DELETE.  
 02. **Clase 02 — Claves primarias y foráneas:** relaciones reales entre tablas.  
 03. **Clase 03 — Tipos de relaciones:** 1-1, 1-N, N-N. Ejemplos prácticos.  
@@ -321,11 +290,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟩 MÓDULO 08 — DevOps básico y despliegue (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 08 — DevOps básico y despliegue
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Automatizar el ciclo de vida de tu software desde desarrollo hasta producción usando herramientas modernas.
 
-**OBJETIVO:** Automatizar el ciclo de vida de tu software desde desarrollo hasta producción usando herramientas modernas.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — ¿Qué es DevOps?:** introducción y objetivos.  
 02. **Clase 02 — Infraestructura como código:** qué significa y por qué importa.  
 03. **Clase 03 — Introducción a Docker y contenedores.**  
@@ -359,11 +328,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟨 MÓDULO 09 — Inteligencia Artificial y Machine Learning (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="25" style="vertical-align:middle;"/> MÓDULO 09 — Inteligencia Artificial y Machine Learning
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender los fundamentos de ML, entrenar modelos reales y aplicarlos en tus propios proyectos con Python.
 
-**OBJETIVO:** Comprender los fundamentos de machine learning, entrenar modelos reales y aplicarlos en tus propios proyectos con Python.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — ¿Qué es Machine Learning y cómo funciona?:** aprendizaje supervisado vs no supervisado.  
 02. **Clase 02 — Tipos de problemas:** clasificación, regresión, clustering.  
 03. **Clase 03 — Flujo de trabajo en un proyecto de ML.**  
@@ -397,11 +366,12 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟫 MÓDULO 10 — Desarrollo de aplicaciones móviles y de escritorio (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="20" style="vertical-align:middle;"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png" width="20" style="vertical-align:middle;"><img src="https://raw.githubusercontent.com/github/explore/main/topics/react-native/react-native.png" width="20" style="vertical-align:middle;"> MÓDULO 10 — Desarrollo de Aplicaciones Móviles y de Escritorio 
 
-**OBJETIVO:** Crear apps funcionales y multiplataforma usando frameworks modernos para desktop (Electron/Tauri) y móvil (Flutter/React Native).
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear **apps funcionales, modernas y multiplataforma**, dominando frameworks actuales como Electron y Tauri 🖥️ para escritorio, y Flutter / React Native 📱 para desarrollo móvil profesional.
 
-*Clases:*  
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. **Clase 01 — ¿Qué es una app nativa, híbrida y PWA?**  
 02. **Clase 02 — Elección de framework:** desktop vs móvil.  
 03. **Clase 03 — Introducción a Tauri:** qué es y por qué es ligero.  
@@ -435,11 +405,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟥 MÓDULO 11 — Proyecto Final de Integración (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" width="18"> <img src="https://cdn-icons-png.flaticon.com/512/726/726448.png" width="18"> MÓDULO 11 — Proyecto Final de Integración
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Construir una aplicación completa, profesional, con frontend, backend, base de datos, despliegue y documentación. Será tu carta de presentación al mundo real.
 
-**OBJETIVO:** Construir una aplicación completa, profesional, con frontend, backend, base de datos, despliegue y documentación. Será tu carta de presentación al mundo real.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — Definición del proyecto:** elección del problema real a resolver (Ejemplos: sistema de reservas, gestión escolar, facturación).  
 02. **Clase 02 — Análisis de requerimientos funcionales y técnicos.**  
 03. **Clase 03 — Diseño de la arquitectura general:** modular, escalable.  
@@ -473,11 +443,12 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟪 MÓDULO 12 — Estructuras de datos y algoritmos clásicos (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/2875/2875270.png" width="22" style="vertical-align:middle" title="Estructuras de datos"> MÓDULO 12 — Estructuras de datos y algoritmos clásicos
 
-**OBJETIVO:** Dominar estructuras clave (listas, árboles, grafos) y algoritmos típicos para mejorar tu pensamiento lógico y preparación para entrevistas técnicas.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Dominar estructuras clave (listas, árboles, grafos) y algoritmos típicos para mejorar tu pensamiento lógico y preparación para entrevistas técnicas.
 
-*Clases:*  
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. **Clase 01 — Qué es un algoritmo y cómo medir su eficiencia (Big O).**  
 02. **Clase 02 — Listas, pilas y colas:** implementación manual y con colecciones.  
 03. **Clase 03 — Proyecto:** simulador de historial de navegador (con pila).  
@@ -511,11 +482,11 @@ Convertirme en programador profesional capaz de:
 
 ---
 
-## 🟥 MÓDULO 13 — Seguridad y buenas prácticas avanzadas (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" width="20" title="Seguridad"> <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="20" title="Buenas prácticas"> MÓDULO 13 — Seguridad y buenas prácticas avanzadas
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a escribir código seguro, prevenir ataques comunes y aplicar buenas prácticas a nivel profesional.
 
-**OBJETIVO:** Aprender a escribir código seguro, prevenir ataques comunes y aplicar buenas prácticas a nivel profesional.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — ¿Qué es la seguridad en el desarrollo de software?**  
 02. **Clase 02 — Seguridad en APIs:** autenticación, tokens, scopes.  
 03. **Clase 03 — Encriptación vs hashing:** diferencias y casos de uso.  
@@ -547,11 +518,12 @@ Convertirme en programador profesional capaz de:
 29. **Clase 29 — Proyecto final:** app segura con backend y frontend blindado.  
 30. **Clase 30 — 📘 EVALUACIÓN FINAL:** checklist de seguridad + revisión de código.
 
-## 🟦 MÓDULO 14 — Testing y calidad de software (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" width="20" title="Testing"> <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="20" title="Calidad"> MÓDULO 14 — Testing y calidad de software
 
-**OBJETIVO:** Aprender a testear tu código con pruebas unitarias, funcionales, de integración y automatizadas. Garantizar calidad y robustez.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a testear tu código con pruebas unitarias, funcionales, de integración y automatizadas. Garantizar calidad y robustez.
 
-*Clases:*  
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. **Clase 01 — ¿Qué es testing y por qué es esencial?**  
 02. **Clase 02 — Tipos de pruebas:** unitarias, integración, extremo a extremo.  
 03. **Clase 03 — Escribir pruebas simples con assert en Python.**  
@@ -583,11 +555,11 @@ Convertirme en programador profesional capaz de:
 29. **Clase 29 — Proyecto final:** suite de tests completa (API + Frontend).  
 30. **Clase 30 — 📘 EVALUACIÓN FINAL:** 100% cobertura + flujo automatizado.
 
-## 🟧 MÓDULO 15 — Monetización y carrera como programador freelance (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/1077/1077976.png" width="25"/> MÓDULO 15 — Monetización y carrera como programador freelance
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a generar ingresos como programador independiente, crear tu marca, trabajar con clientes y vender soluciones.
 
-**OBJETIVO:** Aprender a generar ingresos como programador independiente, crear tu marca, trabajar con clientes y vender soluciones.
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
-*Clases:*  
 01. **Clase 01 — ¿Cómo ganar dinero como programador hoy?**  
 02. **Clase 02 — Freelancing vs trabajar en empresa.**  
 03. **Clase 03 — Plataformas para conseguir clientes:** Upwork, Fiverr, Malt, Workana.  
@@ -625,11 +597,12 @@ Convertirme en programador profesional capaz de:
 Luego del Módulo 15 haremos una **pequeña pausa** para integrar un **MÓDULO INTENSIVO – JSON**.  
 Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** siguiendo el plan oficial del curso.
 
-## ⬛ MÓDULO INTENSIVO – JSON
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" width="25"/> MÓDULO INTENSIVO – JSON
 
-**OBJETIVO:** Comprender a fondo el formato JSON y su uso práctico en proyectos reales con Python y JavaScript. Aprenderás a leer, escribir, validar y manipular datos en formato JSON para integrarlo en sistemas, APIs y almacenamiento de información persistente.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender a fondo el formato JSON y su uso práctico en proyectos reales con Python y JavaScript. Aprenderás a leer, escribir, validar y manipular datos en formato JSON para integrarlo en sistemas, APIs y almacenamiento de información persistente.
 
-*Clases:*  
+#### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. **Clase 01 — ¿Qué es JSON y para qué sirve?**  
 02. **Clase 02 — Estructura básica de un archivo JSON**  
 03. **Clase 03 — Tipos de datos permitidos en JSON**  
@@ -651,11 +624,12 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 19. **Clase 19 — Guardar datos en `localStorage` como JSON (JS)**  
 20. **Clase 20 — Convertir entre JSON y otros formatos:** CSV, diccionario, objeto, etc.
 
-## 🟩 MÓDULO 16: Blockchain y contratos inteligentes — Versión extendida
+## <img src="https://static.thenounproject.com/png/4495691-200.png" width="25"/> <img src="https://static.thenounproject.com/png/2930207-200.png" width="25"/> MÓDULO 16: Blockchain y contratos inteligentes
 
-**OBJETIVO:** Comprender el funcionamiento de las cadenas de bloques, desarrollar y desplegar contratos inteligentes en Ethereum con Solidity.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Comprender el funcionamiento de las cadenas de bloques, desarrollar y desplegar contratos inteligentes en Ethereum con Solidity.
 
-*Clases:*
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. ¿Qué es Blockchain y cómo funciona?  
 02. Historia y casos de uso reales (más allá de criptomonedas)  
 03. Qué es un contrato inteligente  
@@ -689,11 +663,12 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🟫 MÓDULO 17: Aplicaciones en tiempo real y WebSockets — Versión extendida
+## <img src="https://cdn.worldvectorlogo.com/logos/websocket.svg" width="25"/> MÓDULO 17: Aplicaciones en tiempo real y WebSockets — Versión extendida
 
-**OBJETIVO:** Crear apps que respondan en tiempo real como chats, notificaciones, dashboards, usando WebSockets y tecnología en vivo.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Crear apps que respondan en tiempo real como chats, notificaciones, dashboards, usando WebSockets y tecnología en vivo.
 
-*Clases:*
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 01. ¿Qué es una app en tiempo real? Casos de uso  
 02. HTTP vs WebSocket: diferencias clave  
 03. Instalación de entorno: FastAPI con websockets o Socket.IO  
@@ -727,11 +702,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🟥 MÓDULO 18 — Microservicios y Arquitectura Escalable (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="25"/> MÓDULO 18 — Microservicios y Arquitectura Escalable (Versión extendida)
 
-**OBJETIVO:** Entender y construir sistemas distribuidos con microservicios, comunicación entre servicios y escalabilidad.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Entender y construir sistemas distribuidos con microservicios, comunicación entre servicios y escalabilidad.
 
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
 1. **Clase 01 —** ¿Qué es una arquitectura de microservicios?  
 2. **Clase 02 —** Monolito vs microservicio: diferencias reales  
@@ -766,11 +741,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🟪 MÓDULO 19 — Testing de Carga, Performance y Stress (Versión extendida)
+## <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" width="25"/> MÓDULO 19 — Testing de Carga, Performance y Stress (Versión extendida)
 
-**OBJETIVO:** Aprender a medir el rendimiento de tus apps, detectar cuellos de botella y garantizar que funcionen bajo alta demanda.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a medir el rendimiento de tus apps, detectar cuellos de botella y garantizar que funcionen bajo alta demanda.
 
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
 1. **Clase 01 —** ¿Qué es un test de carga, stress y performance?  
 2. **Clase 02 —** Herramientas: Locust, Artillery, JMeter (intro)  
@@ -807,11 +782,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🟥 MÓDULO 20 — Diseño UX/UI profesional (Versión extendida)
+## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="25"/> MÓDULO 20 — Diseño UX/UI profesional (Versión extendida)
 
-**OBJETIVO:** Diseñar interfaces limpias, agradables y usables, usando Figma, principios de UX y prototipado profesional.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Diseñar interfaces limpias, agradables y usables, usando Figma, principios de UX y prototipado profesional.
 
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
 1. **Clase 01 —** ¿Qué es UX y UI? Diferencias y sinergias  
 2. **Clase 02 —** Principios de diseño centrado en el usuario  
@@ -846,11 +821,11 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🏁 MÓDULO 21 — Desarrollo de videojuegos 2D con Python (Pygame) (Versión extendida)
+## <img src="https://www.pygame.org/docs/_static/pygame_logo.svg" width="25"/> MÓDULO 21 — Desarrollo de videojuegos 2D con Python (Pygame) (Versión extendida)
 
-**OBJETIVO:** Aprender los fundamentos del desarrollo de juegos 2D usando Pygame, lógica de movimiento, colisiones, enemigos, sonido y más.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender los fundamentos del desarrollo de juegos 2D usando Pygame, lógica de movimiento, colisiones, enemigos, sonido y más.
 
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
 
 1. **Clase 01 —** Introducción al desarrollo de juegos  
 2. **Clase 02 —** Instalación y estructura base de Pygame  
@@ -885,11 +860,12 @@ Una vez concluido este módulo especial, continuaremos con el **MÓDULO 16** sig
 
 ---
 
-## 🔲 MÓDULO EXTRA A — Integración entre scripts y módulos
+## <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" width="25"/> MÓDULO EXTRA A — Integración entre scripts y módulos
 
-**OBJETIVO:** Aprender a combinar proyectos anteriores en soluciones reales más grandes.
+<img src="https://cdn-icons-png.flaticon.com/512/2591/2591107.png" width="22" style="vertical-align:middle; margin-right:6px;"> **OBJETIVO GENERAL:** Aprender a combinar proyectos anteriores en soluciones reales más grandes.
 
-**Clases:**
+### <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="20"/> Clases
+
 
 1. **Clase 01 —** Reutilizar funciones de otros scripts (`import`)  
 2. **Clase 02 —** `if __name__ == "__main__":` para ejecución controlada  
