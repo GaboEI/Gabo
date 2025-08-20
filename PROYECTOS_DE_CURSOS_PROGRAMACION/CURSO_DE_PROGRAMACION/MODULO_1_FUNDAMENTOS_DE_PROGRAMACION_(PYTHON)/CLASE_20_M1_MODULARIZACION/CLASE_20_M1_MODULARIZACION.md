@@ -789,4 +789,330 @@ Correo: gespinosaizada03@gmail.com
 """
 ```
 
+## 🧩 `05_menu_modular_con_funciones.py`
+
+---
+
+### 🎯 1. Objetivo del ejercicio
+
+Construir un **menú interactivo en consola** con múltiples opciones, donde cada opción ejecuta una función modular distinta, y el flujo esté correctamente controlado con validaciones, bucles y salidas limpias. Este ejercicio consolidará tu dominio de:
+
+* Funciones con responsabilidades claras
+* Menús textuales interactivos
+* Bucles controlados (`while True`)
+* Validación de entrada del usuario
+* Salida profesional
+
+---
+
+### 📘 2. Breve teoría del concepto aplicado
+
+#### 🧠 ¿Qué es un menú modular?
+
+Un menú es una **interfaz de navegación textual** que le permite al usuario elegir una acción. Cuando lo hacemos de forma modular, cada opción del menú:
+
+* Llama a una función específica
+* No mezcla lógicas
+* Es extensible y fácil de mantener
+
+#### 🔄 Estructura típica de un menú en consola
+
+1. Se muestra el menú (normalmente con `print`)
+2. Se pide una opción (`input`)
+3. Se valida la entrada
+4. Se ejecuta la acción correspondiente (una función)
+5. Se repite mientras no se elija "Salir"
+
+---
+
+### 📌 3. Ejemplo mínimo (para visualizar la lógica)
+
+```plaintext
+Menú Principal
+1. Saludar
+2. Mostrar Fecha
+3. Salir
+Seleccione una opción:
+```
+
+Si el usuario escribe `1`, se ejecuta la función `saludar()`
+Si escribe `2`, se ejecuta `mostrar_fecha()`
+Si escribe `3`, termina el programa.
+
+---
+
+### 🔧 4. Diagrama de flujo (con mejoras opcionales 🟥)
+
+```.
+Inicio
+↓
+while True:
+    ↓
+    Mostrar menú principal
+    ↓
+    Pedir opción al usuario
+    ↓
+    Validar que sea un número
+    ├── Si no lo es → Mostrar error y repetir 🟥
+    ↓
+    Validar que esté entre opciones válidas
+    ├── Si no está → Mostrar error y repetir 🟥
+    ↓
+    Ejecutar opción:
+        ├── Si 1 → Llamar a funcion_opcion_1()
+        ├── Si 2 → Llamar a funcion_opcion_2()
+        ├── ...
+        └── Si N → Llamar a salir() y romper bucle
+↓
+Fin
+```
+
+---
+
+### `05_menu_modular_con_funciones.py`
+
+```python
+# 🐍 05_menu_modular_con_funciones.py
+
+def mostrar_menu():
+    print("\n=== 🌟 MENÚ PRINCIPAL 🌟 ===")
+    print("1. 👋 Saludar")
+    print("2. 💪 Mostrar mensaje motivacional")
+    print("3. 🚪 Salir")
+    print("======================")
+
+
+def pedir_opcion():
+    while True:
+        try:
+            opcion = int(input("➡️ Ingrese una opción (1-3): "))
+            if 1 <= opcion <= 3:
+                return opcion
+            else:
+                print("❌ Error: La opción debe estar entre 1 y 3.")
+        except ValueError:
+            print("❌ Error: Por favor, ingrese un número válido.")
+
+
+def funcion_opcion_1():
+    nombre = input("✍️ Ingrese su nombre: ")
+    print(f"👋 ¡Hola, {nombre}! Bienvenido al programa 🎉")
+
+
+def funcion_opcion_2():
+    print("💪 ¡Tú puedes con todo! Sigue adelante y alcanza tus metas 🌟")
+
+
+def salir():
+    print("\n🙏 ¡Gracias por usar el programa! Hasta pronto 😊")
+
+
+def main():
+    while True:
+        mostrar_menu()
+        opcion = pedir_opcion()
+        
+        if opcion == 1:
+            funcion_opcion_1()
+        elif opcion == 2:
+            funcion_opcion_2()
+        elif opcion == 3:
+            salir()
+            break
+
+
+if __name__ == "__main__":
+    main()
+```
+
+```python
+"""
+====================================================================
+=== RESPUESTA DE CONSOLA ===
+====================================================================
+=== 🌟 MENÚ PRINCIPAL 🌟 ===
+1. 👋 Saludar
+2. 💪 Mostrar mensaje motivacional
+3. 🚪 Salir
+======================
+➡️ Ingrese una opción (1-3): 1
+✍️ Ingrese su nombre: Grabiel Espinosa Izada
+👋 ¡Hola, Grabiel Espinosa Izada! Bienvenido al programa 🎉
+
+=== 🌟 MENÚ PRINCIPAL 🌟 ===
+1. 👋 Saludar
+2. 💪 Mostrar mensaje motivacional
+3. 🚪 Salir
+======================
+➡️ Ingrese una opción (1-3): 2
+💪 ¡Tú puedes con todo! Sigue adelante y alcanza tus metas 🌟
+
+=== 🌟 MENÚ PRINCIPAL 🌟 ===
+1. 👋 Saludar
+2. 💪 Mostrar mensaje motivacional
+3. 🚪 Salir
+======================
+➡️ Ingrese una opción (1-3): 3
+
+🙏 ¡Gracias por usar el programa! Hasta pronto 😊
+====================================================================
+"""
+```
+
+---
+
+### 🧠 Mejoras opcionales válidas hasta la Clase 20 (🟥)
+
+| Mejora 🟥                           | Tema relacionado                |
+| ----------------------------------- | ------------------------------- |
+| Validar que la opción sea numérica  | `try/except` de entradas        |
+| Validar que esté dentro del menú    | Condicionales y listas          |
+| Agregar separación visual elegante  | UX con `print("="*30)`          |
+| Confirmar salida con pregunta (s/n) | Bucle `while`, control booleano |
+| Colocar íconos en el menú (🎯, ✅)   | Presentación profesional        |
+
+---
+
+## 🧩 `06_calculadora_menu_funcional.py`
+
+---
+
+### ✍️ 1. Objetivo del ejercicio
+
+Construir una **calculadora de operaciones básicas** (suma, resta, multiplicación, división) que funcione mediante un **menú interactivo modular**:
+
+* Cada opción ejecuta una función matemática diferente
+* Entrada validada para los números
+* Control de división por cero
+* Ciclo hasta que el usuario decida salir
+
+Este ejercicio es **la unión natural entre**:
+
+* `03_calculadora_modular.py`
+* `05_menu_modular_con_funciones.py`
+
+---
+
+### 📘 2. Teoría puntual: Menú + funciones matemáticas
+
+#### 🔄 Estructura general esperada
+
+1. Mostrar menú con operaciones
+2. Pedir opción válida
+3. Pedir dos números
+4. Ejecutar operación correspondiente
+5. Mostrar resultado
+6. Repetir hasta que se elija "Salir"
+
+#### 🧠 Conceptos aplicados
+
+* **Funciones**: separar cada operación (`sumar()`, `restar()`, etc.)
+* **Menú**: diseño profesional y controlado
+* **Entrada de datos**: validada con `try/except`
+* **Estructura modular**: cada parte en su función
+* **UX profesional**: mensajes claros y consistentes
+
+---
+
+### 🔁 3. Diagrama de flujo (con mejoras opcionales 🟥)
+
+```m
+Inicio
+↓
+while True:
+    ↓
+    Mostrar menú con opciones (1 a 5)
+    ↓
+    Pedir opción del usuario
+    ├── 🟥 Validar que sea número
+    ├── 🟥 Validar que esté en rango 1–5
+    ↓
+    Si opción == 5 → salir() y break
+    ↓
+    Pedir dos números
+    ├── 🟥 Validar que sean float (try/except)
+    ├── 🟥 Si división y num2 == 0 → error
+    ↓
+    Ejecutar operación correspondiente:
+        ├── Si 1 → sumar(num1, num2)
+        ├── Si 2 → restar(num1, num2)
+        ├── Si 3 → multiplicar(num1, num2)
+        └── Si 4 → dividir(num1, num2)
+    ↓
+    Mostrar resultado
+    ↓
+Fin
+```
+
+---
+
+### 🧱 `06_calculadora_menu_funcional.py`
+
+```python
+# 🐍 06_calculadora_menu_funcional.py
+
+#1️⃣ mostrar_menu(): muestra el menú principal
+def mostrar_menu():
+    # print con opciones 1–5
+    # 1) Sumar, 2) Restar, 3) Multiplicar, 4) Dividir, 5) Salir
+    pass
+
+#2️⃣ pedir_opcion(): pide y valida opción del menú
+def pedir_opcion():
+    # input()
+    # 🟥 try/except para validar número
+    # 🟥 validar que esté en el rango permitido
+    pass
+
+#3️⃣ pedir_numeros(): solicita y valida dos números
+def pedir_numeros():
+    # 🟥 input de num1 y num2
+    # 🟥 convertir a float
+    # 🟥 si división → validar que num2 ≠ 0
+    pass
+
+#4️⃣ sumar(num1, num2)
+#5️⃣ restar(num1, num2)
+#6️⃣ multiplicar(num1, num2)
+#7️⃣ dividir(num1, num2)
+# Cada función debe devolver el resultado correspondiente
+def sumar(a, b): pass
+def restar(a, b): pass
+def multiplicar(a, b): pass
+def dividir(a, b): pass  # 🟥 Validar división por cero si no se hizo antes
+
+#8️⃣ mostrar_resultado(resultado): imprime el resultado con estilo
+def mostrar_resultado(resultado):
+    # Mensaje con el resultado y separación visual
+    pass
+
+#9️⃣ salir(): muestra mensaje de despedida
+def salir():
+    pass
+
+#🔟 main(): ciclo de ejecución principal
+def main():
+    # while True:
+        # mostrar menú
+        # pedir opción
+        # si opción == 5 → salir y break
+        # pedir números
+        # ejecutar operación
+        # mostrar resultado
+    pass
+```
+
+---
+
+### 🟥 Mejoras opcionales válidas hasta Clase 20
+
+| Mejora extra 🟥                         | Tema ya estudiado |
+| --------------------------------------- | ----------------- |
+| Validar si la opción es un número       | `try/except`      |
+| Validar rango 1 a 5                     | Condicionales     |
+| Validar entrada de números flotantes    | `try/except`      |
+| Validar división por cero               | Condiciones       |
+| Decoración visual del menú (`"=" * 30`) | UX                |
+| Repetición hasta salir con opción       | `while True`      |
+
 ---

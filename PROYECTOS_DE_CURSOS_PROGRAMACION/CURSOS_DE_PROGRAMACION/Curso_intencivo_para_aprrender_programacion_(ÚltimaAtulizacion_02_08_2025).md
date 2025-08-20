@@ -44,7 +44,7 @@
 19. [**Clase 18 — Manipulación de strings:** .split(), .strip(), .join(), slicing](https://github.com/GaboEI/Gabo/blob/main/00_clase_18_COMPLETA_manipulaci%C3%B3n%20de%20Strings_teoria_ejercicios.md)  
 .   [**Clase Extra 18 — Manipulación de strings:** .upper(), .lower(), .replace(), .startswith(), .endswith(), .title(), .capitalize(), .find(), .index(), .count()](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_18_EXTENCION_M1_MANIPULACION_DE_SCRIPTS/00_CLASE_18_EXTENCION_M1_MANIPULACION_DE_SCRIPTS.md)
 20. [**Clase 19 — Pensamiento algorítmico:** análisis y resolución paso a paso](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_19_M1_PENSAMIENTO_ALGORICMICO/CLASE_19_M1_PENSAMIENTO_ALGORICMICO.md)  
-21. **Clase 20 — Modularización:** separar código en funciones prácticas  
+[21. **Clase 20 — Modularización:** separar código en funciones prácticas ](https://github.com/GaboEI/Gabo/blob/ea5bab95815574c623ddd8707d10efd4a4690967/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_20_M1_MODULARIZACION/CLASE_20_M1_MODULARIZACION.md) 
 22. **Clase 21 — Uso de estructuras anidadas:** listas de diccionarios, etc.  
 23. **Clase 22 — PROYECTO:** Agenda de eventos con estado pendiente/completado  
 24. **Clase 23 — Operadores lógicos y combinados en condiciones complejas**  
