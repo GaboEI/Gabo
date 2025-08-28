@@ -875,3 +875,193 @@ inesperadas. */
 ```
 
 ---
+
+## 🧪 EJERCICIO 5 – `05_buenasPracticasEnDeclaracion.js`
+
+---
+
+### 💥 **Objetivo del ejercicio**
+
+Aplicar y reforzar **buenas prácticas en la declaración de variables** (`let`, `const`) para:
+
+* Mejorar la legibilidad y mantenibilidad del código
+* Evitar errores silenciosos y mutaciones indeseadas
+* Fomentar un estilo de programación profesional y consistente
+
+Este ejercicio no solo evalúa tu conocimiento técnico, sino tu **criterio profesional como desarrollador**.
+
+---
+
+## ✍️ TEORÍA
+
+### 📌 Buenas prácticas clave a aplicar
+
+| Recomendación                                           | Explicación                                                      |
+| ------------------------------------------------------- | ---------------------------------------------------------------- |
+| ✅ Usar `const` por defecto                              | Toda variable que no necesite cambio debe declararse con `const` |
+| ✅ Usar `let` solo si se va a modificar                  | Evita mutaciones accidentales                                    |
+| ❌ Evitar `var` completamente                            | Por scope débil y hoisting no controlado                         |
+| ✅ Declarar al inicio del bloque                         | Mejora la visibilidad de las variables disponibles               |
+| ✅ Nombrar descriptivamente                              | Sin nombres genéricos ni ambiguos (`x`, `data`, `temp`, etc.)    |
+| ✅ Evitar declarar múltiples variables en una sola línea | Reduce errores de lectura y depuración                           |
+| ✅ Agrupar por contexto o funcionalidad                  | Mantiene el código más organizado                                |
+
+---
+
+### 🧪 Ejemplo mínimo
+
+```js
+// ❌ Mala práctica
+var x = 5, y = true;
+
+// ✅ Buena práctica
+const age = 30;
+let isActive = true;
+```
+
+---
+
+## 🔢 DIAGRAMA DE FLUJO
+
+```.
+Inicio del script
+↓
+Crear bloque principal (por ejemplo, función o lógica simulada)
+↓
+Declarar variables usando const por defecto
+↓
+¿Necesito reasignar alguna?
+├── Sí → usar let
+├── No → mantener const
+↓
+Agrupar variables relacionadas por funcionalidad
+↓
+Evitar declarar variables dentro de if/for si se usan fuera
+↓
+Nombrar las variables de forma clara y específica
+↓
+Separar cada declaración en líneas independientes
+↓
+(Extra) Aplicar destructuring donde sea apropiado
+↓
+Imprimir variables organizadamente para comprobar que funcionan
+↓
+Reflexión final sobre cómo impacta esto en mantenimiento profesional
+↓
+Fin del script
+```
+
+---
+
+## EJERCICIO 5 – `05_buenasPracticasEnDeclaracion.js`
+
+```js
+//EJERCICIO 5 – 05_buenasPracticasEnDeclaracion.js
+
+// Carrito de Frutas
+
+// Valores fijos (no cambian)
+const maxFrutas = 2;
+const nombreTienda = "Tienda de Frutas";
+
+// Información del usuario
+const nombreUsuario = "Sofia";
+
+// Información del carrito (puede cambiar)
+let frutasEnCarrito = [];
+let costoTotal = 0;
+
+// Lista de frutas
+const frutas = [
+    { nombre: "Manzana", precio: 2 },
+    { nombre: "Plátano", precio: 3 }
+];
+
+// Función para agregar una fruta al carrito
+function agregarFruta(nombreFruta) {
+    if (frutasEnCarrito.length >= maxFrutas) {
+        console.log("¡El carrito está lleno!");
+    } else {
+        // Buscar la fruta
+        const fruta = frutas.find(f => f.nombre === nombreFruta);
+        if (fruta) {
+            frutasEnCarrito.push(fruta);
+            costoTotal = costoTotal + fruta.precio;
+            console.log(fruta.nombre + " añadida. Total: $" + costoTotal);
+        } else {
+            console.log("¡Fruta no encontrada!");
+        }
+    }
+}
+
+// Función para mostrar el carrito
+function mostrarCarrito() {
+    console.log("Carrito de " + nombreUsuario + ":");
+    frutasEnCarrito.forEach(fruta => console.log("- " + fruta.nombre + ": $" + fruta.precio));
+    console.log("Total: $" + costoTotal);
+}
+
+// Probar el código
+agregarFruta("Manzana");
+agregarFruta("Plátano");
+mostrarCarrito();
+
+// Verificar algunos valores
+console.log("Usuario:", nombreUsuario);
+console.log("Frutas en el carrito:", frutasEnCarrito.length);
+
+/* 
+**Reflexión Final**:
+- **Mantenimiento**: Nombres claros como `costoTotal` y organización por bloques (usuario, carrito) facilitan modificar el código.
+- **Debugging**: Usar `const` evita cambios accidentales, y los `console.log` ayudan a verificar qué pasa.
+- **Trabajo en equipo**: Código claro y sin `var` es fácil de entender para otros, agilizando la colaboración.
+*/
+
+/*
+====================================================================
+=== RESPUESTA DE CONSOLA ===
+====================================================================
+❯ node 05_buenasPracticasEnDeclaracion.js
+Manzana añadida. Total: $2
+Plátano añadida. Total: $5
+Carrito de Sofia:
+- Manzana: $2
+- Plátano: $3
+Total: $5
+Usuario: Sofia
+Frutas en el carrito: 2
+====================================================================
+*/
+```
+
+---
+
+📘✨ **CLASE JS 3 – Cierre oficial, evaluación final y registro pedagógico**
+🚀 Tema: `var`, `let`, `const` y el **scope léxico en JavaScript**
+
+---
+
+## ✅ EJERCICIOS COMPLETADOS Y APROBADOS
+
+| Nº  | Archivo                                | Tema central                                   | Nota final |
+| --- | -------------------------------------- | ---------------------------------------------- | ---------- |
+| 1️⃣ | `01_compararVarLetConst.js`            | Comparación de comportamiento y visibilidad    | **10/10**  |
+| 2️⃣ | `02_probarHoistingConVar.js`           | Hoisting con `var`, `let`, `const` y TDZ       | **10/10**  |
+| 3️⃣ | `03_scopeEnCondicionalesYFunciones.js` | Scope de bloque vs scope de función            | **10/10**  |
+| 4️⃣ | `04_constInmutableConObjetos.js`       | Mutabilidad por referencia en objetos y arrays | **10/10**  |
+| 5️⃣ | `05_buenasPracticasEnDeclaracion.js`   | Declaración profesional con `let` y `const`    | **10/10**  |
+
+---
+
+## 📈 EVALUACIÓN GLOBAL – CLASE JS 3
+
+### 🔍 Conceptos dominados
+
+* ✅ Declaración correcta de variables modernas (`let`, `const`)
+* ✅ Comprensión profunda del `scope` en bloques y funciones
+* ✅ Hoisting explicado y demostrado con rigor
+* ✅ Diferencia entre *mutabilidad interna* y *inmutabilidad de referencia*
+* ✅ Aplicación de buenas prácticas reales de programación profesional
+* ✅ Reflexión escrita clara y técnica en cada ejercicio
+
+---
