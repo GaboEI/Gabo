@@ -45,7 +45,7 @@
 .   [**Clase Extra 18 — Manipulación de strings:** .upper(), .lower(), .replace(), .startswith(), .endswith(), .title(), .capitalize(), .find(), .index(), .count()](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_18_EXTENCION_M1_MANIPULACION_DE_SCRIPTS/00_CLASE_18_EXTENCION_M1_MANIPULACION_DE_SCRIPTS.md)
 20. [**Clase 19 — Pensamiento algorítmico:** análisis y resolución paso a paso](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_19_M1_PENSAMIENTO_ALGORICMICO/CLASE_19_M1_PENSAMIENTO_ALGORICMICO.md)  
 [21. **Clase 20 — Modularización:** separar código en funciones prácticas ](https://github.com/GaboEI/Gabo/blob/ea5bab95815574c623ddd8707d10efd4a4690967/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_20_M1_MODULARIZACION/CLASE_20_M1_MODULARIZACION.md) 
-22. **Clase 21 — Uso de estructuras anidadas:** listas de diccionarios, etc.  
+22. [**Clase 21 — Uso de estructuras anidadas:** listas de diccionarios, etc.](https://github.com/GaboEI/Gabo/blob/cb768e39c8ac14ca375d643aafcb321627d762a6/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_21_M1_ESTRUCTURAS_ANIDADAS_EN_PYTHON/00_Clase_21_Uso_de_estructuras_andadas.md)  
 23. **Clase 22 — PROYECTO:** Agenda de eventos con estado pendiente/completado  
 24. **Clase 23 — Operadores lógicos y combinados en condiciones complejas**  
 25. **Clase 24 — Buenas prácticas de estilo y legibilidad:** nombres, indentación  
