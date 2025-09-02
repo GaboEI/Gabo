@@ -237,11 +237,7 @@ Más adelante, lo resolveremos con **clases** o almacenamiento en **bases de dat
 
 ---
 
-¡Excelente, Gabo! Vamos con toda la potencia al **primer ejercicio** de esta clase 💥
-
----
-
-# 🧪 Ejercicio 1: `01_lista_de_diccionarios.py`
+## 🏁 Ejercicio 1: `01_lista_de_diccionarios.py`
 
 ---
 
@@ -271,7 +267,7 @@ Es comúnmente utilizada para simular una tabla con filas y columnas en código.
 ]
 ```
 
-### 🧠 Lógica a aplicar:
+### 🧠 Lógica a aplicar
 
 1. Definir una lista con al menos 3 diccionarios.
 2. Cada diccionario debe tener las mismas claves (`nombre`, `edad`, `país`).
@@ -385,11 +381,11 @@ Comenzamos con el **Ejercicio 2** de esta clase. Subimos un poco el nivel aplica
 
 ---
 
-# 🧪 Ejercicio 2: `02_busqueda_en_diccionarios.py`
+## 🧪 Ejercicio 2: `02_busqueda_en_diccionarios.py`
 
 ---
 
-## 🎯 1. Objetivo del ejercicio
+## 🟨 1. Objetivo del ejercicio
 
 Desarrollar un sistema que permita al usuario **buscar un registro específico** dentro de una lista de diccionarios, aplicando:
 
@@ -440,7 +436,7 @@ for cliente in clientes:
 
 ## 🔽 4. Diagrama de flujo (texto plano, profesional)
 
-```
+```,
 Inicio
 ↓
 Definir lista de diccionarios con al menos 4 registros
