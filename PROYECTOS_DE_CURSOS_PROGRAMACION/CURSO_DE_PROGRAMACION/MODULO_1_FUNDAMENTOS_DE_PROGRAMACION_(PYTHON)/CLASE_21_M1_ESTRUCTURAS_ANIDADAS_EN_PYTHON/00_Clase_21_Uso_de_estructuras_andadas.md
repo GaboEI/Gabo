@@ -48,7 +48,7 @@ Un **diccionario** que tiene como valores **listas**. También es estructura ani
 
 ---
 
-## 🧪 ¿Por qué son importantes?
+## 🟨 ¿Por qué son importantes?
 
 🔍 En la vida profesional vas a usar estructuras anidadas para:
 
