@@ -2,12 +2,14 @@
 # <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="25"/>  – CURSOS DE PROGRAMACIÓN <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="25"/>
 
 
-> Este roadmap representa el camino en **6 Dúos Estratégicos**, con extras estratégicos integrados para reforzar el aprendizaje en los momentos clave.  
+> Este roadmap representa el camino en **6 BLOQUEs Estratégicos**, con extras estratégicos integrados para reforzar el aprendizaje en los momentos clave.  
 Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido y progresivo.
 
 ---
 
-## **Dúo 1 – Base total** 
+## **BLOQUE 1 – Base total** 
+
+[🧠 CURSO INTENSIVO DE LÓGICA DE PROGRAMACIÓN](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/curso_logica_programacion_riguroso.md)
 
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> Python Base](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/Curso_intencivo_para_aprrender_programacion_(U%CC%81ltimaAtulizacion_02_08_2025).md)
 
@@ -21,7 +23,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 ---
 
-## **Dúo 2 – Visualidad y datos**
+## **BLOQUE 2 – Visualidad y datos**
 
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20"/> HTML + <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="20"/> CSS + <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="20"/> SQL](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20HTML%2C%20CSS%20y%20SQL.txt)  
 
@@ -33,7 +35,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 ---
 
-## **Dúo 3 – Backend seguro**
+## **BLOQUE 3 – Backend seguro**
 
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" width="20"/> Flask Full Stack (D_WEB)](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20DE%20DESAROLLO%20WEB.txt)
 
@@ -43,7 +45,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 ---
 
-## **Dúo 4 – Full Stack Pro**
+## **BLOQUE 4 – Full Stack Pro**
 
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20"/> TypeScript Full Stack](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/TS%20CURSO%20NTENSIVO%20FULL%20STACK%20PRO.txt)  
 
@@ -55,7 +57,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 ---
 
-## **Dúo 5 – Bajo nivel + robustez**
+## **BLOQUE 5 – Bajo nivel + robustez**
  
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="20"/> C++](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSOS_DE_PROGRAMACION/CURSO%20INTENSIVO%20DE%20C%2B%2B.txt)
 
@@ -67,7 +69,7 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 
 ---
 
-## **Dúo 6 – Productividad y monetización**
+## **BLOQUE 6 – Productividad y monetización**
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> Automatización con Python  
 
@@ -80,14 +82,14 @@ Cada etapa está conectada con la siguiente para asegurar un crecimiento sólido
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="20"/> Regla clave
 
 
-Solo avanzar al siguiente dúo cuando el actual esté **100% dominado** y con un **proyecto real documentado en GitHub**. <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20"/>
+Solo avanzar al siguiente BLOQUE cuando el actual esté **100% dominado** y con un **proyecto real documentado en GitHub**. <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20"/>
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" width="20"/> Reglas de este plan
 
 
-**Dos cursos a la vez** → No avanzar al siguiente dúo sin terminar el actual. **Refuerzo constante** → Nunca abandonar lo aprendido, integrarlo en proyectos nuevos. **Proyectos reales** → Cada dúo debe cerrar con un proyecto funcional documentado.**Documentación profesional** → Todo en `.md` con teoría, ejemplos, diagramas y código. **Repositorio activo** → Subir avances y proyectos a GitHub para crear portafolio sólido.
+**Un Bloque a la vez** → No avanzar al siguiente BLOQUE sin terminar el actual. **Refuerzo constante** → Nunca abandonar lo aprendido, integrarlo en proyectos nuevos. **Proyectos reales** → Cada BLOQUE debe cerrar con un proyecto funcional documentado.**Documentación profesional** → Todo en `.md` con teoría, ejemplos, diagramas y código. **Repositorio activo** → Subir avances y proyectos a GitHub para crear portafolio sólido.
 
 ---
 
