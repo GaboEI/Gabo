@@ -214,7 +214,7 @@ cubanos_mayores = list(filter(
 
 ---
 
-### 🧩 DIAGRAMAS DE FLUJO — ESTILO GABO
+### 🧩 DIAGRAMAS DE FLUJO
 
 #### Ejemplo: `filter()` con `lambda` para filtrar mayores de edad
 
@@ -245,5 +245,236 @@ Fin
 * 🔗 [`filter`](https://docs.python.org/3/library/functions.html#filter)
 * 🔗 [`sorted`](https://docs.python.org/3/howto/sorting.html)
 * 🔗 [`any`, `all`](https://docs.python.org/3/library/functions.html#any)
+
+---
+
+🎯 ¡Muy bien observado, Gabo!
+Tu comentario es 100% correcto y demuestra pensamiento crítico de alto nivel 🧠💥
+
+---
+
+### 🔍 **Análisis de tu observación:**
+
+Tú dijiste:
+
+> “Me mandas a hacer una lista de números enteros y luego me mandas a validar si los valores son numéricos pero de eso ya se encarga la propia orden del ejercicio.”
+
+✅ Cierto. Si la lista **ya está declarada por el programador**, como:
+
+```python
+numeros = [1, 2, 3, 4]
+```
+
+## 📁 `01_lambda_basica_en_lista.py`
+
+---
+
+### 🎯 Objetivo del ejercicio (reafirmado)
+
+Transformar los elementos de una lista **predefinida** de números enteros, duplicando su valor con una función `lambda`, utilizando `map()` de forma limpia y funcional.
+
+---
+
+### 🔄 Diagrama de flujo
+
+```/
+Inicio
+↓
+Definir lista fija de enteros
+↓
+Aplicar map() con función lambda para duplicar valores
+↓
+Convertir resultado a lista
+↓
+Mostrar lista resultante
+↓
+(🔴 Mejora) Calcular suma original y suma transformada
+↓
+(🔴 Mejora) Mostrar diferencia entre cada número original y su duplicado
+↓
+Fin
+```
+
+### 🔧 EJERCICIO 1 ( `01_lambda_basica_en_lista.py` )
+
+```python
+#📝 01_lambda_basica_en_lista.py
+
+#1️⃣ Crear una lista fija de números enteros
+num = [47, 82, 13, 65, 29, 93, 56]
+print(f"Lista Original: {num}")
+
+#2️⃣ Aplicar la función map() con una función lambda para duplicar cada número
+#3️⃣ Convertir el resultado de map() en una lista con list()
+duplicado = list(map(lambda x: x*2, num))
+
+#4️⃣ Imprimir la lista resultante en consola
+print(f"Lista duplicada: {duplicado}")
+
+#5️⃣ (Opcional) Mostrar la suma de la lista original y la suma de la lista resultante
+sum_original = sum(num)
+sum_duplicado = sum(duplicado)
+print(f"""
+Suma de la lista original: {sum_original}
+Suma de la lista duplicada: {sum_duplicado} 
+"""
+)
+
+#6️⃣ (Opcional) Mostrar la diferencia entre cada par (original → transformado)
+print("Diferencia entre cada par [original -> transformado]:")
+for original, duplicado in zip (num, duplicado):
+    print(f"{original} -> {duplicado}, diferencia: {duplicado - original}")
+```
+
+```.
+"""
+RESPUESTA DE TERMINAL
+Lista Original: [47, 82, 13, 65, 29, 93, 56]
+Lista duplicada: [94, 164, 26, 130, 58, 186, 112]
+
+Suma de la lista original: 385
+Suma de la lista duplicada: 770 
+
+Diferencia entre cada par [original -> transformado]:
+47 -> 94, diferrencia: 47
+82 -> 164, diferrencia: 82
+13 -> 26, diferrencia: 13
+65 -> 130, diferrencia: 65
+29 -> 58, diferrencia: 29
+93 -> 186, diferrencia: 93
+56 -> 112, diferrencia: 56
+"""
+```
+
+---
+
+## 📁 Ejercicio: `02_uso_de_map_con_lambda.py`
+
+---
+
+### 🎯 **1. Objetivo del ejercicio**
+
+Simular un sistema de **cálculo automático de precios finales con IVA incluido**, usando `lambda` y `map()` para aplicar una operación matemática funcional a una lista de precios.
+
+✅ En este ejercicio desarrollarás:
+
+* Lógica aplicada a procesos de negocios
+* Aplicación declarativa de funciones
+* Pensamiento vectorizado (operar sobre listas, no valores individuales)
+
+---
+
+### 📘 **2. Teoría aplicada al ejercicio**
+
+#### 📌 ¿Qué es `map()`?
+
+`map()` aplica una función (como una `lambda`) **a cada elemento de una lista**. Devuelve un objeto que contiene los resultados.
+
+#### 📌 ¿Qué hace una `lambda` aquí?
+
+Aplica una fórmula:
+💰 `precio_con_iva = precio_sin_iva * 1.21`
+(donde el 21% es el impuesto)
+
+Esta operación puede hacerse **en una línea**, con:
+
+```python
+lambda p: p * 1.21
+```
+
+---
+
+### 🧪 **3. Ejemplo práctico**
+
+Supongamos que tienes estos precios base:
+
+```python
+precios_sin_iva = [100, 200, 50]
+```
+
+La función `map(lambda p: p * 1.21, precios_sin_iva)` te devuelve:
+
+```python
+[121.0, 242.0, 60.5]
+```
+
+✅ Esta técnica se usa muchísimo en tiendas, catálogos, APIs, generación de facturas, hojas de cálculo automáticas, etc.
+
+---
+
+### 🧠 **4. Diagrama de flujo**
+
+```Inicio
+Inicio
+↓
+Definir lista de precios base sin IVA
+↓
+Aplicar map() con lambda para calcular precio final (x1.21)
+↓
+Convertir el resultado a lista
+↓
+Mostrar lista de precios con IVA
+↓
+(🔴 Mejora) Mostrar comparación precio original → precio con IVA
+↓
+(🔴 Mejora) Calcular e imprimir el monto total del IVA recaudado
+↓
+Fin
+```
+
+---
+
+### 🔧 Ejercicio: `02_uso_de_map_con_lambda.py`
+
+```python
+# 📝 02_uso_de_map_con_lambda.py
+"""
+🎯: Simular un sistema de cálculo automático de precios finales con IVA 
+incluido, usando `lambda` y `map()` para aplicar una operación matemática 
+funcional a una lista de precios.
+"""
+
+# 1️⃣ Crear una lista de precios base (enteros o flotantes)
+precios_base = [10.5, 77.5, 13, 10.59, 45.25, 40.5]
+print(f"Lista de precios original: {[f'{precio:.2f}' for precio in precios_base]}")
+
+# 2️⃣ y 3️⃣ Aplicar map() con lambda para calcular precios con IVA y convertir a lista
+precios_con_iva = list(map(lambda p: p * 1.21, precios_base))
+
+# 4️⃣ Imprimir la lista con precios con IVA (formateada a 2 decimales)
+print(f"Lista de precios con 21% de IVA: {[f'{precio:.2f}' for precio in precios_con_iva]}")
+
+# 5️⃣ Mostrar cada par: precio original → precio con IVA
+print("\nPrecios originales -> Con IVA (21%)")
+for original, con_iva in zip(precios_base, precios_con_iva):
+    print(f"{original:.2f} -> {con_iva:.2f}")
+
+# 6️⃣ (Opcional) Calcular el IVA total recaudado
+suma_precios_base = sum(precios_base)
+suma_precios_con_iva = sum(precios_con_iva)
+iva_recaudado = suma_precios_con_iva - suma_precios_base
+print(f"\nIVA total recaudado: {iva_recaudado:.2f}")
+```
+
+```.
+"""
+RESPUESTA DE TERMINAL
+Lista de precios original: 
+['10.50', '77.50', '13.00', '10.59', '45.25', '40.50']
+
+Lista de precios con 21% de IVA: 
+['12.71', '93.77', '15.73', '12.81', '54.75', '49.00']
+
+Precios originales -> Con IVA (21%)
+10.50 -> 12.71
+77.50 -> 93.77
+13.00 -> 15.73
+10.59 -> 12.81
+45.25 -> 54.75
+40.50 -> 49.00
+
+IVA total recaudado: 41.44
+"""
+```
 
 ---
