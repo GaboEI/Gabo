@@ -38,7 +38,19 @@ Diferencia entre cada par [original -> transformado]:
 82 -> 164, diferrencia: 82
 13 -> 26, diferrencia: 13
 65 -> 130, diferrencia: 65
-29 -> 58, diferrencia: 29
+29 -> 58, diferrencia: 29l
 93 -> 186, diferrencia: 93
 56 -> 112, diferrencia: 56
 """
+
+print("*"*100)
+duplicado = list(map(lambda u: u*45, num))
+print(f"Lista duplicada: {duplicado}")
+print("*"*100)
+print(f"Suma de la lista original: {sum(num)}")
+print(f"Suma de la lista duplicada: {sum(duplicado)}")
+print("*"*100)
+print("Diferencia entre cada par [original -> transformado]:")
+for original, duplicado in zip (num, duplicado):
+    print(f"{original} -> {duplicado}, diferencia: {duplicado - original}")
+print("*"*100)
