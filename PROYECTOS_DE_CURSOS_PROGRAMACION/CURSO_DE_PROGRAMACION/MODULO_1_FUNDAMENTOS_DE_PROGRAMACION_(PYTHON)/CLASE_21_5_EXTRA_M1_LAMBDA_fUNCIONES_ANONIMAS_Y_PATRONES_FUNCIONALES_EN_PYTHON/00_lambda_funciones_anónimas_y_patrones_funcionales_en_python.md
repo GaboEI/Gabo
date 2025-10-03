@@ -478,3 +478,318 @@ IVA total recaudado: 41.44
 ```
 
 ---
+
+🚀 ¡Vamos con todo, Gabo! Entramos ahora en una herramienta clave del pensamiento funcional: **`filter()`**.
+Este ejercicio consolida la lógica de selección condicional en listas. Y como siempre, lo desarrollamos con el rigor que exige tu curso universitario intensivo 🧠📘
+
+---
+
+## 📁 Ejercicio: `03_filtrar_precios_altos_con_filter.py`
+
+---
+
+### ✓ **1. Objetivo del ejercicio**
+
+Aplicar la función `filter()` junto con una función `lambda` para **seleccionar los precios que superen cierto umbral definido**, simulando un sistema que filtra productos de alto valor para destacarlos.
+
+Con esto aprenderás:
+
+* Pensamiento declarativo con `filter()`
+* Aplicación real de criterios dinámicos
+* Uso conjunto de `lambda` + `filter` en estructuras funcionales
+
+---
+
+### ✓ **2. Teoría aplicada al ejercicio**
+
+---
+
+#### 📌 ¿Qué es `filter()`?
+
+Es una función **de orden superior** que:
+
+> Toma una función y una colección (lista, tupla, etc.), y **devuelve solo los elementos para los que la función retorne `True`**.
+
+🧠 Es ideal cuando necesitas **seleccionar** elementos **según una condición**, sin escribir bucles manuales.
+
+---
+
+#### ✓ Sintaxis general
+
+```python
+filter(funcion, iterable)
+```
+
+🔸 `funcion`: puede ser una función tradicional (`def`) o una función anónima (`lambda`)
+🔸 `iterable`: la colección sobre la que quieres aplicar el filtro
+
+---
+
+### ✓ **3. Ejemplo práctico**
+
+```python
+precios = [50, 150, 30, 200, 80]
+
+precios_altos = list(filter(lambda x: x > 100, precios))
+```
+
+🔍 Resultado: `[150, 200]`
+
+📌 El filtro mantuvo **solo los precios mayores a 100**.
+
+---
+
+### 🧠 ¿Cuándo usar `filter()` profesionalmente?
+
+* 🛒 E-commerce: filtrar productos por precio mínimo
+* 📊 Finanzas: seleccionar ingresos por encima de cierto umbral
+* 🎓 Educación: elegir notas mayores a 7
+* 🧼 Limpieza de datos: eliminar elementos vacíos o inválidos
+
+---
+
+## ✓ 4. Diagrama de flujo
+
+```.
+Inicio
+↓
+Definir lista de precios
+↓
+Definir umbral mínimo (ej: 100)
+↓
+Aplicar filter() con lambda para seleccionar precios > umbral
+↓
+Convertir el resultado a lista
+↓
+Mostrar precios filtrados
+↓
+(🔴 Mejora) Mostrar cuántos elementos fueron filtrados y su porcentaje respecto al total
+↓
+(🔴 Mejora) Mostrar cada par: original → “✅ pasa” o “❌ no pasa” usando map() y zip()
+↓
+Fin
+```
+
+---
+
+## 🧩 Ejercicio: `03_filtrar_precios_altos_con_filter.py`
+
+```python
+#📝 03_filtrar_precios_altos_con_filter.py
+
+#1️⃣ Crear una lista de precios (pueden ser enteros o float)
+precios = [10.3, 25.5, 8.5, 15.5, 100, 300, 4, 23, 5]
+
+#2️⃣ Definir un valor umbral para considerar un precio “alto”
+umbral = 115
+
+#3️⃣ Aplicar filter() con una función lambda que conserve solo los precios mayores al umbral
+#4️⃣ Convertir el resultado de filter() en una lista
+precios_altos = list(filter(lambda x: x > umbral, precios))
+
+#5️⃣ Imprimir la lista final de precios filtrados
+print(f"Lista de precios filtrados: {precios_altos}")
+
+#6️⃣ Mostrar la cantidad y el porcentaje de precios filtrados respecto al total
+cantidad_precios_altos = len(precios_altos)
+porcentaje_precios_altos = (cantidad_precios_altos / len(precios)) * 100
+print(f"Cantidad de precios altos: {cantidad_precios_altos}")
+print(f"Porcentaje de precios altos: {porcentaje_precios_altos:.2f}%")
+
+#7️⃣ Mostrar una lista con los pares: precio original + estado ("✅ pasa" o "❌ no pasa")
+for precio in precios:
+    if precio > umbral:
+        print(f"{precio:.2f} -> ✅ pasa")
+    else:
+        print(f"{precio:.2f} -> ❌ no pasa")
+```
+
+```terminal
+"""
+RESPUESTA DE TERMINAL
+Lista de precios filtrados: [100, 300]
+Cantidad de precios altos: 2
+Porcentaje de precios altos: 14.29%
+10.30 -> ❌ no pasa
+25.50 -> ❌ no pasa
+8.50 -> ❌ no pasa
+15.50 -> ❌ no pasa
+100.00 -> ✅ pasa
+300.00 -> ✅ pasa
+"""
+```
+
+---
+
+🧠 ¡Vamos con todo, Gabo!
+Este ejercicio marca un **salto de calidad**, porque entramos en el mundo de **ordenamientos personalizados** con `sorted()` y su argumento `key=` — un patrón funcional **clave** para el mundo real.
+
+---
+
+## 📁 Ejercicio: `04_ordenar_productos_con_sorted_key.py`
+
+---
+
+### **1. Objetivo del ejercicio**
+
+Aplicar la función `sorted()` con `key=lambda` para ordenar una lista de productos (representados como tuplas o diccionarios) según diferentes criterios:
+
+* 🔢 Por precio (de menor a mayor)
+* 🔠 Por nombre del producto
+* 🔄 Por orden inverso de alguno de los anteriores (mejora)
+
+Este ejercicio simula funcionalidades reales de:
+
+* 🛒 tiendas online
+* 📊 reportes contables
+* 🧩 catálogos interactivos
+* 🔎 filtros de búsqueda en sistemas de inventario
+
+---
+
+### 📘 **2. Teoría del concepto `sorted()` y `key=`**
+
+---
+
+#### ✅ ¿Qué es `sorted()`?
+
+Es una función incorporada de Python que:
+
+> Devuelve una **nueva lista ordenada** sin modificar la original.
+
+🧠 A diferencia de `.sort()` (que modifica en sitio), `sorted()` permite mantener tu dato original **intacto**.
+
+#### Sintaxis general
+
+```python
+sorted(iterable, key=función, reverse=False)
+```
+
+* `iterable`: lista, tuplas, strings, etc.
+* `key`: función que dice **por qué campo** se debe ordenar
+* `reverse`: si es `True`, ordena al revés
+
+---
+
+### 🔍 ¿Qué hace `key=`?
+
+Permite definir el **criterio de ordenación**. Es ahí donde
+ usamos:
+
+```python
+key=lambda x: x[1]   # Ordenar por segundo valor
+key=lambda x: x["precio"]  # Ordenar por campo específico
+```
+
+Esto da **flexibilidad total** para ordenar lo que quieras, como quieras.
+
+---
+
+### **3. Ejemplo práctico**
+
+Supongamos:
+
+```python
+productos = [("Manzana", 1.5), ("Banana", 0.9), ("Sandía", 3.2)]
+```
+
+Ordenar por precio:
+
+```python
+ordenados = sorted(productos, key=lambda x: x[1])
+```
+
+📦 Resultado:
+
+```.
+[('Banana', 0.9), ('Manzana', 1.5), ('Sandía', 3.2)]
+```
+
+🔄 Inverso:
+
+```python
+ordenados = sorted(productos, key=lambda x: x[1], reverse=True)
+```
+
+---
+
+## 🧠 4. Diagrama de flujo
+
+```.
+Inicio
+↓
+Definir lista de productos (nombre, precio)
+↓
+Aplicar sorted() con key=lambda para ordenar por precio
+↓
+Mostrar lista ordenada por precio
+↓
+(🔴 Mejora) Aplicar sorted() con key=lambda para ordenar por nombre
+↓
+(🔴 Mejora) Aplicar sorted() con reverse=True para ordenar por precio descendente
+↓
+Mostrar todas las variantes de ordenamiento
+↓
+Fin
+```
+
+---
+
+## Ejercicio: `04_ordenar_productos_con_sorted_key.py`
+
+```python
+# 📝 04_ordenar_productos_con_sorted_key.py
+
+productos = [
+    ("teclado", 11.99),
+    ("telefono", 100.75),
+    ("audifono", 45.00)
+    
+]
+
+# Ordenar por precio (menor a mayor)
+print("\nProductos ordenados por precio (ascendente):")
+print("-" * 45)
+ordenados_precio = sorted(productos, key=lambda producto: producto[1])
+for nombre, precio in ordenados_precio:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f}")
+
+# Ordenar por nombre alfabéticamente
+print("\nProductos ordenados por nombre (alfabético):")
+print("-" * 45)
+ordenados_nombre = sorted(productos, key=lambda producto: producto[0])
+for nombre, precio in ordenados_nombre:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f}")
+
+# Ordenar por precio (mayor a menor)
+print("\nProductos ordenados por precio (descendente):")
+print("-" * 45)
+ordenados_precio_desc = sorted(productos, key=lambda producto: producto[1], reverse=True)
+for nombre, precio in ordenados_precio_desc:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f}")
+```
+
+```TERMINAL
+"""
+RESPUESTA TERRMINAL 
+Productos ordenados por precio (ascendente):
+---------------------------------------------
+Producto: teclado      | Precio: $ 11.99
+Producto: audifono     | Precio: $ 45.00
+Producto: telefono     | Precio: $100.75
+
+Productos ordenados por nombre (alfabético):
+---------------------------------------------
+Producto: audifono     | Precio: $ 45.00
+Producto: teclado      | Precio: $ 11.99
+Producto: telefono     | Precio: $100.75
+
+Productos ordenados por precio (descendente):
+---------------------------------------------
+Producto: telefono     | Precio: $100.75
+Producto: audifono     | Precio: $ 45.00
+Producto: teclado      | Precio: $ 11.99
+"""
+```
+
+---
