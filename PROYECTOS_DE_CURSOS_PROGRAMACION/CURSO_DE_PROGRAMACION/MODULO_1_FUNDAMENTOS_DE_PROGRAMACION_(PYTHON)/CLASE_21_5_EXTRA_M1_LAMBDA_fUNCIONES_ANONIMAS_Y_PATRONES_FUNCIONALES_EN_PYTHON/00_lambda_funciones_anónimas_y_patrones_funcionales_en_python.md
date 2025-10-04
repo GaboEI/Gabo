@@ -793,3 +793,389 @@ Producto: teclado      | Precio: $ 11.99
 ```
 
 ---
+
+## 📁 Ejercicio: `05_validar_condiciones_con_any_all.py`
+
+---
+
+### **1. Objetivo del ejercicio 5**
+
+Aplicar las funciones `any()` y `all()` para validar si una lista de productos cumple con ciertas condiciones, como:
+
+* ✅ Todos los precios son mayores a un mínimo aceptable (`all`)
+* ⚠️ Al menos un producto excede cierto valor límite de riesgo (`any`)
+
+Con esto aprenderás a construir verificadores lógicos potentes en una sola línea de código. Esto es **oro puro** en automatización, reglas de negocio, validaciones masivas y testing.
+
+---
+
+### 📘 **2. Teoría aplicada: `any()` y `all()`**
+
+---
+
+#### 🔎 ¿Qué hacen?
+
+| Función | Retorna `True` si...                               | Ideal para...                                           |
+| ------- | -------------------------------------------------- | ------------------------------------------------------- |
+| `all()` | **Todos** los elementos de la colección son `True` | Validaciones estrictas (💼 contratos, pagos, seguridad) |
+| `any()` | **Algún** elemento de la colección es `True`       | Detección de alerta (⚠️ fraude, errores, excepciones)   |
+
+Ambas recorren internamente el iterable, evaluando expresiones lógicas. Por eso funcionan increíblemente bien con `map()` + `lambda`.
+
+---
+
+### 💼 **3. Ejemplo práctico**
+
+```python
+precios = [120, 150, 90, 110]
+
+# ¿Todos los precios son mayores a 80?
+resultado = all(p > 80 for p in precios)  # ✅ True
+
+# ¿Algún precio supera 140?
+alerta = any(p > 140 for p in precios)    # ⚠️ True
+```
+
+🧠 Estas construcciones evitan el uso de múltiples bucles `for` o `if` innecesarios.
+
+---
+
+## 4. Diagrama de flujo
+
+```diagrama
+Inicio
+↓
+Definir lista de precios
+↓
+Aplicar all(): verificar si todos los precios ≥ mínimo permitido
+↓
+Aplicar any(): verificar si algún precio > umbral crítico
+↓
+Mostrar resultados booleanos de ambas condiciones
+↓
+(🔴 Mejora) Imprimir mensajes personalizados según resultados (ej: “✅ Todo correcto” o “❗ Hay precios peligrosos”)
+↓
+(🔴 Mejora) Aplicar validaciones con map() + lambda en vez de comprensión de listas
+↓
+Fin
+```
+
+---
+
+## Ejercicio: `05_validar_condiciones_con_any_all.py`
+
+```python
+# 📝 05_validar_condiciones_con_any_all.py
+
+#1️⃣ Crear una lista de precios de productos (enteros o float)
+precios = [80, 110, 120, 95, 100, 150, 180, 200, 250, 300]
+
+#2️⃣ Definir un valor mínimo aceptable
+minimo  = 70
+
+#3️⃣ Verificar si TODOS los precios son mayores o iguales al mínimo usando all()
+resultado_all = all(m >= minimo for m in precios)
+
+#4️⃣ Definir un valor de alerta para precios muy altos
+alerta = 140
+
+#5️⃣ Verificar si ALGÚN precio excede el valor de alerta usando any()
+resultado_any = any(a > alerta for a in precios)
+
+#6️⃣ Imprimir los resultados de ambas condiciones con mensajes claros
+print(f"Todos los precios son mayores o iguales al mínimo: {resultado_all}")
+print(f"Algún precio excede el valor de alerta: {resultado_any}")
+
+#7️⃣ Mostrar “✅ Todo válido” o “⚠️ Hay precios fuera de rango” según el resultado
+if resultado_all:
+    print("✅ Todo válido")
+else:
+    print("⚠️ Hay precios fuera de rango")
+
+#8️⃣ Reescribir una de las condiciones usando map() + lambda para practicar el patrón funcional
+resultado_all_map = all(map(lambda x: x >= minimo, precios))
+print(f"Todos los precios son mayores o iguales al mínimo: {resultado_all_map}")
+resultado_any_map = any(map(lambda x: x > alerta, precios))
+print(f"Algún precio excede el valor de alerta: {resultado_any_map}")
+```
+
+```terminal
+"""
+RESPUESTA TERMINAL
+Todos los precios son mayores o iguales al mínimo: True
+Algún precio excede el valor de alerta: True
+✅ Todo válido
+Todos los precios son mayores o iguales al mínimo: True
+Algún precio excede el valor de alerta: True
+"""
+```
+
+---
+
+📚 **Mini repaso integrador — Clase Extra 21.5**
+🎓 *Lambda, funciones anónimas y patrones funcionales en Python*
+
+Vamos a consolidar lo aprendido con una síntesis profesional de lo esencial, reforzando conexiones entre conceptos y recordando su aplicación real 🧠⚙️
+
+---
+
+## 🧩 1. ¿Qué aprendi en esta clase?
+
+Esta clase aprerndo a pensar como un programador funcional:
+
+| Concepto            | ¿Qué hace?                                        | ¿Cuándo lo usas?                           | Ejemplo clave                        |
+| ------------------- | ------------------------------------------------- | ------------------------------------------ | ------------------------------------ |
+| `lambda`            | Función anónima en una línea                      | Cuando no necesitas definir `def` completo | `lambda x: x * 2`                    |
+| `map()`             | Aplica una función a cada elemento de un iterable | Transformar en lote                        | `map(lambda x: x.upper(), nombres)`  |
+| `filter()`          | Filtra elementos según condición                  | Limpiar listas, seleccionar datos          | `filter(lambda x: x > 100, precios)` |
+| `sorted()` + `key=` | Ordena por criterio personalizado                 | Listados, dashboards, reportes             | `sorted(lista, key=lambda x: x[1])`  |
+| `any()`             | Retorna `True` si *alguno* cumple condición       | Alertas, detección temprana                | `any(p > 200 for p in precios)`      |
+| `all()`             | Retorna `True` si *todos* cumplen condición       | Reglas estrictas, validaciones             | `all(p >= 80 for p in precios)`      |
+
+---
+
+## 📊 2. ¿Qué patrones funcionales ya domino?
+
+🧠 Este tipo de código:
+
+```python
+all(map(lambda p: p >= 100, precios))
+```
+
+✅ Uso:
+
+* Expresión booleana
+* Función anónima
+* Iterador funcional
+
+Y se traduce a:
+
+> “¿Todos los precios son mayores o iguales a 100?”
+
+Esto evita escribir bucles `for`, `if`, `append`, etc.
+⚡ ¡Rápido, limpio y profesional!
+
+---
+
+## 📈 3. Aplicaciones reales de estos conceptos
+
+💼 Donde puedo usarlos:
+
+* **e-commerce**: filtrar productos, validar stock, ordenar por precio
+* **análisis financiero**: detectar movimientos sospechosos (`any()`), validar consistencia (`all()`)
+* **automación de tareas**: transformar archivos, nombres, estructuras (`map()`)
+* **desarrollo web**: ordenar resultados antes de mostrar (`sorted(key=...)`)
+* **AI y ciencia de datos**: preprocesamiento de datos, pipelines funcionales
+
+---
+
+## 🔄 4. Conexiones entre funciones
+
+Muchos de estos conceptos pueden **encadenarse** como bloques de lego 🧱:
+
+```python
+productos = [("Laptop", 1000), ("Mouse", 20), ("Teclado", 45)]
+
+ordenados = sorted(
+    filter(lambda x: x[1] > 30, productos),
+    key=lambda x: x[1]
+)
+```
+
+👉 Primero filtra los productos más caros → luego los ordena por precio.
+
+---
+
+## 🧠 5. Patrón mental integrador
+
+```ejemplo
+👁️ Observar estructura de datos
+↓
+❓ Definir condición o transformación deseada
+↓
+⚙️ Elegir función adecuada: map / filter / sorted / any / all
+↓
+🧱 Componer expresiones limpias y declarativas
+↓
+✅ Obtener resultado final limpio y validable
+```
+
+---
+
+🚀 **MINI PROYECTO FUNCIONAL FINAL — Clase Extra 21.5**
+🎓 *Integración total de `lambda`, `map()`, `filter()`, `sorted()`, `any()` y pensamiento funcional declarativo*
+📦 Nombre del archivo: `06_analisis_funcional_de_inventario.py`
+
+---
+
+### 🎯 Objetivo
+
+Simularás un análisis inteligente de un **inventario de productos**, combinando *transformaciones, filtrado, ordenamiento y validación funcional*.
+
+🔎 Usarás expresiones compactas y potentes que procesen datos como si estuvieras construyendo una mini-API o una lógica de backend real.
+
+---
+
+### 📘 Contexto lógico del ejercicio
+
+Dispones de una lista de productos, donde cada producto tiene:
+
+* Nombre (str)
+* Precio (float)
+* Stock (entero)
+
+Tu sistema debe:
+
+1. 🔍 Filtrar los productos que están disponibles (`stock > 0`)
+2. 💸 Aumentar sus precios en un 10% con `map()`
+3. 📊 Ordenarlos por precio actualizado (`sorted(key=...)`)
+4. ⚠️ Verificar si **algún producto supera los $500** (`any()`)
+5. 📋 Mostrar el resultado final con nombre, nuevo precio, stock
+6. (🔴 Mejora opcional) Filtrar productos con nombres que contengan una letra clave (ej: "a", "e") con `filter() + lambda + in`
+
+---
+
+## 🧠 Diagrama de flujo profesional
+
+```Inicio
+Inicio
+↓
+Definir lista de productos con nombre, precio y stock
+↓
+Filtrar productos disponibles (stock > 0) → filter()
+↓
+Aplicar aumento del 10% a los precios → map()
+↓
+Ordenar productos por precio actualizado → sorted(key=...)
+↓
+Verificar si algún producto supera $500 → any()
+↓
+Mostrar resultados: nombre | precio nuevo | stock
+↓
+(🔴 Mejora opcional): filtrar productos con letra clave en nombre
+↓
+Fin
+```
+
+---
+
+## 💻 INI PROYECTO FUNCIONAL FINAL
+
+
+```python
+# 📝 06_analisis_funcional_de_inventario.py
+
+#1️⃣ Crear una lista de productos como tuplas: (nombre, precio, stock)
+productos = [
+    ("Laptop", 450.00, 5),
+    ("Mouse", 20.00, 10),
+    ("Teclado", 30.00, 8),
+    ("Monitor", 150.00, 3)   
+]
+print("Lista de productos original:")
+print("-" * 45)
+for nombre, precio, stock in productos:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+print("\n")
+
+#2️⃣ Usar filter() para seleccionar solo los productos con stock > 0
+en_stock = list(filter(lambda p: p[2] > 0, productos))
+print("Lista de productos con stock > 0:")
+print("-" * 45)
+for nombre, precio, stock in en_stock:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+print("\n")
+
+#3️⃣ Usar map() para aumentar el precio en 10% a cada producto disponible
+aumento_precio = list(map(lambda p: (p[0], p[1] * 1.10, p[2]), en_stock))
+print("Lista de productos con aumento de precio:")
+print("-" * 45)
+for nombre, precio, stock in aumento_precio:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+print("\n")
+
+#4️⃣ Usar sorted() con key=lambda para ordenar por el nuevo precio (índice 1)
+ordenado_precio = sorted(aumento_precio, key=lambda p: p[1])
+print("Lista de productos ordenados por precio:")
+print("-" * 45)
+for nombre, precio, stock in ordenado_precio:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+print("\n")
+
+#5️⃣ Usar any() para verificar si algún producto supera los $250
+pista = any(p[1] > 250 for p in aumento_precio)
+print(f"Algún producto supera los $250: {pista}")
+print("\n")
+
+#6️⃣ Imprimir los productos resultantes en formato tabular
+#    👉 Usa f-strings con alineación
+for nombre, precio, stock in ordenado_precio:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+
+#7️⃣ Aplicar otro filter() para mostrar solo productos cuyo nombre contenga una letra clave (ej: "a")
+clave = "a"
+producto_clave = list(filter(lambda p: clave in p[0], ordenado_precio))
+print("Lista de productos con letra clave:")
+print("-" * 45)
+for nombre, precio, stock in producto_clave:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+print("\n")
+
+#8️⃣ Imprimir los productos resultantes en formato tabular
+for nombre, precio, stock in producto_clave:
+    print(f"Producto: {nombre:<12} | Precio: ${precio:>6.2f} | Stock: {stock}")
+```
+
+```terminal
+""
+Lista de productos original:
+---------------------------------------------
+Producto: Laptop       | Precio: $450.00 | Stock: 5
+Producto: Mouse        | Precio: $ 20.00 | Stock: 10
+Producto: Teclado      | Precio: $ 30.00 | Stock: 8
+Producto: Monitor      | Precio: $150.00 | Stock: 3
+
+
+Lista de productos con stock > 0:
+---------------------------------------------
+Producto: Laptop       | Precio: $450.00 | Stock: 5
+Producto: Mouse        | Precio: $ 20.00 | Stock: 10
+Producto: Teclado      | Precio: $ 30.00 | Stock: 8
+Producto: Monitor      | Precio: $150.00 | Stock: 3
+
+
+Lista de productos con aumento de precio:
+---------------------------------------------
+Producto: Laptop       | Precio: $495.00 | Stock: 5
+Producto: Mouse        | Precio: $ 22.00 | Stock: 10
+Producto: Teclado      | Precio: $ 33.00 | Stock: 8
+Producto: Monitor      | Precio: $165.00 | Stock: 3
+
+
+Lista de productos ordenados por precio:
+---------------------------------------------
+Producto: Mouse        | Precio: $ 22.00 | Stock: 10
+Producto: Teclado      | Precio: $ 33.00 | Stock: 8
+Producto: Monitor      | Precio: $165.00 | Stock: 3
+Producto: Laptop       | Precio: $495.00 | Stock: 5
+
+
+Algún producto supera los $250: True
+
+
+Producto: Mouse        | Precio: $ 22.00 | Stock: 10
+Producto: Teclado      | Precio: $ 33.00 | Stock: 8
+Producto: Monitor      | Precio: $165.00 | Stock: 3
+Producto: Laptop       | Precio: $495.00 | Stock: 5
+Lista de productos con letra clave:
+---------------------------------------------
+Producto: Teclado      | Precio: $ 33.00 | Stock: 8
+Producto: Laptop       | Precio: $495.00 | Stock: 5
+
+
+Producto: Teclado      | Precio: $ 33.00 | Stock: 8
+Producto: Laptop       | Precio: $495.00 | Stock: 5
+"""
+```
+
+---
