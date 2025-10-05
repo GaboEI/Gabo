@@ -46,16 +46,17 @@
 20. [**Clase 19 — Pensamiento algorítmico:** análisis y resolución paso a paso](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_19_M1_PENSAMIENTO_ALGORICMICO/CLASE_19_M1_PENSAMIENTO_ALGORICMICO.md)  
 [21. **Clase 20 — Modularización:** separar código en funciones prácticas ](https://github.com/GaboEI/Gabo/blob/ea5bab95815574c623ddd8707d10efd4a4690967/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_20_M1_MODULARIZACION/CLASE_20_M1_MODULARIZACION.md) 
 22. [**Clase 21 — Uso de estructuras anidadas:** listas de diccionarios, etc.](https://github.com/GaboEI/Gabo/blob/4d7e43c8f104ff3520fa98ca137da84a0aa04c5b/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_21_M1_ESTRUCTURAS_ANIDADAS_EN_PYTHON/00_Clase_21_Uso_de_estructuras_andadas.md)
-23. [**Clase 21.5 - extra - Lambda, funciones anónimas y patrones funcionales en Python**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_21_5_EXTRA_M1_LAMBDA_fUNCIONES_ANONIMAS_Y_PATRONES_FUNCIONALES_EN_PYTHON/00_lambda_funciones_an%C3%B3nimas_y_patrones_funcionales_en_python.md)  
-24. **Clase 22 — PROYECTO:** Agenda de eventos con estado pendiente/completado  
-25. **Clase 23 — Operadores lógicos y combinados en condiciones complejas**  
-26. **Clase 24 — Buenas prácticas de estilo y legibilidad:** nombres, indentación  
-27. **Clase 25 — Trabajo con fechas:** datetime (básico)  
-28. **Clase 26 — Estructuras condicionales múltiples y anidadas**  
-29. **Clase 27 — Validación de entradas numéricas y texto con bucles y excepciones**  
-30. **Clase 28 — PROYECTO MINI:** Encuesta o sistema de votación simple  
-31. **Clase 29 — Preparación para evaluación final de módulo**  
-32. **Clase 30 — 📘 EVALUACIÓN:** teórico-práctica final del módulo (mínimo 7/10)
+23. [**Clase 21.1 - extra - Lambda, funciones anónimas y patrones funcionales en Python**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_21_5_EXTRA_M1_LAMBDA_fUNCIONES_ANONIMAS_Y_PATRONES_FUNCIONALES_EN_PYTHON/00_lambda_funciones_an%C3%B3nimas_y_patrones_funcionales_en_python.md) 
+24. [**Clase 21.2 Extra – Consolidación Avanzada del Módulo 1: Estructuras, Ficheros y Módulos**](https://github.com/GaboEI/Gabo/blob/main/PROYECTOS_DE_CURSOS_PROGRAMACION/CURSO_DE_PROGRAMACION/MODULO_1_FUNDAMENTOS_DE_PROGRAMACION_(PYTHON)/CLASE_21_5_2_M1_CONSOLIDACION_AVANZADA_REPASO/00_CLASE_21_5_2_M1_CONSOLIDACION_AVANZADA_REPASO.md) 
+25. **Clase 22 — PROYECTO:** Agenda de eventos con estado pendiente/completado  
+26. **Clase 23 — Operadores lógicos y combinados en condiciones complejas**  
+27. **Clase 24 — Buenas prácticas de estilo y legibilidad:** nombres, indentación  
+28. **Clase 25 — Trabajo con fechas:** datetime (básico)  
+29. **Clase 26 — Estructuras condicionales múltiples y anidadas**  
+30. **Clase 27 — Validación de entradas numéricas y texto con bucles y excepciones**  
+31. **Clase 28 — PROYECTO MINI:** Encuesta o sistema de votación simple  
+32. **Clase 29 — Preparación para evaluación final de módulo**  
+33. **Clase 30 — 📘 EVALUACIÓN:** teórico-práctica final del módulo (mínimo 7/10)
 
 ---
 
