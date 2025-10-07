@@ -24,7 +24,7 @@ clientes = [
 factura_pendiente = False
 
 for cliente in clientes:
-    for factura in cliente["facturas"]:
+    for factura in cliente["facturas"]: 
         if factura["estado"] == "pendiente":
             factura_pendiente = True
             cliente_con_deuda = cliente["nombre"]
