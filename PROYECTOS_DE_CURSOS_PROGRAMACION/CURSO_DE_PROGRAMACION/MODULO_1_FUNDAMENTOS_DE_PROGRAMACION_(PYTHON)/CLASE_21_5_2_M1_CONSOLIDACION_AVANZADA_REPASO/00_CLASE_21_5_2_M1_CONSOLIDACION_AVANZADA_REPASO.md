@@ -1,4 +1,4 @@
-# **Clase Extra – Consolidación Avanzada del Módulo 1
+# **Clase Extra** – Consolidación Avanzada del Módulo 1
 
 ---
 
@@ -16,10 +16,7 @@ En estructuras anidadas, las banderas permiten **salir de múltiples niveles de 
 Supón que trabajas en un sistema que busca si un cliente tiene una factura pendiente dentro de una base de datos anidada (lista → diccionarios → listas):
 
 ```python
-clientes = [
-    {"nombre": "Ana", "facturas": [{"id": 1, "estado": "pagada"}, {"id": 2, "estado": "pendiente"}]},
-    {"nombre": "Luis", "facturas": [{"id": 3, "estado": "pagada"}]},
-]
+factura_pendiente = false
 
 factura_pendiente = False
 
@@ -28,7 +25,7 @@ for cliente in clientes:
         if factura["estado"] == "pendiente":
             factura_pendiente = True
             cliente_con_deuda = cliente["nombre"]
-            break  # Rompe el segundo bucle
+            break  # Rompe el segundo bucle⚠️✅
     if factura_pendiente:
         break  # Rompe el primero también
 
