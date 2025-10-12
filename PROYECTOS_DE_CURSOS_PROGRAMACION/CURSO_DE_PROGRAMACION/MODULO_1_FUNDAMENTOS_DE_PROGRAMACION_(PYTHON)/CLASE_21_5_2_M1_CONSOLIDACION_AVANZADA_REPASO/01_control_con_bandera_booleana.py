@@ -15,4 +15,4 @@ for cliente in clientes:
     if factura_pendiente == True:
         print(f"⚠️ Cliente con factura pendiente: {cliente_endeudado}")
     else:
-       
+        print(f"✅ Cliente al día: {cliente['nombre']}")

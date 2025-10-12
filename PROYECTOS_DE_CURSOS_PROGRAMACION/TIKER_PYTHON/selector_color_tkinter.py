@@ -6,7 +6,7 @@ from tkinter import ttk  #2️⃣ Importamos ttk para widgets modernos
 #3️⃣ Lista de colores en formato {Nombre: Código HEX}
 colores = {
     "Celeste claro": "#E0FFFF",
-    "Beige suave": "#F5F5DC",
+    "Beige suave": "#383804",
     "Gris neutro": "#F0F0F0",
     "Rosa fuerte": "#FF69B4",
     "Verde pastel": "#C1E1C1",
