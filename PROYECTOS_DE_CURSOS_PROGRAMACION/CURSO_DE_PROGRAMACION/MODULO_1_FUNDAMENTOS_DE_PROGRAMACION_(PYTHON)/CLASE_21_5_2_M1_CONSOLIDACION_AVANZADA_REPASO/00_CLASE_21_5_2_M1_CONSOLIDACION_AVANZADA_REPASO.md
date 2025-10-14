@@ -6,7 +6,7 @@
 
 ### 📘 Concepto teórico
 
-Una **bandera booleana** (o *flag*) es una variable de tipo `bool` (`True` o `False`) que se utiliza para **controlar el flujo lógico de un programa**.
+Una **bandera booleana** (o _flag_) es una variable de tipo `bool` (`True` o `False`) que se utiliza para **controlar el flujo lógico de un programa**.
 Sirve para indicar si algo ha ocurrido, si una condición se ha cumplido o si una acción debe ejecutarse o no.
 
 En estructuras anidadas, las banderas permiten **salir de múltiples niveles de bucles** o **controlar validaciones complejas** sin romper la legibilidad del código.
@@ -16,34 +16,34 @@ En estructuras anidadas, las banderas permiten **salir de múltiples niveles de 
 Supón que trabajas en un sistema que busca si un cliente tiene una factura pendiente dentro de una base de datos anidada (lista → diccionarios → listas):
 
 ```python
-factura_pendiente = false
+clientes = [
+    {"nombre": "Ana", "facturas": [{"id": 1, "estado": "pagada"}, {"id": 2, "estado": "pendiente"}]},
+    {"nombre": "Luis", "facturas": [{"id": 3, "estado": "pagada"}]},
+]
 
 factura_pendiente = False
 
 for cliente in clientes:
-    for factura in cliente["facturas"]: 
+    for factura in cliente["facturas"]:
         if factura["estado"] == "pendiente":
-            factura_pendiente = True
-            cliente_con_deuda = cliente["nombre"]
-            break  # Rompe el segundo bucle⚠️✅
-    if factura_pendiente:
-        break  # Rompe el primero también
-
-if factura_pendiente:
-    print(f"⚠️ Cliente con factura pendiente: {cliente_con_deuda}")
-else:
-    print("✅ Todas las facturas están pagadas.")
+            # factura_pendiente = True
+            cliente_endeudado = cliente["nombre"]
+            break
+    if factura_pendiente == True:
+        print(f"⚠️ Cliente con factura pendiente: {cliente_endeudado}")
+    else:
+        print(f"✅ Cliente al día: {cliente['nombre']}")
 ```
 
 ### 💡 Claves profesionales
 
-* La bandera **simplifica** la lectura frente a condiciones encadenadas.
-* Evita **romper múltiples bucles** de manera desordenada.
-* Permite un **control centralizado** del estado lógico del programa.
+- La bandera **simplifica** la lectura frente a condiciones encadenadas.
+- Evita **romper múltiples bucles** de manera desordenada.
+- Permite un **control centralizado** del estado lógico del programa.
 
 ---
 
-### 🧭 Diagrama de flujo (estilo Gabo)
+### 🧭 Diagrama de flujo
 
 ```
 Inicio
@@ -78,9 +78,9 @@ Un archivo **CSV (Comma Separated Values)** almacena datos en formato de texto s
 
 **Módulo estándar:** `csv`
 
-* `csv.reader()` → lee línea a línea
-* `csv.writer()` → escribe listas como filas
-* `DictReader` / `DictWriter` → trabajan directamente con diccionarios
+- `csv.reader()` → lee línea a línea
+- `csv.writer()` → escribe listas como filas
+- `DictReader` / `DictWriter` → trabajan directamente con diccionarios
 
 ```python
 import csv
@@ -108,8 +108,8 @@ Se usa para guardar **configuraciones, datos de usuario, respuestas de API**, et
 
 **Módulo estándar:** `json`
 
-* `json.dump()` / `json.load()` → guardar y leer desde archivos
-* `json.dumps()` / `json.loads()` → convertir entre str y diccionario
+- `json.dump()` / `json.load()` → guardar y leer desde archivos
+- `json.dumps()` / `json.loads()` → convertir entre str y diccionario
 
 ```python
 import json
@@ -241,8 +241,8 @@ print(doble(5))  # → 10
 
 **Ventajas profesionales:**
 
-* Simplifica código dentro de `map`, `filter`, `sorted`, etc.
-* Ideal para procesamiento de datos o iteraciones simples.
+- Simplifica código dentro de `map`, `filter`, `sorted`, etc.
+- Ideal para procesamiento de datos o iteraciones simples.
 
 ---
 
@@ -300,12 +300,12 @@ Aplicación real: validaciones múltiples, filtros de datos, verificaciones de i
 En proyectos reales, todos estos conceptos se combinan.
 Imagina un **sistema de gestión de inventario**:
 
-* Carga datos de un `.csv` con productos.
-* Usa banderas booleanas para marcar si falta stock.
-* Actualiza un `.json` con los cambios.
-* Genera un reporte binario de respaldo.
-* Usa `datetime` para registrar la fecha de ejecución.
-* Implementa `lambda`, `map`, `filter`, `any` y `all` para validar y transformar datos.
+- Carga datos de un `.csv` con productos.
+- Usa banderas booleanas para marcar si falta stock.
+- Actualiza un `.json` con los cambios.
+- Genera un reporte binario de respaldo.
+- Usa `datetime` para registrar la fecha de ejecución.
+- Implementa `lambda`, `map`, `filter`, `any` y `all` para validar y transformar datos.
 
 ---
 
@@ -339,7 +339,165 @@ Fin
 
 ---
 
-✨ Hasta aquí la **teoría avanzada completa** de esta clase extra.
-A partir de aquí entraremos en la **Fase 2 – Ejercicios guiados y diagramas**, donde crearás los programas paso a paso.
+# 📁 **Ejercicio 01 – control_con_bandera_booleana.py**
 
-¿Deseas que avancemos a la **Fase 2 (diagramas + esqueletos de los ejercicios 1 y 2)**, o prefieres reforzar primero alguno de los conceptos teóricos (`lambda`, banderas, o módulos estándar)?
+---
+
+## 🎯 **1. Objetivo del ejercicio**
+
+Aplicar el uso de **banderas booleanas (`True` / `False`)** para **controlar el flujo lógico** dentro de una estructura anidada de bucles.
+El propósito es que el programa **detecte una condición específica** (por ejemplo, la aparición de un valor o evento) y **detenga el flujo completo** de búsqueda cuando se cumpla, usando una bandera como interruptor de estado.
+
+En términos profesionales, esto entrena la habilidad de **controlar múltiples niveles de iteración sin romper la estructura del código**, algo esencial en scripts de automatización, búsquedas en bases de datos, y validaciones de sistemas.
+
+---
+
+## 📘 **2. Teoría aplicada al ejercicio**
+
+### 🔹 ¿Qué es una bandera booleana?
+
+Una **bandera booleana** es una variable lógica (tipo `bool`) que se utiliza como **indicador de estado**:
+
+- `True` → la condición deseada ha ocurrido.
+- `False` → aún no ha ocurrido o fue rechazada.
+
+Su función principal es **mantener memoria temporal del estado** dentro de bucles o estructuras condicionales.
+Es como un **semáforo lógico**: enciende y apaga un comportamiento programado según las condiciones que surgen durante la ejecución.
+
+---
+
+### 🔹 Lógica general de uso
+
+1. Se **inicializa la bandera** en `False`.
+2. Se **recorre una estructura** (lista, matriz, archivo, etc.).
+3. En cada iteración se **verifica una condición**.
+4. Si la condición se cumple, se cambia la bandera a `True` y (opcionalmente) se rompe el bucle.
+5. Al final del proceso, se **consulta la bandera** para decidir el resultado.
+
+---
+
+### 🧠 Concepto clave
+
+La bandera reemplaza condiciones anidadas confusas o cortes abruptos como `break` repetidos, otorgando **claridad estructural** y un control de flujo profesional.
+
+En programación avanzada, las banderas también son útiles para:
+
+- Señalar errores o excepciones detectadas.
+- Indicar estados de conexión, autenticación, guardado, etc.
+- Activar o desactivar funciones o secciones de código.
+
+---
+
+## 🧪 **3. Ejemplo explicativo**
+
+**Caso:** Verificar si existe al menos un número negativo en una lista bidimensional (estructura anidada).
+
+```python
+matriz = [
+    [4, 7, 2],
+    [9, -1, 5],
+    [8, 3, 6]
+]
+
+encontro_negativo = False  # bandera inicial
+
+for fila in matriz:
+    for numero in fila:
+        if numero < 0:
+            encontro_negativo = True
+            break
+    if encontro_negativo:
+        break
+
+if encontro_negativo:
+    print("⚠️ Hay al menos un número negativo.")
+else:
+    print("✅ Todos los números son positivos.")
+```
+
+**Qué hace aquí la bandera:**
+
+- Se inicializa en `False`.
+- Cambia a `True` cuando encuentra un negativo.
+- Controla ambos bucles de salida de forma limpia.
+- Permite evaluar el resultado al final.
+
+---
+
+## 🧩 **4. Diagrama de flujo**
+
+```
+Inicio
+ ↓
+Bandera = False
+ ↓
+├── Recorrer filas de la matriz
+│     ↓
+│     ├── Recorrer números en la fila
+│     │      ↓
+│     │      ├── ¿Número < 0?
+│     │      │      ├── Sí → Bandera = True → Romper bucle interno
+│     │      │      └── No → Continuar
+│     │
+│     └── ¿Bandera == True?
+│            ├── Sí → Romper bucle externo
+│            └── No → Continuar con siguiente fila
+↓
+¿Bandera == True?
+├── Sí → Mostrar mensaje de número negativo
+└── No → Mostrar mensaje de éxito
+↓
+Fin
+```
+
+🟥 **(Mejora opcional para nota extra)**
+Agrega una **variable de control de posición (i, j)** que guarde la ubicación exacta donde se detectó el valor negativo y muéstrala al final.
+Esto entrena la captura contextual sin aumentar la complejidad del flujo.
+
+```
+🟥  ├── Guardar posición [i, j] del valor negativo
+🟥  ├── Mostrar posición al final del programa
+```
+
+---
+
+## 🧱 **5. Ejercicio 01** - `control_con_bandera_booleana.py`
+
+```python
+# -----------------------------------------------------------
+# Ejercicio 01 - control_con_bandera_booleana.py
+# Objetivo: Usar una bandera booleana para detener una búsqueda
+# dentro de una estructura anidada.
+# -----------------------------------------------------------
+
+#1️⃣ Crear una estructura anidada de datos (por ejemplo, lista de listas)
+#    donde pueda existir un valor específico que se desea encontrar.
+
+#2️⃣ Inicializar la bandera booleana en False
+#    → indicará si se ha encontrado o no la condición.
+
+#3️⃣ Iniciar un bucle externo para recorrer la estructura principal
+#    (por ejemplo, cada fila de una matriz o cada grupo de datos).
+
+#4️⃣ Iniciar un bucle interno para recorrer los elementos de la subestructura.
+#    Dentro de este, comprobar una condición específica.
+#    (Ejemplo: si un valor cumple cierto criterio).
+
+#5️⃣ Si se cumple la condición:
+#        Cambiar la bandera a True.
+#        Guardar opcionalmente información del elemento encontrado.
+#        Romper el bucle interno.
+
+#6️⃣ Fuera del bucle interno, verificar si la bandera está en True:
+#        Si lo está, romper también el bucle externo.
+
+#7️⃣ Al terminar los bucles, usar la bandera para decidir qué mensaje mostrar.
+#        Si la bandera es True → se encontró el elemento.
+#        Si la bandera es False → no se encontró nada.
+
+#🟥 Mejora opcional (puntuación extra):
+#        Guardar la posición exacta del elemento encontrado (índices).
+#        Mostrar esa posición al final junto con el mensaje de resultado.
+```
+
+---
