@@ -26,7 +26,7 @@ factura_pendiente = False
 for cliente in clientes:
     for factura in cliente["facturas"]:
         if factura["estado"] == "pendiente":
-            # factura_pendiente = True
+            factura_pendiente = True
             cliente_endeudado = cliente["nombre"]
             break
     if factura_pendiente == True:
@@ -470,34 +470,240 @@ Esto entrena la captura contextual sin aumentar la complejidad del flujo.
 # dentro de una estructura anidada.
 # -----------------------------------------------------------
 
-#1️⃣ Crear una estructura anidada de datos (por ejemplo, lista de listas)
-#    donde pueda existir un valor específico que se desea encontrar.
+# 1. Definición de la Matriz de Ejemplo (Array 2D)
+matriz = [
+    [10, 20, 30],
+    [40, -5, 60], # ¡Aquí está el negativo!
+    [70, 80, 90]
+]
 
-#2️⃣ Inicializar la bandera booleana en False
-#    → indicará si se ha encontrado o no la condición.
+# 2. Inicialización de Variables (INICIO del diagrama de flujo)
+bandera_negativo = False  # Bandera = False
+pos_i = -1                # Pos_i = -1 (Fila)
+pos_j = -1                # Pos_j = -1 (Columna)
 
-#3️⃣ Iniciar un bucle externo para recorrer la estructura principal
-#    (por ejemplo, cada fila de una matriz o cada grupo de datos).
+# 3. Recorrido de la Matriz
+# El 'enumerate' nos da el índice (i, j) y el valor en cada iteración.
 
-#4️⃣ Iniciar un bucle interno para recorrer los elementos de la subestructura.
-#    Dentro de este, comprobar una condición específica.
-#    (Ejemplo: si un valor cumple cierto criterio).
+# Recorrer filas (Bucle externo con índice i)
+for i, fila in enumerate(matriz):
+    # Recorrer números en la fila (Bucle interno con índice j)
+    for j, numero in enumerate(fila):
 
-#5️⃣ Si se cumple la condición:
-#        Cambiar la bandera a True.
-#        Guardar opcionalmente información del elemento encontrado.
-#        Romper el bucle interno.
+        # ¿Número < 0?
+        if numero < 0:
+            # Sí -> Se encontró un negativo
+            bandera_negativo = True
 
-#6️⃣ Fuera del bucle interno, verificar si la bandera está en True:
-#        Si lo está, romper también el bucle externo.
+            # 🟥 Guardar posición [i, j] del valor negativo (MEJORA)
+            pos_i = i
+            pos_j = j
 
-#7️⃣ Al terminar los bucles, usar la bandera para decidir qué mensaje mostrar.
-#        Si la bandera es True → se encontró el elemento.
-#        Si la bandera es False → no se encontró nada.
+            # Romper bucle interno
+            break
+
+    # ¿Bandera == True?
+    if bandera_negativo:
+        # Sí -> Romper bucle externo
+        break
+
+# 4. Resultado Final
+print("-" * 52)
+
+# ¿Bandera == True?
+if bandera_negativo:
+    # Sí -> Mostrar mensaje de número negativo y su posición
+    print("¡ERROR: Se detectó un número negativo!")
+    # 🟥 Mostrar posición al final del programa (MEJORA)
+    print(f"El valor negativo se encontró en la posición: [{pos_i}, {pos_j}]")
+else:
+    # No -> Mostrar mensaje de éxito
+    print("ÉXITO: La matriz no contiene números negativos.")
+```
+
+```
+"""
+RESPUETA CONSOLA:
+----------------------------------------------------
+¡ERROR: Se detectó un número negativo!
+El valor negativo se encontró en la posición: [1, 1]
+"""
+```
+
+---
+
+# 📁 **Ejercicio 02 – busqueda_en_estructura_anidada.py**
+
+---
+
+## 🎯 **1. Objetivo del ejercicio**
+
+Diseñar un programa que **busque un elemento o conjunto de elementos que cumplan condiciones específicas** dentro de una estructura anidada (por ejemplo, lista de diccionarios o lista de listas), utilizando una **bandera booleana** para controlar el flujo lógico y evitar recorridos innecesarios.
+
+El propósito es aprender a **localizar datos complejos sin romper la estructura del programa**, aplicando control booleano, estructuras anidadas, condicionales combinadas y conceptos de lectura limpia y eficiente.
+
+---
+
+## 📘 **2. Teoría aplicada**
+
+### 🔹 Concepto central: **Búsqueda condicional en estructuras anidadas**
+
+Una **estructura anidada** es aquella que contiene otros elementos estructurados (listas dentro de listas, diccionarios dentro de listas, etc.).
+La búsqueda condicional en estas estructuras requiere recorrerlas cuidadosamente sin perder el contexto de **qué elemento pertenece a quién**.
+
+Ejemplo clásico:
+Buscar un alumno que tenga una nota mayor a 90 y viva en una ciudad específica dentro de una lista de diccionarios.
+
+---
+
+### 🔹 Idea lógica
+
+1. Recorrer cada elemento principal de la estructura (por ejemplo, cada registro o fila).
+2. Dentro de cada uno, analizar los subelementos o claves internas.
+3. Evaluar una o varias condiciones lógicas combinadas (`and`, `or`).
+4. Si la condición se cumple, activar una bandera booleana y detener la búsqueda.
+5. Al finalizar, mostrar el resultado según el estado de la bandera.
+
+---
+
+### 🔹 Conceptos teóricos clave
+
+**1️⃣ Condiciones múltiples**
+Permiten combinar criterios de búsqueda.
+Ejemplo:
+
+```python
+if alumno["nota"] > 90 and alumno["ciudad"] == "Madrid":
+```
+
+Esto verifica dos criterios al mismo tiempo, permitiendo búsquedas precisas.
+
+**2️⃣ Banderas y flujo controlado**
+Igual que en el ejercicio anterior, la bandera sirve para detener los bucles o indicar que un resultado fue hallado.
+
+**3️⃣ Control semántico de estado**
+Puedes mantener variables que indiquen _quién_ o _qué_ se encontró.
+Ejemplo: `alumno_encontrado = {}` o `nombre_objetivo = None`.
+
+**4️⃣ Uso profesional en la vida real**
+Este patrón de búsqueda es usado en:
+
+- Motores de búsqueda internos (bases de datos pequeñas en memoria).
+- Validaciones de integridad (comprobar si un registro ya existe).
+- Filtros de datos en sistemas automatizados (ERP, CRM, etc.).
+
+---
+
+## 🧪 **3. Ejemplo práctico**
+
+Supón que tienes una lista de clientes y necesitas saber si alguno tiene una compra superior a $1000 en una categoría específica.
+
+```python
+clientes = [
+    {"nombre": "Ana", "compras": [{"monto": 500, "categoria": "hogar"}, {"monto": 1200, "categoria": "electrónica"}]},
+    {"nombre": "Luis", "compras": [{"monto": 200, "categoria": "hogar"}]},
+    {"nombre": "Carla", "compras": [{"monto": 800, "categoria": "electrónica"}]}
+]
+```
+
+**Lógica esperada:**
+
+- Recorrer clientes.
+- Recorrer sus compras.
+- Buscar una compra con monto > 1000 **y** categoría = "electrónica".
+- Si se encuentra, bandera = `True`, registrar el cliente, y romper los bucles.
+
+Resultado esperado:
+
+```
+⚠️ Cliente con compra destacada encontrado: Ana
+```
+
+---
+
+## 🧭 **4. Diagrama de flujo**
+
+```
+Inicio
+ ↓
+Bandera = False
+Cliente_encontrado = None
+ ↓
+├── Recorrer lista de clientes
+│      ↓
+│      ├── Recorrer lista de compras de cada cliente
+│      │       ↓
+│      │       ├── ¿Monto > 1000 AND categoría == "electrónica"?
+│      │       │       ├── Sí → Bandera = True
+│      │       │       │       ├── Guardar nombre del cliente
+│      │       │       │       ├── Romper bucle interno
+│      │       │       └── No → Continuar buscando
+│      │
+│      └── ¿Bandera == True?
+│              ├── Sí → Romper bucle externo
+│              └── No → Continuar con el siguiente cliente
+↓
+¿Bandera == True?
+├── Sí → Mostrar cliente encontrado
+└── No → Mostrar mensaje “no se encontró compra destacada”
+↓
+Fin
+```
+
+🟥 **(Mejoras opcionales para nota extra):**
+
+```
+🟥 ├── Guardar también el monto y categoría del resultado encontrado.
+🟥 ├── Escribir en un pequeño archivo .csv o .json el resultado (solo con conocimientos de esta clase).
+🟥 └── Mostrar un resumen estructurado con datetime.now() (registro temporal profesional).
+```
+
+---
+
+## 🧱 **5. **Ejercicio 02 – busqueda_en_estructura_anidada.py\*\*
+
+```python
+# -----------------------------------------------------------
+# Ejercicio 02 - busqueda_en_estructura_anidada.py
+# Objetivo: Buscar un elemento que cumpla condiciones
+# específicas dentro de una estructura anidada usando
+# una bandera booleana para controlar el flujo lógico.
+# -----------------------------------------------------------
+
+#1️⃣ Crear una estructura de datos anidada (por ejemplo, lista de diccionarios).
+#    Cada elemento debe tener subelementos o listas internas.
+#    Ejemplo: lista de clientes con sus compras o lista de alumnos con notas.
+
+#2️⃣ Inicializar la bandera booleana en False.
+#    Inicializar también una variable para guardar el resultado si se encuentra.
+#    Ejemplo: cliente_encontrado = None
+
+#3️⃣ Iniciar un bucle externo para recorrer los elementos principales.
+#    (Ejemplo: cada cliente de la lista principal.)
+
+#4️⃣ Iniciar un bucle interno para recorrer los subelementos del elemento actual.
+#    (Ejemplo: cada compra, cada nota, etc.)
+
+#5️⃣ Dentro del bucle interno, evaluar la condición compuesta:
+#        - Puede incluir comparaciones AND / OR según el caso.
+#        - Ejemplo: monto > 1000 AND categoría == "electrónica"
+
+#6️⃣ Si se cumple la condición:
+#        - Cambiar la bandera a True.
+#        - Guardar el elemento (nombre, dato o diccionario completo).
+#        - Romper el bucle interno.
+
+#7️⃣ Fuera del bucle interno, verificar si la bandera está en True:
+#        - Si lo está, romper el bucle externo también.
+
+#8️⃣ Al terminar los bucles, evaluar la bandera:
+#        - Si es True → mostrar el elemento encontrado.
+#        - Si es False → mostrar mensaje de no encontrado.
 
 #🟥 Mejora opcional (puntuación extra):
-#        Guardar la posición exacta del elemento encontrado (índices).
-#        Mostrar esa posición al final junto con el mensaje de resultado.
+#        - Guardar también el valor (ej. monto y categoría).
+#        - Registrar el resultado en un archivo (CSV o JSON) usando 'with open'.
+#        - Añadir una marca temporal (datetime.now()) al resultado.
 ```
 
 ---
