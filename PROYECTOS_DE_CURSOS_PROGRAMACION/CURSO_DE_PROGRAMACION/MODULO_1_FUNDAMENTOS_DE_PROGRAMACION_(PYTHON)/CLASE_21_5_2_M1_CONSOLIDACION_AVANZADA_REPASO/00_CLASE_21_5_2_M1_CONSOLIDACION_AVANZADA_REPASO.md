@@ -660,7 +660,7 @@ Fin
 
 ---
 
-## 🧱 **5. **Ejercicio 02 – busqueda_en_estructura_anidada.py\*\*
+## 🧱 **5. Ejercicio 02 – busqueda_en_estructura_anidada.py**
 
 ```python
 # -----------------------------------------------------------
@@ -670,40 +670,338 @@ Fin
 # una bandera booleana para controlar el flujo lógico.
 # -----------------------------------------------------------
 
-#1️⃣ Crear una estructura de datos anidada (por ejemplo, lista de diccionarios).
-#    Cada elemento debe tener subelementos o listas internas.
-#    Ejemplo: lista de clientes con sus compras o lista de alumnos con notas.
+import datetime
+import json
+import csv
+
+NOW = datetime.datetime.now()
+FECHA_FORMATIADA = NOW.strftime("%d/%m/%Y %H:%M")
+ARCHIVO_JSON = "resultado_busqueda.json"
+ARCHIVO_CSV = "resultado_busqueda.csv"
+
+ENCABEZADOS = ["nombre", "monto", "articulo", "cantidad", "categoria", "fecha de registro"]
+
+#1️⃣ Crear una estructura de datos anidada
+carrito_compras = [
+    {
+        "Nombre": "Eduardo",
+        "compras": [
+            {"monto": 300, "articulo": "pantalones", "cantidad": 1, "categoria": "ropa"},
+            {"monto": 800, "articulo": "audifonos", "cantidad": 2, "categoria": "electronica"},
+        ],
+    },
+    {
+        "Nombre": "Javier",
+        "compras": [
+            {"monto": 900, "articulo": "platos", "cantidad": 20, "categoria": "hogar"},
+            {"monto": 1800, "articulo": "faros", "cantidad": 4, "categoria": "automotriz"},
+            {"monto": 200, "articulo": "libro", "cantidad": 1, "categoria": "papeleria"},
+        ],
+    },
+    {
+        "Nombre": "Virginia",
+        "compras": [
+            {"monto": 100, "articulo": "cepillo", "cantidad": 2, "categoria": "hogar"},
+            {"monto": 750, "articulo": "destornillador", "cantidad": 4, "categoria": "herramienta"},
+            {"monto": 50, "articulo": "carne", "cantidad": "2kg", "categoria": "alimentos"},
+        ],
+    },
+
+]
 
 #2️⃣ Inicializar la bandera booleana en False.
-#    Inicializar también una variable para guardar el resultado si se encuentra.
-#    Ejemplo: cliente_encontrado = None
+encontrados = False
+compra_de_alimentos = None
 
-#3️⃣ Iniciar un bucle externo para recorrer los elementos principales.
-#    (Ejemplo: cada cliente de la lista principal.)
+#3️⃣ Iniciar bucles.
+for cliente in carrito_compras:
 
-#4️⃣ Iniciar un bucle interno para recorrer los subelementos del elemento actual.
-#    (Ejemplo: cada compra, cada nota, etc.)
+    #4️⃣ Iniciar bucle interno
+    for compra in cliente["compras"]:
+        if compra["categoria"] == "alimentos" and compra["articulo"] == "carne":
 
-#5️⃣ Dentro del bucle interno, evaluar la condición compuesta:
-#        - Puede incluir comparaciones AND / OR según el caso.
-#        - Ejemplo: monto > 1000 AND categoría == "electrónica"
+            compra_de_alimentos = {
+                "nombre": cliente["Nombre"],
+                "monto": compra["monto"],
+                "articulo": compra["articulo"],
+                "cantidad": compra["cantidad"],
+                "categoria": compra["categoria"],
+                "fecha de registro": FECHA_FORMATIADA
+            }
+            break
 
-#6️⃣ Si se cumple la condición:
-#        - Cambiar la bandera a True.
-#        - Guardar el elemento (nombre, dato o diccionario completo).
-#        - Romper el bucle interno.
+    if compra_de_alimentos:
+        break
 
-#7️⃣ Fuera del bucle interno, verificar si la bandera está en True:
-#        - Si lo está, romper el bucle externo también.
+if compra_de_alimentos:
+    print("✅ EXITO EN LA BUSQUEDA: AL MENOS UNA DE LAS COMPRAS FUE DE ALIMENTOS\n")
+    print("-" * 90)
+    # ✅ CORRECCIÓN DE CONSISTENCIA: La columna "Articulo"
+    print(f"{'Nombre':<15}{'Monto':<10}{'Articulo':<15}{'Cantidad':<10}{'Categoria':<15}{'Fecha':<15}")
+    print("-" * 90)
+    print(
+            f"{compra_de_alimentos['nombre']:<15}"
+            f"{compra_de_alimentos['monto']:<10}"
+            f"{compra_de_alimentos['articulo']:<15}"
+            f"{compra_de_alimentos['cantidad']:<10}"
+            f"{compra_de_alimentos['categoria']:<15}"
+            f"{compra_de_alimentos['fecha de registro']:<15}"
+           )
 
-#8️⃣ Al terminar los bucles, evaluar la bandera:
-#        - Si es True → mostrar el elemento encontrado.
-#        - Si es False → mostrar mensaje de no encontrado.
+    # 💾 GUARDAR EN JSON
+    with open(ARCHIVO_JSON, "w", encoding="utf-8") as archivo_json_guardar:
+        json.dump(compra_de_alimentos, archivo_json_guardar, indent=4 )
 
-#🟥 Mejora opcional (puntuación extra):
-#        - Guardar también el valor (ej. monto y categoría).
-#        - Registrar el resultado en un archivo (CSV o JSON) usando 'with open'.
-#        - Añadir una marca temporal (datetime.now()) al resultado.
+    # 📝 GUARDAR EN CSV
+    with open(ARCHIVO_CSV, "w", newline="", encoding="utf-8") as archivo_csv:
+        escritor_csv = csv.DictWriter(archivo_csv, fieldnames=ENCABEZADOS)
+        escritor_csv.writeheader()
+        escritor_csv.writerow(compra_de_alimentos)
+
+    print(f"\nResultado de la busqueda guardado en los archivos: {ARCHIVO_JSON} y {ARCHIVO_CSV}")
+
+else:
+    print("❌ FRACASO EN LA BUSQUEDA: NINGUNA COMPRA ES DE ALIMENTOS")
+```
+
+```terminal
+"""
+RESPUESTA DE CONSOLA:
+✅ EXITO EN LA BUSQUEDA: AL MENOS UNA DE LAS COMPRAS FUE DE ALIMENTOS
+
+------------------------------------------------------------------------------------------
+Nombre         Monto     Articulo       Cantidad  Categoria      Fecha
+------------------------------------------------------------------------------------------
+Virginia       50        carne          2kg       alimentos      16/10/2025 00:27
+
+Resultado de la busqueda guardado en los archivos: resultado_busqueda.json y resultado_busqueda.csv
+```
+
+```json
+contenido del archivo: resultado_busqueda.json
+{
+    "nombre": "Virginia",
+    "monto": 50,
+    "articulo": "carne",
+    "cantidad": "2kg",
+    "categoria": "alimentos",
+    "fecha de registro": "16/10/2025 00:27"
+}
+"""
+```
+
+`contenido  del archivo: resultado_busqueda.csv`
+| nombre | monto | articulo | cantidad | categoria | fecha de registro |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Virginia | 50 | carne | 2kg | alimentos | 16/10/2025 00:27 |
+
+---
+
+# 📁 **Ejercicio 03 – lectura_y_escritura_csv.py**
+
+---
+
+## 🎯 **1. Objetivo del ejercicio**
+
+Aprender a **leer y escribir archivos CSV** de forma profesional en Python utilizando el módulo estándar `csv`, con estructuras limpias, encabezados definidos, codificación correcta y control de flujo con banderas booleanas.
+
+El objetivo es dominar cómo transformar estructuras de datos (listas, diccionarios) en archivos CSV y viceversa, de forma **segura, escalable y automatizable**.
+
+En términos profesionales, esto te prepara para:
+
+- Procesar reportes de ventas, usuarios o inventarios.
+- Exportar datos a Excel o sistemas externos.
+- Integrar lectura/escritura en flujos automatizados (ERP, CRM, etc.).
+
+---
+
+## 📘 **2. Teoría aplicada**
+
+### 🔹 ¿Qué es un archivo CSV?
+
+**CSV (Comma-Separated Values)** es un formato de texto plano que organiza información en **filas y columnas**, separadas por comas (`,`) o puntos y coma (`;`), según la configuración regional.
+Cada fila representa un registro, y cada columna, un campo.
+
+Ejemplo de un archivo CSV:
+
+```
+nombre,edad,ciudad
+Ana,25,Madrid
+Luis,30,Sevilla
+```
+
+---
+
+### 🔹 Módulo estándar `csv`
+
+Python incluye el módulo `csv` para leer y escribir archivos de este tipo.
+Ofrece dos clases principales:
+
+- `csv.reader()` → para **leer líneas** del archivo (modo fila por fila).
+- `csv.writer()` → para **escribir filas** (listas o tuplas).
+  Además, tiene variantes orientadas a diccionarios:
+- `csv.DictReader()` → cada fila se convierte en un diccionario.
+- `csv.DictWriter()` → escribe directamente desde diccionarios.
+
+---
+
+### 🔹 Lógica de trabajo con CSV
+
+1. Abrir el archivo con `open()`, especificando:
+
+   - Ruta del archivo.
+   - Modo de apertura (`"r"` para leer, `"w"` o `"a"` para escribir o agregar).
+   - `newline=""` (para evitar líneas en blanco adicionales en Windows).
+   - `encoding="utf-8"` (para evitar errores con caracteres especiales).
+
+2. Crear un **lector o escritor** con `csv.reader()` o `csv.writer()`.
+
+3. Iterar o escribir los datos según sea necesario.
+
+4. Cerrar el archivo (o dejar que lo haga el contexto `with`).
+
+---
+
+### 🔹 Concepto de cabecera (header)
+
+El **encabezado** define el orden de las columnas en un CSV.
+Usarlo garantiza la coherencia entre escritura y lectura, y evita desalineación de datos.
+
+---
+
+### 🔹 Banderas booleanas aplicadas
+
+En este ejercicio también puedes usar una **bandera de control**, por ejemplo:
+
+- `archivo_creado = False`
+  → para indicar si el archivo fue generado correctamente o no.
+  Esta práctica es útil para notificar al usuario o controlar procesos automáticos.
+
+---
+
+## 🧪 **3. Ejemplo práctico**
+
+Imagina que tienes una lista de productos y quieres guardarla en un CSV y luego leerla:
+
+```python
+import csv
+
+productos = [
+    {"nombre": "Laptop", "precio": 1200, "stock": 5},
+    {"nombre": "Teclado", "precio": 100, "stock": 25},
+    {"nombre": "Ratón", "precio": 75, "stock": 40}
+]
+
+# Escritura
+with open("productos.csv", "w", newline="", encoding="utf-8") as f:
+    escritor = csv.DictWriter(f, fieldnames=["nombre", "precio", "stock"])
+    escritor.writeheader()
+    escritor.writerows(productos)
+
+# Lectura
+with open("productos.csv", "r", encoding="utf-8") as f:
+    lector = csv.DictReader(f)
+    for fila in lector:
+        print(fila)
+```
+
+Salida esperada:
+
+```
+{'nombre': 'Laptop', 'precio': '1200', 'stock': '5'}
+{'nombre': 'Teclado', 'precio': '100', 'stock': '25'}
+{'nombre': 'Ratón', 'precio': '75', 'stock': '40'}
+```
+
+---
+
+## 🧭 **4. Diagrama de flujo**
+
+```
+Inicio
+ ↓
+Bandera = False
+ ↓
+├── Definir encabezados de columnas (fieldnames)
+│     ↓
+│     Crear lista de diccionarios con los datos a guardar
+ ↓
+Abrir archivo CSV en modo escritura ("w")
+ ↓
+├── Crear escritor CSV con DictWriter
+│     ├── Escribir encabezado
+│     └── Escribir filas (writerows)
+↓
+Cerrar archivo automáticamente con 'with'
+↓
+Bandera = True (archivo creado)
+↓
+Mostrar mensaje de éxito
+↓
+Abrir archivo CSV en modo lectura ("r")
+↓
+├── Crear lector CSV con DictReader
+│     ├── Recorrer cada fila
+│     └── Mostrar resultados leídos en pantalla
+↓
+¿Lectura exitosa?
+├── Sí → Mostrar confirmación de lectura
+└── No → Mostrar mensaje de error
+↓
+🟥 (Mejoras opcionales)
+🟥 ├── Añadir verificación previa de existencia del archivo con os.path.exists()
+🟥 ├── Agregar marca temporal con datetime.now() en cada registro
+🟥 └── Guardar también una copia de respaldo (backup) en otra ruta
+↓
+Fin
+```
+
+---
+
+## 🧱 📁 **Ejercicio 03 – lectura_y_escritura_csv.py**
+
+```python
+# -----------------------------------------------------------
+# Ejercicio 03 - lectura_y_escritura_csv.py
+# Objetivo: Leer y escribir archivos CSV usando el módulo csv
+# aplicando banderas booleanas para el control del flujo.
+# -----------------------------------------------------------
+
+#1️⃣ Importar el módulo csv y, si se desea, datetime y os.
+#    (Estos servirán para la mejora opcional 🟥)
+
+#2️⃣ Definir el nombre del archivo CSV a usar.
+#    Ejemplo: ARCHIVO = "productos.csv"
+
+#3️⃣ Definir la lista de encabezados (fieldnames)
+#    Ejemplo: ENCABEZADOS = ["nombre", "precio", "stock"]
+
+#4️⃣ Crear una lista de diccionarios con datos de ejemplo.
+#    Cada diccionario representa una fila (registro).
+
+#5️⃣ Inicializar una bandera en False (archivo_creado = False)
+#    Esto servirá para controlar si la escritura fue exitosa.
+
+#6️⃣ Abrir el archivo CSV en modo escritura ("w") con 'with open'
+#        - Crear un objeto escritor (DictWriter)
+#        - Escribir el encabezado (writeheader)
+#        - Escribir todas las filas (writerows)
+#        - Cambiar la bandera a True al finalizar.
+
+#7️⃣ Mostrar un mensaje de confirmación si archivo_creado == True
+#        Caso contrario, mostrar advertencia.
+
+#8️⃣ Abrir nuevamente el archivo CSV en modo lectura ("r")
+#        - Crear un objeto lector (DictReader)
+#        - Recorrer el contenido e imprimir cada fila.
+
+#9️⃣ (Opcional 🟥) Mejoras con conocimientos actuales:
+#        - Verificar si el archivo existe antes de leer (os.path.exists)
+#        - Añadir campo de "fecha de registro" con datetime.now()
+#        - Crear una copia de respaldo del archivo (backup.csv)
+#        - Manejar posibles excepciones con try/except (nivel profesional)
+
+#🔟 Mostrar mensaje final de estado de lectura (éxito o error).
 ```
 
 ---
