@@ -961,47 +961,313 @@ Fin
 ## 🧱 📁 **Ejercicio 03 – lectura_y_escritura_csv.py**
 
 ```python
-# -----------------------------------------------------------
 # Ejercicio 03 - lectura_y_escritura_csv.py
 # Objetivo: Leer y escribir archivos CSV usando el módulo csv
 # aplicando banderas booleanas para el control del flujo.
 # -----------------------------------------------------------
-
 #1️⃣ Importar el módulo csv y, si se desea, datetime y os.
-#    (Estos servirán para la mejora opcional 🟥)
+import csv
+import datetime
+import os
+from tabulate import tabulate
 
+# CONSTANTES
 #2️⃣ Definir el nombre del archivo CSV a usar.
-#    Ejemplo: ARCHIVO = "productos.csv"
+ARCHIVO_CSV = "03_lectura_y_escritura_csv.csv"
 
-#3️⃣ Definir la lista de encabezados (fieldnames)
-#    Ejemplo: ENCABEZADOS = ["nombre", "precio", "stock"]
+#3️⃣ Definir la lista de ENCABEZADOS (fieldnames)
+ENCABEZADOS = ["Nombre", "ID", "Teléfono", "Status"]
+FECHA = datetime.datetime.now().strftime("%d.%m.%Y %H:%M")
+
 
 #4️⃣ Crear una lista de diccionarios con datos de ejemplo.
-#    Cada diccionario representa una fila (registro).
+clientes = [
+    {"Nombre": "Eduardo", "ID": 4258, "Teléfono": "+79625875689", "Status":"VIP"},
+    {"Nombre": "Ramon", "ID": 98575, "Teléfono": "+79215896514", "Status":"VIP"},
+    {"Nombre": "Francisco", "ID": 56587, "Teléfono": "+79678564287", "Status":"CASUAL"},
+    {"Nombre": "Juan", "ID": 89875, "Teléfono": "+79628550045", "Status":"INVITADO"},
+    {"Nombre": "Pedro", "ID": 89854, "Teléfono": "+79855743337", "Status":"BLOQUEADO"},
+    {"Nombre": "Ana", "ID": 70235, "Teléfono": "+79626963706", "Status":"VIP"}
+]
 
-#5️⃣ Inicializar una bandera en False (archivo_creado = False)
-#    Esto servirá para controlar si la escritura fue exitosa.
+
+#5️⃣ Inicializar una bandera
+archivo_creado = False
+lectura_exitosa = False
 
 #6️⃣ Abrir el archivo CSV en modo escritura ("w") con 'with open'
-#        - Crear un objeto escritor (DictWriter)
-#        - Escribir el encabezado (writeheader)
-#        - Escribir todas las filas (writerows)
-#        - Cambiar la bandera a True al finalizar.
+try:
+    with open(ARCHIVO_CSV, "w", newline="", encoding="utf-8") as archivo_csv:
+        escritor_csv = csv.DictWriter(archivo_csv, fieldnames=ENCABEZADOS)
+        escritor_csv.writeheader()
+        escritor_csv.writerows(clientes)
+        archivo_creado = True
+except Exception as error_escritura:
+    print(f"❌ ERROR: {error_escritura} al crear el archivo")
 
-#7️⃣ Mostrar un mensaje de confirmación si archivo_creado == True
-#        Caso contrario, mostrar advertencia.
+if os.path.exists(ARCHIVO_CSV):
+    #7️⃣ Mostrar un mensaje de confirmación
+    print(f"✅ Archivo '{ARCHIVO_CSV}' creado correctamente.\n")
+
+else:
+    print("⚠️ Advertencia: No se pudo crear el archivo CSV.")
 
 #8️⃣ Abrir nuevamente el archivo CSV en modo lectura ("r")
-#        - Crear un objeto lector (DictReader)
-#        - Recorrer el contenido e imprimir cada fila.
+try:
+    with open(ARCHIVO_CSV, "r", encoding="utf-8") as archivo_csv:
+        lector_csv = csv.DictReader(archivo_csv)
+        datos = list(lector_csv)
+        if not datos:
+            raise ValueError("❌ El archivo está vacío o sin datos válidos")
+        print(f"⏱️  Fecha de creación: {FECHA}.\n")
+        print(tabulate(datos, headers="keys", tablefmt="fancy_grid"))
+        lectura_exitosa = True
+except Exception as error_lectura:
+    print(f"❌ ERROR: {error_lectura} al leer el archivo")
+else:
+    print("\n📑 Lectura realizada sin errores. ")
+finally:
+    if lectura_exitosa:
+        print("\n❇️ Estado final: LECTURA EXITOSA")
+    else:
+        print("\n✴️ Estado final: ERROR EN LA LECTURA")
+```
 
-#9️⃣ (Opcional 🟥) Mejoras con conocimientos actuales:
-#        - Verificar si el archivo existe antes de leer (os.path.exists)
-#        - Añadir campo de "fecha de registro" con datetime.now()
-#        - Crear una copia de respaldo del archivo (backup.csv)
-#        - Manejar posibles excepciones con try/except (nivel profesional)
+```terminal
+"""
+RESPUESTA DE CONSOLA
+------------------------------------------------------------------
+✅ Archivo '03_lectura_y_escritura_csv.csv' creado correctamente.
 
-#🔟 Mostrar mensaje final de estado de lectura (éxito o error).
+⏱️  Fecha de creación: 16.10.2025 20:10.
+
+╒═══════════╤═══════╤══════════════╤═══════════╕
+│ Nombre    │    ID │     Teléfono │ Status    │
+╞═══════════╪═══════╪══════════════╪═══════════╡
+│ Eduardo   │  4258 │ +79625875689 │ VIP       │
+├───────────┼───────┼──────────────┼───────────┤
+│ Ramon     │ 98575 │ +79215896514 │ VIP       │
+├───────────┼───────┼──────────────┼───────────┤
+│ Francisco │ 56587 │ +79678564287 │ CASUAL    │
+├───────────┼───────┼──────────────┼───────────┤
+│ Juan      │ 89875 │ +79628550045 │ INVITADO  │
+├───────────┼───────┼──────────────┼───────────┤
+│ Pedro     │ 89854 │ +79855743337 │ BLOQUEADO │
+├───────────┼───────┼──────────────┼───────────┤
+│ Ana       │ 70235 │ +79626963706 │ VIP       │
+╘═══════════╧═══════╧══════════════╧═══════════╛
+
+📑 Lectura realizada sin errores.
+
+❇️ Estado final: LECTURA EXITOSA
+------------------------------------------------------------------
+"""
+```
+
+---
+
+# 📁 **Ejercicio 04 – guardar_y_cargar_json.py**
+
+---
+
+## 🎯 **1. Objetivo del ejercicio**
+
+Aprender a **guardar y cargar información estructurada en formato JSON**, aplicando control de flujo con banderas booleanas, buenas prácticas de manejo de archivos y validaciones lógicas.
+
+Este ejercicio busca que comprendas cómo:
+
+- Serializar (guardar) estructuras de Python (`listas`, `diccionarios`) en archivos JSON.
+- Deserializar (cargar) esa información desde el archivo al programa.
+- Controlar los estados de lectura y escritura con banderas booleanas y manejo de excepciones.
+
+**Aplicación profesional:**
+El formato JSON se usa en **APIs, bases de datos NoSQL (como MongoDB), almacenamiento de configuración**, y comunicación entre aplicaciones.
+Dominarlo es esencial para cualquier desarrollador profesional.
+
+---
+
+## 📘 **2. Teoría aplicada**
+
+### 🔹 ¿Qué es JSON?
+
+**JSON (JavaScript Object Notation)** es un formato ligero de intercambio de datos.
+Es legible por humanos, compatible con casi todos los lenguajes de programación y se basa en una estructura **clave → valor**.
+
+Ejemplo conceptual:
+
+```json
+{
+  "nombre": "Gabo",
+  "edad": 27,
+  "lenguajes": ["Python", "JavaScript", "C#"],
+  "activo": true
+}
+```
+
+---
+
+### 🔹 Estructura básica
+
+Un archivo JSON puede contener:
+
+- **Objetos** `{}` → equivalentes a diccionarios de Python.
+- **Listas** `[]` → equivalentes a listas de Python.
+- **Valores primitivos:** `str`, `int`, `float`, `bool`, `null` (en Python: `None`).
+
+---
+
+### 🔹 Módulo estándar `json`
+
+Python incluye el módulo `json` para manejar este formato.
+Funciones principales:
+
+| Función                   | Descripción                                    |
+| ------------------------- | ---------------------------------------------- |
+| `json.dump(obj, archivo)` | Guarda un objeto Python en un archivo JSON     |
+| `json.load(archivo)`      | Carga (lee) el contenido JSON desde un archivo |
+| `json.dumps(obj)`         | Convierte un objeto Python en un string JSON   |
+| `json.loads(cadena)`      | Convierte una cadena JSON en un objeto Python  |
+
+Parámetros útiles:
+
+- `indent=4` → para formatear con sangría legible.
+- `ensure_ascii=False` → para permitir caracteres en español correctamente.
+
+---
+
+### 🔹 Conceptos clave a aplicar
+
+1. **Serialización:** convertir estructuras Python a formato JSON.
+2. **Deserialización:** convertir JSON a estructuras Python.
+3. **Control con banderas:** determinar si el archivo fue guardado o cargado exitosamente.
+4. **Manejo de excepciones:** capturar errores de lectura/escritura o JSON malformado.
+
+---
+
+### 🔹 Flujo lógico general
+
+1. Crear una estructura Python (lista o diccionario).
+2. Guardarla en un archivo `.json` usando `json.dump()`.
+3. Leer ese mismo archivo con `json.load()`.
+4. Verificar con una bandera si el proceso fue exitoso.
+5. Mostrar la información cargada, formateada y legible.
+
+---
+
+## 🧪 **3. Ejemplo práctico**
+
+Supón que tienes una lista de usuarios y deseas guardar y recuperar sus datos:
+
+```python
+import json
+
+usuarios = [
+    {"nombre": "Ana", "edad": 28, "rol": "admin"},
+    {"nombre": "Luis", "edad": 31, "rol": "usuario"}
+]
+
+# Guardar
+with open("usuarios.json", "w", encoding="utf-8") as f:
+    json.dump(usuarios, f, indent=4, ensure_ascii=False)
+
+# Leer
+with open("usuarios.json", "r", encoding="utf-8") as f:
+    datos = json.load(f)
+    print(datos)
+```
+
+Salida esperada:
+
+```
+[{'nombre': 'Ana', 'edad': 28, 'rol': 'admin'}, {'nombre': 'Luis', 'edad': 31, 'rol': 'usuario'}]
+```
+
+💡 Observa que el JSON preserva la estructura original del objeto Python.
+
+---
+
+## 🧭 **4. Diagrama de flujo**
+
+```
+Inicio
+ ↓
+Bandera_guardado = False
+Bandera_carga = False
+ ↓
+├── Crear estructura de datos (lista o diccionario)
+│       ↓
+│       Guardar en archivo JSON
+│       ↓
+│       ├── ¿Se guardó correctamente?
+│       │       ├── Sí → Bandera_guardado = True
+│       │       └── No → Mostrar error
+↓
+¿Bandera_guardado == True?
+├── Sí → Proceder a lectura
+└── No → Terminar programa
+ ↓
+Abrir archivo JSON en modo lectura
+ ↓
+├── Leer contenido con json.load()
+│       ├── ¿Archivo válido?
+│       │       ├── Sí → Bandera_carga = True
+│       │       └── No → Mostrar error
+│
+├── Mostrar datos cargados en pantalla
+└── Mostrar cantidad de registros cargados
+↓
+🟥 (Mejoras opcionales)
+🟥 ├── Añadir timestamp de guardado (datetime.now())
+🟥 ├── Verificar existencia del archivo antes de leer (os.path.exists())
+🟥 ├── Guardar copia de respaldo (backup.json)
+🟥 └── Usar try/except para manejar JSONDecodeError
+↓
+Fin
+```
+
+---
+
+## 🧱 📁 **Ejercicio 04 – guardar_y_cargar_json.py**
+
+```python
+# -----------------------------------------------------------
+# Ejercicio 04 - guardar_y_cargar_json.py
+# Objetivo: Guardar y cargar datos estructurados en formato JSON
+# usando el módulo json y controlando el flujo con banderas booleanas.
+# -----------------------------------------------------------
+
+#1️⃣ Importar el módulo json y opcionalmente datetime y os.
+#    (para añadir timestamp o verificar la existencia del archivo 🟥)
+
+#2️⃣ Definir el nombre del archivo JSON a usar.
+#    Ejemplo: ARCHIVO_JSON = "usuarios.json"
+
+#3️⃣ Crear una estructura de datos Python (lista o diccionario)
+#    Ejemplo: lista de usuarios, productos, clientes, etc.
+
+#4️⃣ Inicializar dos banderas:
+#        - guardado_exitoso = False
+#        - carga_exitosa = False
+
+#5️⃣ Guardar los datos en el archivo JSON con 'with open' en modo escritura ("w")
+#        - Usar json.dump() con indent=4 y ensure_ascii=False.
+#        - Cambiar la bandera a True si el guardado fue exitoso.
+#        - Capturar posibles errores con try/except.
+
+#6️⃣ Si guardado_exitoso == True:
+#        - Proceder a abrir el archivo en modo lectura ("r").
+#        - Usar json.load() para cargar los datos.
+#        - Cambiar bandera de carga a True si se carga correctamente.
+#        - Mostrar los datos cargados en pantalla.
+
+#7️⃣ Mostrar mensajes de confirmación o error según el estado de las banderas.
+
+#🟥 Mejoras opcionales (puntuación extra):
+#        - Agregar campo "fecha de guardado" con datetime.now().
+#        - Comprobar si el archivo existe antes de leer con os.path.exists().
+#        - Crear copia de respaldo: backup_json = "usuarios_backup.json"
+#        - Manejar errores de decodificación JSON con except json.JSONDecodeError.
+#        - Mostrar el total de registros cargados (len(datos)) como validación final.
 ```
 
 ---
