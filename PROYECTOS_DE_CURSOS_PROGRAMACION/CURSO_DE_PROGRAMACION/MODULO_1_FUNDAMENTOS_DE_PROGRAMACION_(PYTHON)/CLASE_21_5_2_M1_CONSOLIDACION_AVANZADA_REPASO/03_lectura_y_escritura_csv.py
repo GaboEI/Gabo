@@ -17,6 +17,7 @@ ENCABEZADOS = ["Nombre", "ID", "Teléfono", "Status"]
 FECHA = datetime.datetime.now().strftime("%d.%m.%Y %H:%M")
 
 
+
 #4️⃣ Crear una lista de diccionarios con datos de ejemplo.
 clientes = [
     {"Nombre": "Eduardo", "ID": 4258, "Teléfono": "+79625875689", "Status":"VIP"},

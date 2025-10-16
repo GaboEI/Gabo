@@ -1230,44 +1230,321 @@ Fin
 ## 🧱 📁 **Ejercicio 04 – guardar_y_cargar_json.py**
 
 ```python
-# -----------------------------------------------------------
+# ---------------------------------------------------------------------
 # Ejercicio 04 - guardar_y_cargar_json.py
 # Objetivo: Guardar y cargar datos estructurados en formato JSON
 # usando el módulo json y controlando el flujo con banderas booleanas.
-# -----------------------------------------------------------
-
+# ---------------------------------------------------------------------
 #1️⃣ Importar el módulo json y opcionalmente datetime y os.
-#    (para añadir timestamp o verificar la existencia del archivo 🟥)
+import json
+import os
+from datetime import datetime
+#from tabulate import tabulate # -> No supe como usarlo
 
 #2️⃣ Definir el nombre del archivo JSON a usar.
-#    Ejemplo: ARCHIVO_JSON = "usuarios.json"
+ARCHIVO_JSON = "04_guardar_y_cargar_json.json"
+FECHA = datetime.now().strftime("📆 %d.%m.%Y ⏱️  %H:%M")
+#print(FECHA)
 
 #3️⃣ Crear una estructura de datos Python (lista o diccionario)
-#    Ejemplo: lista de usuarios, productos, clientes, etc.
+carrito_de_compras = {
+    "usuario": {
+        "id_usuario": 20391, "nombre": "Gabriel Espinosa", "correo": "gabo@example.com",
+        "pais": "Rusia", "moneda": "RUB", "miembro_vip": True
+    },
+    "carrito": {
+        "fecha_creacion": "2025-10-16",
+        "productos": [
+            {
+                "id_producto": 101, "nombre": "Teclado Mecánico RGB", "categoria": "Periféricos",
+                "marca": "KeyChron", "precio_unitario": 8490.99, "cantidad": 1, "en_stock": True,
+                "descuento": {"tipo": "porcentaje", "valor": 10},
+                "envio": {"metodo": "Estándar", "costo": 300.0, "tiempo_estimado": "3-5 días"},
+                "valoraciones": [5, 4, 5, 4, 5]
+            },
+            {
+                "id_producto": 204, "nombre": "Mouse Logitech MX Master 3S", "categoria": "Periféricos",
+                "marca": "Logitech", "precio_unitario": 11290.00, "cantidad": 2, "en_stock": True,
+                "descuento": {"tipo": "fijo", "valor": 500},
+                "envio": {"metodo": "Express", "costo": 450.0, "tiempo_estimado": "1-2 días"},
+                "valoraciones": [5, 5, 5, 4, 5]
+            },
+            {
+                "id_producto": 509, "nombre": "SSD NVMe 1TB Kingston Fury Renegade", "categoria": "Almacenamiento",
+                "marca": "Kingston", "precio_unitario": 12500.75, "cantidad": 1, "en_stock": False,
+                "descuento": {"tipo": None, "valor": 0},
+                "envio": {"metodo": "No disponible", "costo": 0.0, "tiempo_estimado": None},
+                "valoraciones": [5, 4, 5, 5, 5, 4]
+            }
+        ],
+        "totales": {
+            "subtotal": 0.0, "descuentos_totales": 0.0, "envio_total": 0.0,
+            "iva": 0.0, "total_final": 0.0
+        }
+    },
+    "historial": [
+        {"id_pedido": 9001, "fecha": "2025-07-15", "total_pagado": 18990.50,
+         "metodo_pago": "Tarjeta Visa", "estado": "Entregado",
+         "productos": ["Monitor LG UltraWide 29”", "Soporte VESA"]},
+        {"id_pedido": 9002, "fecha": "2025-09-10", "total_pagado": 5990.00,
+         "metodo_pago": "YooMoney", "estado": "Enviado",
+         "productos": ["Auriculares Sony WH-1000XM5"]}
+    ],
+    "preferencias": {
+        "direccion_envio": {
+            "pais": "Rusia", "ciudad": "San Petersburgo", "codigo_postal": "190000",
+            "direccion": "Nevsky Prospekt 28, Apt. 4", "telefono_contacto": "+7 911 234-5678"
+        },
+        "idioma": "es", "modo_oscuro": True,
+        "notificaciones": {"ofertas": True, "envios": True, "recomendaciones": False}
+    }
+}
 
-#4️⃣ Inicializar dos banderas:
-#        - guardado_exitoso = False
-#        - carga_exitosa = False
+# 1️⃣ Definir archivos y variables principales
+ARCHIVO_JSON = "04_guardar_y_cargar_json.json"
+BACKUP_JSON = "usuarios_backup.json"
+FECHA = datetime.now().strftime("📆 %d.%m.%Y ⏱️ %H:%M")
 
-#5️⃣ Guardar los datos en el archivo JSON con 'with open' en modo escritura ("w")
-#        - Usar json.dump() con indent=4 y ensure_ascii=False.
-#        - Cambiar la bandera a True si el guardado fue exitoso.
-#        - Capturar posibles errores con try/except.
+\
+guardado_exitoso = False
+carga_exitosa = False
 
-#6️⃣ Si guardado_exitoso == True:
-#        - Proceder a abrir el archivo en modo lectura ("r").
-#        - Usar json.load() para cargar los datos.
-#        - Cambiar bandera de carga a True si se carga correctamente.
-#        - Mostrar los datos cargados en pantalla.
+# 4️⃣ Crear copia de seguridad antes de sobrescribir el archivo principal
+if os.path.exists(ARCHIVO_JSON):
+    try:
+        with open(ARCHIVO_JSON, "r", encoding="utf-8") as archivo_original:
+            contenido = archivo_original.read()
+        with open(BACKUP_JSON, "w", encoding="utf-8") as respaldo:
+            respaldo.write(contenido)
+        print(f"🗂️ Copia de respaldo creada correctamente → {BACKUP_JSON}")
+    except Exception as e:
+        print(f"⚠️ No se pudo crear la copia de respaldo: {e}")
 
-#7️⃣ Mostrar mensajes de confirmación o error según el estado de las banderas.
+# 5️⃣ Guardar los datos actualizados
+try:
+    with open(ARCHIVO_JSON, "w", encoding="utf-8") as archivo_json:
+        json.dump(carrito_de_compras, archivo_json, indent=4, ensure_ascii=False)
+        guardado_exitoso = True
+except Exception as error_escritura:
+    print(f"❌ ERROR al guardar el archivo: {error_escritura}")
+else:
+    print(f"\n✅ Archivo '{ARCHIVO_JSON}' creado correctamente ({FECHA})")
 
-#🟥 Mejoras opcionales (puntuación extra):
-#        - Agregar campo "fecha de guardado" con datetime.now().
-#        - Comprobar si el archivo existe antes de leer con os.path.exists().
-#        - Crear copia de respaldo: backup_json = "usuarios_backup.json"
-#        - Manejar errores de decodificación JSON con except json.JSONDecodeError.
-#        - Mostrar el total de registros cargados (len(datos)) como validación final.
+# 6️⃣ Leer y validar el contenido del archivo
+if guardado_exitoso:
+
+    try:
+        with open(ARCHIVO_JSON, "r", encoding="utf-8") as archivo_json:
+            datos_json = json.load(archivo_json)
+            carga_exitosa = True
+            print(f"\n🗃️ CONTENIDO DEL ARCHIVO → {ARCHIVO_JSON}\n")
+            print(datos_json)
+    except json.JSONDecodeError as e:
+        print(f"❌ Error de decodificación JSON: {e}")
+    except Exception as e:
+        print(f"❌ Error general al leer el archivo: {e}")
+    else:
+        total_registros = len(datos_json)
+        print(f"📑 Lectura exitosa. Total de registros principales: {total_registros}")
+    finally:
+        estado = "LECTURA EXITOSA" if carga_exitosa else "ERROR EN LA LECTURA"
+        print(f"\n🧭 Estado final: {estado}")
+else:
+    print("🛑 Error al crear o acceder al archivo JSON.")
 ```
+
+```
+"""
+RESPUSTA DE CONSOLA
+🗂️ Copia de respaldo creada correctamente → usuarios_backup.json
+
+✅ Archivo '04_guardar_y_cargar_json.json' creado correctamente (📆 16.10.2025 ⏱️ 23:55)
+
+🗃️ CONTENIDO DEL ARCHIVO → 04_guardar_y_cargar_json.json
+
+{'usuario': {'id_usuario': 20391, (...) True, 'recomendaciones': False}}}
+📑 Lectura exitosa. Total de registros principales: 4
+
+🧭 Estado final: LECTURA EXITOSA
+
+"""
+```
+
+---
+
+# 🧩 **Ejercicio Extra 4.5 – gestión_de_inventario_json.py**
+
+---
+
+## 🎯 **Objetivo del ejercicio**
+
+Aplicar lo aprendido sobre **lectura, escritura y actualización de ficheros JSON** para crear un pequeño sistema de gestión de inventario que:
+
+1. Guarde la información de los productos en un archivo `.json`.
+2. Permita actualizar el stock y recalcular los totales.
+3. Genere una **copia de respaldo automática (backup)** del inventario actualizado.
+4. Use **banderas booleanas y manejo de excepciones** para controlar el flujo.
+
+💼 _Simula una parte real de un sistema de e-commerce o control de almacén._
+
+---
+
+## 🧠 **Teoría breve aplicada**
+
+- **JSON** se usará para persistir el inventario de productos: cada producto será un diccionario con claves como `nombre`, `precio`, `stock`, `categoria`, `activo`.
+- Se usarán funciones del módulo `json`:
+
+  - `json.dump()` para guardar los datos.
+  - `json.load()` para cargarlos.
+
+- Se aplicarán banderas booleanas (`guardado_exitoso`, `lectura_exitosa`) para controlar el flujo.
+- Se integrará `datetime` para registrar la fecha de actualización del inventario.
+
+---
+
+## 🧪 **Ejemplo conceptual (sin código ejecutable)**
+
+**Entrada inicial (`inventario.json`):**
+
+```json
+[
+  {
+    "id": 101,
+    "nombre": "Laptop Asus ZenBook",
+    "precio": 125000.0,
+    "stock": 3
+  },
+  { "id": 102, "nombre": "Monitor Dell 27\"", "precio": 85000.0, "stock": 2 },
+  {
+    "id": 103,
+    "nombre": "Teclado Mecánico Logitech",
+    "precio": 15000.0,
+    "stock": 6
+  }
+]
+```
+
+**Proceso esperado:**
+
+1. Cargar inventario.
+2. Modificar el stock de un producto (por ejemplo, restar una unidad vendida).
+3. Recalcular el valor total del inventario (`precio * stock`).
+4. Guardar el inventario actualizado en el mismo archivo.
+5. Crear un backup (`inventario_backup.json`) con marca temporal.
+
+**Salida esperada:**
+
+```
+✅ Inventario actualizado correctamente.
+📦 Productos registrados: 3
+💰 Valor total en stock: 420,000.00 RUB
+🕒 Última actualización: 17/10/2025 22:40
+```
+
+---
+
+## 🧭 **Diagrama de flujo**
+
+```
+Inicio
+ ↓
+Bandera_guardado = False
+Bandera_lectura = False
+ ↓
+¿Existe el archivo inventario.json?
+├── No → Crear archivo base con lista de productos inicial
+└── Sí → Continuar
+ ↓
+Abrir archivo en modo lectura
+ ↓
+├── Cargar datos con json.load()
+│       ↓
+│       ├── Calcular valor total actual
+│       └── Mostrar productos
+↓
+Modificar stock o precios (simulación interna)
+ ↓
+Recalcular totales
+ ↓
+Abrir archivo en modo escritura
+ ↓
+├── Guardar nuevos datos con json.dump()
+│       ├── Bandera_guardado = True
+│       └── Mostrar mensaje de confirmación
+↓
+🟥 (Mejora opcional)
+🟥 ├── Crear copia backup con datetime.now() → inventario_backup.json
+🟥 ├── Agregar campo “ultima_actualizacion” a cada producto
+🟥 └── Validar errores de lectura con except json.JSONDecodeError
+↓
+Fin
+```
+
+---
+
+## 🧱 **Ejercicio Extra 4.5 - gestión_de_inventario_json.py**
+
+```python
+# -----------------------------------------------------------
+# Ejercicio Extra 4.5 - gestión_de_inventario_json.py
+# Objetivo: Reforzar el manejo de lectura/escritura JSON creando
+# un mini sistema de gestión de inventario persistente.
+# -----------------------------------------------------------
+
+#1️⃣ Importar los módulos necesarios:
+#    - json (para serializar/deserializar)
+#    - os (para verificar existencia de archivo)
+#    - datetime (para fecha de actualización)
+
+#2️⃣ Definir nombres de archivo:
+#    ARCHIVO_INVENTARIO = "inventario.json"
+#    ARCHIVO_BACKUP = "inventario_backup.json"
+
+#3️⃣ Inicializar banderas:
+#    guardado_exitoso = False
+#    lectura_exitosa = False
+
+#4️⃣ Comprobar si existe el archivo de inventario:
+#    - Si no existe, crear uno con una lista inicial de productos.
+#    - Cada producto debe incluir: id, nombre, precio, stock, categoria.
+
+#5️⃣ Intentar abrir el archivo y cargar datos con json.load():
+#    - Cambiar bandera lectura_exitosa = True si no hay errores.
+#    - Si ocurre json.JSONDecodeError, mostrar mensaje de advertencia.
+
+#6️⃣ Mostrar en pantalla un resumen del inventario:
+#    - Número de productos registrados.
+#    - Valor total del inventario (sumatoria precio * stock).
+
+#7️⃣ Simular una actualización (por ejemplo, reducir stock de un producto).
+#    - Realizar los cálculos y actualizar los valores.
+
+#8️⃣ Guardar nuevamente el archivo actualizado con json.dump()
+#    - indent=4, ensure_ascii=False
+#    - Cambiar bandera guardado_exitoso = True
+
+#9️⃣ Si guardado_exitoso:
+#    - Crear archivo de respaldo (backup) con los mismos datos.
+#    - Incluir fecha y hora de actualización dentro del JSON.
+
+#🔟 Mostrar mensaje final de confirmación:
+#    - Inventario actualizado y respaldado correctamente.
+#    - Mostrar fecha y hora del respaldo.
+
+#🟥 Mejora opcional (nota extra):
+#    - Calcular y mostrar el producto más caro y el de mayor stock.
+#    - Generar reporte visual tabulado si conoces 'tabulate'.
+```
+
+---
+
+## 💡 **Objetivo pedagógico**
+
+Este ejercicio tiene un propósito único: **consolidar tu dominio de JSON en contexto real**.
+Al terminarlo, deberías poder:
+
+- Crear, leer, modificar y guardar archivos JSON sin errores.
+- Implementar flujos con banderas y backups automáticos.
+- Manipular estructuras anidadas y cálculos derivados (totales).
 
 ---

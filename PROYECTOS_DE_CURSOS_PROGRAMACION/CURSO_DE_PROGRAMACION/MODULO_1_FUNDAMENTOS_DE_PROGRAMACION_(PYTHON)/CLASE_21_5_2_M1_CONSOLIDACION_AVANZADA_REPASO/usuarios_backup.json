@@ -1,0 +1,137 @@
+{
+    "usuario": {
+        "id_usuario": 20391,
+        "nombre": "Gabriel Espinosa",
+        "correo": "gabo@example.com",
+        "pais": "Rusia",
+        "moneda": "RUB",
+        "miembro_vip": true
+    },
+    "carrito": {
+        "fecha_creacion": "2025-10-16",
+        "productos": [
+            {
+                "id_producto": 101,
+                "nombre": "Teclado Mecánico RGB",
+                "categoria": "Periféricos",
+                "marca": "KeyChron",
+                "precio_unitario": 8490.99,
+                "cantidad": 1,
+                "en_stock": true,
+                "descuento": {
+                    "tipo": "porcentaje",
+                    "valor": 10
+                },
+                "envio": {
+                    "metodo": "Estándar",
+                    "costo": 300.0,
+                    "tiempo_estimado": "3-5 días"
+                },
+                "valoraciones": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5
+                ]
+            },
+            {
+                "id_producto": 204,
+                "nombre": "Mouse Logitech MX Master 3S",
+                "categoria": "Periféricos",
+                "marca": "Logitech",
+                "precio_unitario": 11290.0,
+                "cantidad": 2,
+                "en_stock": true,
+                "descuento": {
+                    "tipo": "fijo",
+                    "valor": 500
+                },
+                "envio": {
+                    "metodo": "Express",
+                    "costo": 450.0,
+                    "tiempo_estimado": "1-2 días"
+                },
+                "valoraciones": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    5
+                ]
+            },
+            {
+                "id_producto": 509,
+                "nombre": "SSD NVMe 1TB Kingston Fury Renegade",
+                "categoria": "Almacenamiento",
+                "marca": "Kingston",
+                "precio_unitario": 12500.75,
+                "cantidad": 1,
+                "en_stock": false,
+                "descuento": {
+                    "tipo": null,
+                    "valor": 0
+                },
+                "envio": {
+                    "metodo": "No disponible",
+                    "costo": 0.0,
+                    "tiempo_estimado": null
+                },
+                "valoraciones": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            }
+        ],
+        "totales": {
+            "subtotal": 43571.74,
+            "descuentos_totales": 1349.1,
+            "envio_total": 750.0,
+            "iva": 8866.75,
+            "total_final": 51839.4
+        }
+    },
+    "historial": [
+        {
+            "id_pedido": 9001,
+            "fecha": "2025-07-15",
+            "total_pagado": 18990.5,
+            "metodo_pago": "Tarjeta Visa",
+            "estado": "Entregado",
+            "productos": [
+                "Monitor LG UltraWide 29”",
+                "Soporte VESA"
+            ]
+        },
+        {
+            "id_pedido": 9002,
+            "fecha": "2025-09-10",
+            "total_pagado": 5990.0,
+            "metodo_pago": "YooMoney",
+            "estado": "Enviado",
+            "productos": [
+                "Auriculares Sony WH-1000XM5"
+            ]
+        }
+    ],
+    "preferencias": {
+        "direccion_envio": {
+            "pais": "Rusia",
+            "ciudad": "San Petersburgo",
+            "codigo_postal": "190000",
+            "direccion": "Nevsky Prospekt 28, Apt. 4",
+            "telefono_contacto": "+7 911 234-5678"
+        },
+        "idioma": "es",
+        "modo_oscuro": true,
+        "notificaciones": {
+            "ofertas": true,
+            "envios": true,
+            "recomendaciones": false
+        }
+    }
+}
